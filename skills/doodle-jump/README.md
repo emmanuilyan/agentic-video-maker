@@ -2,6 +2,10 @@
 
 # Doodle Jump
 
+![Кадр из финального Doodle Jump Shorts: герой поднимается по платформам.](assets/session-example.png)
+
+*Кадр из финального Doodle Jump Shorts: герой поднимается по платформам.*
+
 ![Doodle Jump: схема работы](assets/visual-reference.svg)
 
 Рассказанный Short как подъём героя по платформам через единый движущийся мир.

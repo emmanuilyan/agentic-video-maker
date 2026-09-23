@@ -2,6 +2,10 @@
 
 # Paint95 Video Maker
 
+![Кадр из проекта Mitsubishi в стиле Paint95 — пример визуального результата.](assets/session-example.png)
+
+*Кадр из проекта Mitsubishi в стиле Paint95 — пример визуального результата.*
+
 ![Paint95 Video Maker: схема работы](assets/visual-reference.svg)
 
 Образовательный коллаж в окне Windows 95 Paint с покадровым движением и озвучкой.

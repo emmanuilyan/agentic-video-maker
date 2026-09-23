@@ -2,6 +2,10 @@
 
 # Comics Shorts
 
+![Подготовленный фотографический кадр из проекта Vasco da Gama (Comics Shorts).](assets/session-example.png)
+
+*Подготовленный фотографический кадр из проекта Vasco da Gama (Comics Shorts).*
+
 ![Comics Shorts: схема работы](assets/visual-reference.svg)
 
 Фотографические сцены, комиксные реплики и движение камеры по истории.

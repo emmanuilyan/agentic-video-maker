@@ -2,6 +2,10 @@
 
 # Cringe Meme
 
+![Конкретный ассет из подборки cringe-meme — пример одной из реакций.](assets/smiles/1682570821_papik-pro-p-smail-krinzh-png-2.png)
+
+*Конкретный ассет из подборки cringe-meme — пример одной из реакций.*
+
 ![Cringe Meme: схема работы](assets/visual-reference.svg)
 
 Подбор подходящей кринжовой или неловкой реакции из локальной коллекции смайликов.
