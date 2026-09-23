@@ -11,6 +11,7 @@ import {
   segment,
   noise,
 } from "./core";
+import { YellowTextHighlight } from "./text-highlight";
 export function WhipPan({ f, w, photos, intensity }: Scene) {
   const { i, local } = segment(f, 4),
     next = Math.min(i + 1, 3),
@@ -258,6 +259,31 @@ export function TextReveal({ photos, f, w, h, accent, text }: Scene) {
           {text}
         </div>
       </div>
+    </>
+  );
+}
+export function TextHighlight({ photos, f, w, h, accent, text }: Scene) {
+  const { i, local } = segment(f, 4);
+  const lines = text.split("\n").filter(Boolean);
+  const blockWidth = w * 0.64;
+  const lineHeight = h * 0.086;
+  return (
+    <>
+      <Surface p={photos[i]} />
+      <div style={{ ...fill, background: "#d6dadd", opacity: 0.8 }} />
+      <YellowTextHighlight
+        lines={lines}
+        width={blockWidth}
+        lineHeight={lineHeight}
+        fontSize={h * 0.064}
+        highlightColor={accent}
+        startFrame={4}
+        staggerFrames={8}
+        revealFrames={24}
+        frame={local}
+        style={{ position: "absolute", left: w * 0.1, top: h * 0.45 }}
+        textStyle={{ fontWeight: 600 }}
+      />
     </>
   );
 }

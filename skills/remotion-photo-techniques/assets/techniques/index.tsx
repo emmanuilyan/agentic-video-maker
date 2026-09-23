@@ -4,6 +4,8 @@ import { Scene, Photo, Technique, fill, clamp } from "./core";
 import * as L from "./layouts";
 import * as E from "./effects";
 import * as S from "./spatial";
+export { YellowTextHighlight } from "./text-highlight";
+export type { YellowTextHighlightProps } from "./text-highlight";
 export { IDS } from "./core";
 export type { Photo, Technique } from "./core";
 const components: Record<Technique, React.FC<Scene>> = {
@@ -20,6 +22,7 @@ const components: Record<Technique, React.FC<Scene>> = {
   CLONE_TRAIL: E.CloneTrail,
   TEXT_PUSH: E.TextPush,
   TEXT_REVEAL: E.TextReveal,
+  TEXT_HIGHLIGHT: E.TextHighlight,
   MASK_REVEAL: E.MaskReveal,
   FLASH_CUT: E.FlashCut,
   IMPACT_SHAKE: E.ImpactShake,
@@ -56,8 +59,10 @@ export function PhotoTechnique({
   height,
   durationInFrames,
   frame,
-  text = "СМОТРИ БЛИЖЕ",
-  accent = "#d8ed78",
+  text = technique === "TEXT_HIGHLIGHT"
+    ? "ЖЁЛТЫЙ МАРКЕР\nЗА ТЕКСТОМ"
+    : "СМОТРИ БЛИЖЕ",
+  accent = technique === "TEXT_HIGHLIGHT" ? "#E9D642" : "#d8ed78",
   seed = "photo-techniques-v1",
   intensity = 1,
 }: PhotoTechniqueProps) {

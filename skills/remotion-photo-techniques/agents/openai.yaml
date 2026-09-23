@@ -1,4 +1,4 @@
 interface:
   display_name: "Remotion Photo Techniques"
-  short_description: "29 приёмов анимации фото и 3D-камеры для Remotion"
+  short_description: "30 приёмов анимации фото, текста и 3D-камеры для Remotion"
   default_prompt: "Используй $remotion-photo-techniques: примени выбранные приёмы к моим фотографиям и покажи отдельное превью каждого."
