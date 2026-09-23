@@ -1,0 +1,28 @@
+{
+  "id": "mechanical-sparrow-source-v1",
+  "role": "hero-source",
+  "theme": "base-example",
+  "sourcePath": "hero-source.png",
+  "sourceSha256": "cbaff4f483bb1986d3f6b17c64281514fe2b1c264a8cb52b6c873ac40bd225c6",
+  "conversationUrl": "https://chatgpt.com/c/6aa91adc-9b24-83ed-a7e3-d3db77836aa0",
+  "createdDate": "2026-09-15",
+  "route": "ChatGPT browser, Chat mode",
+  "model": "unknown",
+  "provenance": "generated-original",
+  "prompt": "Теперь сгенерируй одно изображение — тестовый лист героя для базового playable prototype. Оригинальный маленький летающий механический воробей с кремовым корпусом, бирюзовыми крыльями, небольшим оранжевым клювом, вид строго сбоку вправо. Чистый выразительный pixel art, чёткие ступенчатые края, ограниченная палитра. Ровно три отдельные полные позы в один горизонтальный ряд: крылья вверх, нейтрально, вниз. Во всех позах одинаковые размер корпуса, направление, освещение и центр корпуса. Широкие пустые промежутки между позами. Истинный прозрачный RGBA фон, не нарисованная шахматка. Без текста, подписей, сетки, земли, препятствий, теней на фоне, логотипов. Это исходник для последующей нормализации на три canvas 64x48, не финальный игровой атлас. Не копируй персонажа Flappy Bird. Создай само изображение, а не только промпт.",
+  "downloadMethod": "supported browser pageAssets.bundle, image/png",
+  "sourceSize": [
+    2172,
+    724
+  ],
+  "sourceMode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "reviewStatus": "source-reviewed; not normalized or gameplay-tested",
+  "visualReview": "Three complete right-facing poses. True alpha. Normalize scale and body pivot before atlas assembly; inspect fine edge artifacts at game size.",
+  "normalizedPath": null,
+  "transforms": [],
+  "rightsStatus": "not-assessed"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Typography Editor"
+  short_description: "Надписи в видео: шрифты, ритм и эффекты"
+  default_prompt: "Используй $typography-editor: сделай надписи в Remotion по нашим референсам, со случайными шрифтами и эффектами без повторов."
