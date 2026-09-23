@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+<rect width="512" height="512" fill="#F5F0E6"/>
+<g opacity="0.18" stroke="#D9D2C5" stroke-width="1">
+<path d="M0 0H512 M0 32H512 M0 64H512 M0 96H512 M0 128H512 M0 160H512 M0 192H512 M0 224H512 M0 256H512 M0 288H512 M0 320H512 M0 352H512 M0 384H512 M0 416H512 M0 448H512 M0 480H512 M0 512H512"/>
+<path d="M0 0V512 M32 0V512 M64 0V512 M96 0V512 M128 0V512 M160 0V512 M192 0V512 M224 0V512 M256 0V512 M288 0V512 M320 0V512 M352 0V512 M384 0V512 M416 0V512 M448 0V512 M480 0V512 M512 0V512"/>
+</g>
+<g opacity="0.14" stroke="#E8E1D5" stroke-width="1.4">
+<path d="M0 64 C90 65 180 63 256 64 S420 66 512 64 M0 192 C90 193 180 191 256 192 S420 194 512 192 M0 320 C90 321 180 319 256 320 S420 322 512 320 M0 448 C90 449 180 447 256 448 S420 450 512 448"/>
+</g>
+<g>
+<ellipse cx="58" cy="43" rx="1.8" ry="1.2" fill="#D8D1C2" opacity="0.06"/>
+<ellipse cx="103" cy="186" rx="1.1" ry="1.6" fill="#E2DACB" opacity="0.05"/>
+<ellipse cx="204" cy="117" rx="1.6" ry="1.1" fill="#D8D1C2" opacity="0.06"/>
+<ellipse cx="298" cy="79" rx="1.3" ry="1.7" fill="#E2DACB" opacity="0.05"/>
+<ellipse cx="392" cy="156" rx="1.9" ry="1.3" fill="#D8D1C2" opacity="0.04"/>
+<ellipse cx="459" cy="95" rx="1.4" ry="1.9" fill="#E2DACB" opacity="0.05"/>
+<ellipse cx="79" cy="328" rx="1.8" ry="1.2" fill="#D8D1C2" opacity="0.04"/>
+<ellipse cx="167" cy="286" rx="1.2" ry="1.5" fill="#E2DACB" opacity="0.05"/>
+<ellipse cx="247" cy="395" rx="1.7" ry="1.1" fill="#D8D1C2" opacity="0.06"/>
+<ellipse cx="338" cy="362" rx="1.2" ry="1.8" fill="#E2DACB" opacity="0.05"/>
+<ellipse cx="421" cy="301" rx="1.8" ry="1.3" fill="#D8D1C2" opacity="0.05"/>
+<ellipse cx="474" cy="412" rx="1.2" ry="1.7" fill="#E2DACB" opacity="0.05"/>
+<ellipse cx="64" cy="507" rx="1.5" ry="1.1" fill="#D8D1C2" opacity="0.05"/>
+<ellipse cx="256" cy="507" rx="1.4" ry="1.6" fill="#E2DACB" opacity="0.05"/>
+<ellipse cx="438" cy="507" rx="1.7" ry="1.2" fill="#D8D1C2" opacity="0.04"/>
+</g></svg>

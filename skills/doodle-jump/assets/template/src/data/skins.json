@@ -1,0 +1,16 @@
+{
+  "garden": {
+    "paper":"#f7f3e8", "ink":"#253429", "accent":"#b45b3e", "wash":"#e9eddb",
+    "hero":{"src":"assets/hero-sprout.svg", "width":320, "height":360, "anchorX":160, "anchorY":357},
+    "platform":{"src":"assets/platform-grass.svg", "width":400, "height":100, "surfaceY":14},
+    "decor":["assets/leaf.svg", "assets/cloud.svg", "assets/mountain.svg"],
+    "paperTile":"assets/paper-tile.svg"
+  },
+  "sky": {
+    "paper":"#eef3f4", "ink":"#25343b", "accent":"#b45b3e", "wash":"#dce7ed",
+    "hero":{"src":"assets/hero-cloud.svg", "width":320, "height":360, "anchorX":160, "anchorY":357},
+    "platform":{"src":"assets/platform-cloud.svg", "width":400, "height":100, "surfaceY":10},
+    "decor":["assets/star.svg", "assets/cloud.svg", "assets/mountain.svg"],
+    "paperTile":"assets/paper-tile.svg"
+  }
+}

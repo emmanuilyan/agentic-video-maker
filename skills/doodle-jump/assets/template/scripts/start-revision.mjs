@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+
+const scope=process.argv.slice(2).join(' ').trim();
+if(!scope) throw new Error('Usage: npm run revision -- "short revision scope"');
+const specFile='project-spec.json';
+if(!fs.existsSync(specFile)) throw new Error('project-spec.json not found');
+const spec=JSON.parse(fs.readFileSync(specFile,'utf8'));
+const previousOutputs=Object.values(spec.outputs??{}).filter(file=>typeof file==='string' && fs.existsSync(file));
+const revision=(Number(spec.revision)||0)+1;
+const slug=scope.toLowerCase().normalize('NFKD').replace(/[^a-z0-9\u0400-\u04ff]+/gi,'-').replace(/^-|-$/g,'').slice(0,48)||'revision';
+const projectSlug=spec.projectSlug??'doodle-jump';
+spec.revision=revision;
+spec.status='in-progress';
+spec.outputs={proxy:`out/${projectSlug}-v${revision}-${slug}-proxy.mp4`,final:`out/${projectSlug}-v${revision}-${slug}.mp4`};
+spec.preservedOutputs=[...new Set([...(spec.preservedOutputs??[]),...previousOutputs])];
+fs.writeFileSync(specFile,JSON.stringify(spec,null,2)+'\n');
+fs.writeFileSync('change-set.json',JSON.stringify({revision,scope,status:'started',requestedChanges:[scope],affectedBeats:[],preservedOutputs:previousOutputs},null,2)+'\n');
+console.log(`Revision ${revision} started: ${scope}`);
+console.log(`Proxy: ${spec.outputs.proxy}`);
+console.log(`Final: ${spec.outputs.final}`);
+if(previousOutputs.length) console.log(`Preserved: ${previousOutputs.join(', ')}`);

@@ -1,0 +1,18 @@
+[
+  {"id":"start", "frame":0, "x":390, "y":0, "width":280},
+  {"id":"step-1", "frame":30, "x":665, "y":135, "width":250},
+  {"id":"step-2", "frame":60, "x":390, "y":270, "width":250},
+  {"id":"step-3", "frame":90, "x":665, "y":405, "width":250},
+  {"id":"step-4", "frame":120, "x":390, "y":540, "width":250},
+  {"id":"step-5", "frame":150, "x":665, "y":675, "width":250},
+  {"id":"step-6", "frame":180, "x":390, "y":810, "width":250},
+  {"id":"step-7", "frame":210, "x":665, "y":945, "width":250},
+  {"id":"step-8", "frame":240, "x":390, "y":1080, "width":250},
+  {"id":"step-9", "frame":270, "x":665, "y":1215, "width":250},
+  {"id":"step-10", "frame":300, "x":390, "y":1350, "width":250},
+  {"id":"step-11", "frame":330, "x":665, "y":1485, "width":250},
+  {"id":"step-12", "frame":360, "x":390, "y":1620, "width":250},
+  {"id":"step-13", "frame":390, "x":665, "y":1755, "width":250},
+  {"id":"step-14", "frame":420, "x":390, "y":1890, "width":250},
+  {"id":"finish", "frame":450, "x":665, "y":2025, "width":320}
+]

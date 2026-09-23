@@ -1,0 +1,24 @@
+{
+  "revision": 1,
+  "projectSlug": "doodle-jump",
+  "status": "draft",
+  "kind": "mechanics-demo",
+  "purpose": "Reusable narration-led vertical jumping video engine with replaceable art packs",
+  "visualDirection": "Warm sketchbook, original sprout traveller, ink outlines, soft paper; second cloud skin proves replacement",
+  "narrationStatus": "not-provided",
+  "captionStatus": "demonstration-copy-only",
+  "assets": "Requested ready SVG/PNG files from ordinary ChatGPT; provenance in SOURCES.md",
+  "motion": "Smooth 30 fps; fixed 30-frame jump cadence; continuous world, exact foot contacts, monotonic upward camera; four-frame contact squash",
+  "outputs": {
+    "proxy": "out/doodle-jump-v1-proxy.mp4",
+    "final": "out/doodle-jump-v1.mp4"
+  },
+  "preservedOutputs": [],
+  "data": {
+    "beats": "src/data/beats.json",
+    "storyAssets": "src/data/story-assets.json"
+  },
+  "safeArea": {"left": 90, "right": 150, "worldTop": 0, "worldBottom": 1535, "captionTop": 1585, "captionBottom": 1775},
+  "framing": "Full-height Shorts world above fixed lower subtitles; no header, eyebrow or technical footer; hero width 224px",
+  "completion": "Skill installed with a self-contained template, mechanics checks, visual QA and a technical demonstration"
+}

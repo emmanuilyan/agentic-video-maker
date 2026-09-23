@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paint Full Shorts"
+  short_description: "Retro Photoshop edits become the story of a Short"
+  default_prompt: "Use $paint-full-shorts to create a vertical Remotion Short where retro Photoshop tools and layers drive the story."

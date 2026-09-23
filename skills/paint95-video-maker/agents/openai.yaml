@@ -1,0 +1,5 @@
+interface:
+  display_name: "Paint95 Video Maker"
+  short_description: "Stop-motion Shorts в стиле Windows 95 Paint"
+  brand_color: "#000080"
+  default_prompt: "Use $paint95-video-maker to make or revise a complete vertical educational stop-motion video. Run the session bootstrap once, use its mode-specific references and compact tools, and use the cost-aware Paint95 subagents only when the delegation threshold is met."

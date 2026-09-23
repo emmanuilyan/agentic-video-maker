@@ -1,0 +1,16 @@
+[
+  {"text":" Один", "startMs":0, "endMs":500, "timestampMs":null, "confidence":null},
+  {"text":" герой.", "startMs":500, "endMs":1200, "timestampMs":null, "confidence":null, "pageBreakAfter":true},
+  {"text":" Каждый", "startMs":2900, "endMs":3400, "timestampMs":null, "confidence":null},
+  {"text":" прыжок", "startMs":3400, "endMs":3900, "timestampMs":null, "confidence":null},
+  {"text":" —", "startMs":3900, "endMs":4000, "timestampMs":null, "confidence":null},
+  {"text":" новая", "startMs":4000, "endMs":4500, "timestampMs":null, "confidence":null},
+  {"text":" мысль.", "startMs":4500, "endMs":5000, "timestampMs":null, "confidence":null, "pageBreakAfter":true},
+  {"text":" Мир", "startMs":8800, "endMs":9250, "timestampMs":null, "confidence":null},
+  {"text":" меняется.", "startMs":9250, "endMs":10100, "timestampMs":null, "confidence":null, "pageBreakAfter":true},
+  {"text":" История", "startMs":11700, "endMs":12300, "timestampMs":null, "confidence":null},
+  {"text":" продолжается.", "startMs":12300, "endMs":13400, "timestampMs":null, "confidence":null, "pageBreakAfter":true},
+  {"text":" Твой", "startMs":14670, "endMs":15000, "timestampMs":null, "confidence":null},
+  {"text":" следующий", "startMs":15000, "endMs":15400, "timestampMs":null, "confidence":null},
+  {"text":" сюжет.", "startMs":15400, "endMs":16000, "timestampMs":null, "confidence":null, "pageBreakAfter":true}
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cringe Meme"
+  short_description: "Выбирает подходящий кринж-смайлик из набора"
+  default_prompt: "Используй $cringe-meme и выбери подходящий кринж-смайлик для этой сцены."
