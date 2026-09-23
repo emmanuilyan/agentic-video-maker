@@ -1,0 +1,3 @@
+interface:
+  display_name: "Повторить эффект в Remotion"
+  short_description: "Анализ видео, реализация эффекта и рецепт для повторения"

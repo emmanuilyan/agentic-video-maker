@@ -7,7 +7,7 @@
 
 ## Каталог Remotion
 
-- [`photo-techniques/index.html`](photo-techniques/index.html) — 29 приёмов с фильтрами, поиском и зацикленными MP4-превью.
+- [`photo-techniques/index.html`](photo-techniques/index.html) — 30 приёмов с фильтрами, поиском и зацикленными MP4-превью.
 - [`remotion-photo-techniques`](../skills/remotion-photo-techniques/SKILL.md) — переносимый skill с компонентами и инструкциями.
 
 ## Stop-motion

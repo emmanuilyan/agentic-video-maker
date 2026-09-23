@@ -11,10 +11,12 @@
 | Монтаж и звук | `editing-montage`, `ffmpeg-video-editor`, `premiere-pro-audio-shorts-cutter`, `audio-mixing-mastering`, `dialogue-editing-adr` | Монтаж, работа с речью, музыкой и звуковым балансом. |
 | Титры и оформление | `captions-and-clipping`, `cinematic-typography`, `typography-editor` | Нарезка, субтитры и экранная типографика. |
 | Разбор и QC | `reference-media-analysis`, `media-qc-delivery`, `watch` | Анализ референсов, проверка и подготовка результата. |
-| Remotion | [`remotion-photo-techniques`](skills/remotion-photo-techniques/SKILL.md), `remotion-*` | Создание, анимация, captions, мультимедиа, предпросмотр и рендер. |
+| Remotion | [`remotion-photo-techniques`](skills/remotion-photo-techniques/SKILL.md), [`remotion-effect-recreation`](skills/remotion-effect-recreation/SKILL.md), `remotion-*` | Создание, повторение эффекта по видео, анимация, captions, предпросмотр и рендер. |
 | Вспомогательные | `cringe-meme` | Подбор мемной реакции. |
 
 Каждая папка в [`skills/`](skills/) содержит свой `SKILL.md` и связанные ресурсы. Выбирай подходящий skill напрямую, например `$ffmpeg-video-editor`; общей последовательности, которая выбирает и вызывает остальные, нет. Для skills с визуальными карточками обновляй их через `scripts/generate-skill-overviews.mjs`.
+
+У `remotion-photo-techniques` есть [запускаемый пример жёлтого выделения текста](skills/remotion-photo-techniques/examples/yellow-highlight/README.md), [готовое видео](skills/remotion-photo-techniques/assets/previews/TEXT_HIGHLIGHT-reference.mp4) и [рецепт повторения эффекта](skills/remotion-photo-techniques/examples/yellow-highlight/effect.md).
 
 ## Пример конечного результата
 
@@ -27,7 +29,7 @@
 ## Документы
 
 - [`docs/README.md`](docs/README.md) — указатель по темам и этапам.
-- [`docs/photo-techniques/index.html`](docs/photo-techniques/index.html) — интерактивный каталог 29 Remotion-приёмов с видео-превью.
+- [`docs/photo-techniques/index.html`](docs/photo-techniques/index.html) — интерактивный каталог 30 Remotion-приёмов с видео-превью.
 - [`docs/png-delivery.md`](docs/png-delivery.md) — когда и какое PNG-превью прикладывать к результату.
 - [`docs/chatgpt-video-review.md`](docs/chatgpt-video-review.md) — промпт для необязательной проверки монтажа готового видео в браузерном ChatGPT.
 - [`docs/stop-motion/`](docs/stop-motion/) — полная тематическая база: поиск источников, сцена, движение, покадровая работа и QC.

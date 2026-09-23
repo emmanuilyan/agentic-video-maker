@@ -23,6 +23,7 @@ export const IDS = [
   "CLONE_TRAIL",
   "TEXT_PUSH",
   "TEXT_REVEAL",
+  "TEXT_HIGHLIGHT",
   "MASK_REVEAL",
   "FLASH_CUT",
   "IMPACT_SHAKE",
