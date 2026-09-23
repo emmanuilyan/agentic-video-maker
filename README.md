@@ -6,11 +6,12 @@
 
 | Направление | Skills | Для чего |
 |---|---|---|
-| Форматы Shorts | `paint95-video-maker`, `paint-full-shorts`, `doodle-jump`, `comics-shorts` | Четыре отдельных визуальных подхода к ролику. |
-| Remotion | `remotion-*` | Создание и анимация, captions, мультимедиа, предпросмотр и рендер. |
-| Вспомогательные | `cringe-meme`, `watch` | Подбор мемной реакции и разбор видео. |
+| Форматы Shorts | [paint95-video-maker](skills/paint95-video-maker/README.md), [paint-full-shorts](skills/paint-full-shorts/README.md), [doodle-jump](skills/doodle-jump/README.md), [comics-shorts](skills/comics-shorts/README.md) | Четыре отдельных визуальных подхода к ролику. |
+| Remotion | [best practices](skills/remotion-best-practices/README.md), [captions](skills/remotion-captions/README.md), [create](skills/remotion-create/README.md), [docs](skills/remotion-docs/README.md), [interactivity](skills/remotion-interactivity/README.md), [maps](skills/remotion-maps/README.md), [markup](skills/remotion-markup/README.md), [multimedia](skills/remotion-multimedia/README.md), [render](skills/remotion-render/README.md), [SaaS](skills/remotion-saas/README.md), [Studio](skills/remotion-studio/README.md), [upgrade](skills/remotion-upgrade/README.md) | Создание и анимация, captions, мультимедиа, предпросмотр и рендер. |
+| Вспомогательные | [cringe-meme](skills/cringe-meme/README.md), [watch](skills/watch/README.md) | Подбор мемной реакции и разбор видео. |
 
-Каждая папка в [`skills/`](skills/) содержит свой `SKILL.md` и связанные ресурсы. Используй подходящий skill напрямую, например `$paint95-video-maker`; общей последовательности, которая выбирает и вызывает остальные, пока нет.
+В каждой папке скилла есть `README.md` с визуальной схемой и коротким описанием, а также `SKILL.md` с полными инструкциями. Используй подходящий skill напрямую, например `$paint95-video-maker`; общей последовательности, которая выбирает и вызывает остальные, пока нет.
+Если меняется назначение или этапы скилла, обновляй его карточку через `scripts/generate-skill-overviews.mjs`.
 
 ## Документы
 
