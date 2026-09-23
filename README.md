@@ -18,6 +18,8 @@
 
 У `remotion-photo-techniques` есть [запускаемый пример жёлтого выделения текста](skills/remotion-photo-techniques/examples/yellow-highlight/README.md), [готовое видео](skills/remotion-photo-techniques/assets/previews/TEXT_HIGHLIGHT-reference.mp4) и [рецепт повторения эффекта](skills/remotion-photo-techniques/examples/yellow-highlight/effect.md).
 
+В `remotion-effect-recreation` добавлен [покадровый разбор первых 30 секунд большого ролика](skills/remotion-effect-recreation/examples/baldurs-gate-intro-0000-0030/effect.md) с [Remotion-примером](skills/remotion-effect-recreation/examples/baldurs-gate-intro-0000-0030/README.md) и [контактным листом эффектов](skills/remotion-effect-recreation/assets/previews/review-intro-0000-0030-contact.jpg).
+
 ## Пример конечного результата
 
 Ниже — точный последний кадр готового 39,2-секундного Shorts, созданного с `flappy-bird2`. Это игровой финал с экраном GAME OVER, извлечённый из кадра 1175 мастера (1080×1920, 30 fps).
