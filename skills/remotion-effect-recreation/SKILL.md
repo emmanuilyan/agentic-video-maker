@@ -10,9 +10,11 @@ Deliver both a working Remotion implementation and an effect recipe. A verbal an
 ## 1. Locate the effect
 
 - Identify the source video and the exact time range of the requested effect. If the user has not specified a range, inspect the video and choose the relevant range; state the choice.
+- For a long source, work in bounded segments. Record the covered interval and the next interval with a short overlap in [the coverage ledger](references/long-video-coverage.md). Inspect each segment densely; a sparse whole-video pass is only an overview.
 - Inspect video dimensions, frame rate, duration, and audio with `ffprobe` or an equivalent local tool. For a URL, obtain a local copy through an available public download method when allowed. If access fails, report the blocker rather than inventing the visual.
 - Use representative frames to map composition and layers. For fast motion, inspect consecutive frames around the start, extrema, transitions, and end. A sparse overview cannot establish exact easing or frame timing.
 - Record what is visible separately from what you infer: timing, layer order, masks, transforms, typography, color, blur, particles, camera movement, and sound cues. Mark uncertain or occluded details as estimates.
+- Separate editorial overlays and transitions from subtitles, UI, particles, camera moves, and light already inside the source footage. Recreate only what the task calls for, and note uncertain attribution.
 - If `watch` is available, it can help survey the clip, but inspect dense frames locally for motion measurements.
 - For a local clip, use [the bundled FFmpeg tools](references/tools.md) to save frames with source timestamps, measure an accent color or its moving edge, and compare the Remotion render to the reference. Keep the extracted evidence next to the effect recipe when it is useful for later revision.
 
@@ -37,3 +39,7 @@ Deliver both a working Remotion implementation and an effect recipe. A verbal an
 Create an `effect.md` next to the implementation, using [the recipe format](references/effect-recipe.md). Give another agent enough information to rebuild the effect without the source video: normalized layout measurements, a frame timeline, layer order, animation formulas or easing, assets, props, and a short usage example or entry point. Link to the tested implementation and rendered preview. Distinguish observations, estimates, and creative substitutions.
 
 In the final response, provide links to the Remotion code, preview, and recipe. If no source video was supplied, ask for the video or URL; the effect cannot be analyzed yet.
+
+## Analyzed examples
+
+- [The first 0:00–0:30 of a long fantasy video essay](examples/baldurs-gate-intro-0000-0030/effect.md): a catalog of overlays, picture inserts, caption styles, glitch, rough frame, and impact flashes, with runnable Remotion components and a visual preview. Read it when reproducing one of these mechanisms or continuing that video's analysis.
