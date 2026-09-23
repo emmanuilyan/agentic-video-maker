@@ -6,16 +6,28 @@
 
 | Направление | Skills | Для чего |
 |---|---|---|
-| Форматы Shorts | [paint95-video-maker](skills/paint95-video-maker/README.md), [paint-full-shorts](skills/paint-full-shorts/README.md), [doodle-jump](skills/doodle-jump/README.md), [comics-shorts](skills/comics-shorts/README.md) | Четыре отдельных визуальных подхода к ролику. |
-| Remotion | [best practices](skills/remotion-best-practices/README.md), [captions](skills/remotion-captions/README.md), [create](skills/remotion-create/README.md), [docs](skills/remotion-docs/README.md), [interactivity](skills/remotion-interactivity/README.md), [maps](skills/remotion-maps/README.md), [markup](skills/remotion-markup/README.md), [multimedia](skills/remotion-multimedia/README.md), [render](skills/remotion-render/README.md), [SaaS](skills/remotion-saas/README.md), [Studio](skills/remotion-studio/README.md), [upgrade](skills/remotion-upgrade/README.md) | Создание и анимация, captions, мультимедиа, предпросмотр и рендер. |
-| Вспомогательные | [cringe-meme](skills/cringe-meme/README.md), [watch](skills/watch/README.md) | Подбор мемной реакции и разбор видео. |
+| Форматы Shorts | `paint95-video-maker`, `paint-full-shorts`, `doodle-jump`, `comics-shorts`, `flappy-bird2` | Самостоятельные визуальные подходы к ролику. |
+| Подготовка и сценарий | `social-short-production`, `short-form-video-script`, `scripting-and-storyboarding`, `hook-writer`, `viral-short-form`, `youtube-shorts` | От идеи и хука до сценария и структуры короткого ролика. |
+| Монтаж и звук | `editing-montage`, `ffmpeg-video-editor`, `premiere-pro-audio-shorts-cutter`, `audio-mixing-mastering`, `dialogue-editing-adr` | Монтаж, работа с речью, музыкой и звуковым балансом. |
+| Титры и оформление | `captions-and-clipping`, `cinematic-typography`, `typography-editor` | Нарезка, субтитры и экранная типографика. |
+| Разбор и QC | `reference-media-analysis`, `media-qc-delivery`, `watch` | Анализ референсов, проверка и подготовка результата. |
+| Remotion | [`remotion-photo-techniques`](skills/remotion-photo-techniques/SKILL.md), `remotion-*` | Создание, анимация, captions, мультимедиа, предпросмотр и рендер. |
+| Вспомогательные | `cringe-meme` | Подбор мемной реакции. |
 
-В каждой папке скилла есть `README.md` с визуальной схемой и коротким описанием, а также `SKILL.md` с полными инструкциями. Используй подходящий skill напрямую, например `$paint95-video-maker`; общей последовательности, которая выбирает и вызывает остальные, пока нет.
-Если меняется назначение или этапы скилла, обновляй его карточку через `scripts/generate-skill-overviews.mjs`.
+Каждая папка в [`skills/`](skills/) содержит свой `SKILL.md` и связанные ресурсы. Выбирай подходящий skill напрямую, например `$ffmpeg-video-editor`; общей последовательности, которая выбирает и вызывает остальные, нет. Для skills с визуальными карточками обновляй их через `scripts/generate-skill-overviews.mjs`.
+
+## Пример конечного результата
+
+Ниже — точный последний кадр готового 39,2-секундного Shorts, созданного с `flappy-bird2`. Это игровой финал с экраном GAME OVER, извлечённый из кадра 1175 мастера (1080×1920, 30 fps).
+
+<p align="center">
+  <img src="skills/flappy-bird2/examples/forest-fire-short-final-frame.png" width="360" alt="Последний кадр готового Flappy Bird Shorts о лесных пожарах: счёт 21 и GAME OVER">
+</p>
 
 ## Документы
 
 - [`docs/README.md`](docs/README.md) — указатель по темам и этапам.
+- [`docs/photo-techniques/index.html`](docs/photo-techniques/index.html) — интерактивный каталог 29 Remotion-приёмов с видео-превью.
 - [`docs/png-delivery.md`](docs/png-delivery.md) — когда и какое PNG-превью прикладывать к результату.
 - [`docs/chatgpt-video-review.md`](docs/chatgpt-video-review.md) — промпт для необязательной проверки монтажа готового видео в браузерном ChatGPT.
 - [`docs/stop-motion/`](docs/stop-motion/) — полная тематическая база: поиск источников, сцена, движение, покадровая работа и QC.

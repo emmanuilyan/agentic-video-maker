@@ -5,6 +5,11 @@
 Общий критерий для PNG-превью результата описан в [`png-delivery.md`](png-delivery.md).
 Необязательная внешняя проверка готового ролика и готовый промпт для браузерного ChatGPT — в [`chatgpt-video-review.md`](chatgpt-video-review.md).
 
+## Каталог Remotion
+
+- [`photo-techniques/index.html`](photo-techniques/index.html) — 29 приёмов с фильтрами, поиском и зацикленными MP4-превью.
+- [`remotion-photo-techniques`](../skills/remotion-photo-techniques/SKILL.md) — переносимый skill с компонентами и инструкциями.
+
 ## Stop-motion
 
 Сначала открой [`README.md`](stop-motion/README.md), затем выбери модуль по текущему этапу:

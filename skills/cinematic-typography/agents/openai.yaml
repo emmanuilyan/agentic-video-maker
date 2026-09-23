@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic Typography"
+  short_description: "Кинотитры с живой текстурой и эрозией"
+  default_prompt: "Используй $cinematic-typography, чтобы воспроизвести референсные кинематографичные подписи в моём видео."

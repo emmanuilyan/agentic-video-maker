@@ -1,0 +1,4 @@
+interface:
+  display_name: "Premiere Pro Audio Shorts Cutter"
+  short_description: "Cut dense Shorts narration safely in Premiere"
+  default_prompt: "Use $premiere-pro-audio-shorts-cutter to cut my recorded Shorts narration in Premiere and leave a review candidate without exporting."
