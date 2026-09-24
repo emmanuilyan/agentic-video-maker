@@ -1,6 +1,6 @@
 ---
 name: remotion-photo-techniques
-description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, photo transitions, kinetic text, yellow marker highlights, impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), or a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE).
+description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, photo transitions, kinetic text, yellow marker highlights, impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), or approved short Maxor effects.
 ---
 
 # Remotion Photo Techniques
@@ -12,6 +12,8 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 Для крупного глитч-титра с ползущим текстом по краям используй отдельный эффект [GLITCH_TITLE_CRAWL](references/techniques.md#standalone-text-effect-glitch_title_crawl). Теги для выбора: **крупный титр**, **ползущий/бегущий текст**, **glitch title**, **crawling ticker**. Компонент [GlitchTitleCrawl](assets/techniques/glitch-title-crawl.tsx) работает как оверлей поверх видео и не входит в четырёхфотный `PhotoTechnique`; смотри [пример](examples/glitch-title-crawl/README.md) и [превью](assets/previews/GLITCH_TITLE_CRAWL-reference.mp4).
 
 Для титра с движущейся текстурой внутри букв и зум-переходом на новый кадр используй отдельный эффект [TEXTURE_ZOOM_TITLE](references/techniques.md#standalone-text-effect-texture_zoom_title). Теги для выбора: **текстура в буквах**, **постепенная смена фразы**, **зум в новое видео**, **moving texture title**. Компонент [TextureZoomTitle](assets/techniques/texture-zoom-title.tsx) работает поверх видео и не входит в `PhotoTechnique`; смотри [пример](examples/texture-zoom-title/README.md), [рецепт](examples/texture-zoom-title/effect.md) и [превью](assets/previews/TEXTURE_ZOOM_TITLE-reference.mp4).
+
+Для утверждённых коротких приёмов из видео Maxor смотри [MAXOR examples](examples/maxor-approved-effects/effect.md): поэтапный титр ELDEN RING, двухстрочная подпись с зумом, синхронный цикл шрифтов BOOMER BAND и видеооверлей THE DARK SOULS. `TEXTURE_ZOOM_TITLE` также показан в этой подборке и имеет отдельную компонентную реализацию. В галерее эффекты собраны по фильтру **Maxor**.
 
 ## Как работать
 
