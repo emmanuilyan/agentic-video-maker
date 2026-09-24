@@ -7,6 +7,10 @@ description: Analyze a reference video, recreate a visual or motion effect in Re
 
 Deliver both a working Remotion implementation and an effect recipe. A verbal analysis alone does not complete a recreation request. Write the recipe after building and checking the implementation so it records what actually works.
 
+## Review-first workflow for a long reference video
+
+When the user sends a segment to collect editing techniques, identify each transferable visual technique and give it a provisional descriptive name. Build a separate Remotion draft for each technique and show its matching source interval beside the draft as a short video comparison. State the timestamps and visible differences. Save the recipe, implementation, and preview to Git only after the user approves that technique. Then continue from the next unreviewed interval; keep unapproved drafts local.
+
 ## 1. Locate the effect
 
 - Identify the source video and the exact time range of the requested effect. If the user has not specified a range, inspect the video and choose the relevant range; state the choice.
@@ -42,4 +46,5 @@ In the final response, provide links to the Remotion code, preview, and recipe. 
 
 ## Analyzed examples
 
-- [The first 0:00–0:30 of a long fantasy video essay](examples/baldurs-gate-intro-0000-0030/effect.md): a catalog of overlays, picture inserts, caption styles, glitch, rough frame, and impact flashes, with runnable Remotion components and a visual preview. Read it when reproducing one of these mechanisms or continuing that video's analysis.
+- [Approved opening techniques, 0:00–0:04.23](examples/baldurs-gate-opening-0000-0004/README.md): a shaking portrait card with staggered blurred copy and a three-beat serif title. Each has a measured recipe, a runnable 60 fps composition, and its own preview. Read these when recreating either opening effect or continuing this video's review-first analysis.
+- [Broader 0:00–0:30 overview](examples/baldurs-gate-intro-0000-0030/effect.md): a preliminary catalog of later overlays, picture inserts, captions, glitch, rough frame, and flashes. Use it to locate candidates, then analyze and present each candidate for approval before treating it as an approved technique.
