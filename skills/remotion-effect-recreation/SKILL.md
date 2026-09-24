@@ -15,10 +15,10 @@ Use this approval sequence:
 
 1. Analyze the reference in layers and write down the user's stated preferences before building. Include geometry, timing, typography, color, masks, blending, and how overlays interact with the footage.
 2. Render the draft and prepare a playable comparison using the same crop and timestamps, with the original on the left and the Remotion version on the right. Include the source interval and make both videos viewable in the conversation; do not send only a written description or still image.
-3. Before showing the draft to the user, use the existing ordinary ChatGPT conversation in the in-app browser for a first-pass visual comparison when available. Make sure the video or compact, legible comparison sheet is actually visible to ChatGPT. Ask for concrete differences grouped by visual layer and severity.
+3. Before showing the draft to the user, use the existing ordinary ChatGPT conversation in the in-app browser for an independent visual comparison when available. Make sure the video or compact, legible comparison sheet is actually visible to ChatGPT. Ask for concrete differences grouped by visual layer and severity. ChatGPT is a pre-review gate, not the user's approval: when it still sees material differences, fix and recheck them; when it finds no material differences, send the playable comparison to the user for the actual decision.
 4. Apply ChatGPT's material corrections directly in the draft, preferably in one batch. Re-render and ask ChatGPT to recheck the changed details. Repeat this internal review until the main visual differences are resolved; keep any remaining minor stylization differences explicit.
-5. Send the user the playable original-versus-draft comparison and the source interval for review. Keep the technique provisional and all files out of the skill library and Git until the user approves it. If the user requests changes, revise and repeat the comparison step.
-6. After approval, settle on the final technique name and useful search tags, then add the reusable implementation, example, recipe, and preview to `remotion-photo-techniques`. Commit the approved files to Git. Do not push unless the user asks.
+5. Send the user the playable original-versus-draft comparison and the source interval for review. Keep the technique provisional and all files out of the skill library and Git until the user approves it. Treat approval per named technique; a user can review several named techniques together. If the user requests changes, revise and repeat the comparison step.
+6. After approval, settle on the final technique name and useful search tags, then add the reusable implementation, example, recipe, and preview to the relevant Remotion technique library. Commit only the approved files to Git, preserving unrelated working-tree changes. Push only when the user asks.
 
 For a long source, continue with the next unreviewed interval only after the current candidate reaches the user's approval gate. Keep unapproved drafts local and separate from approved library examples.
 
@@ -60,3 +60,4 @@ In the final response, provide links to the Remotion code, preview, and recipe. 
 ## Analyzed examples
 
 - [The first 0:00–0:30 of a long fantasy video essay](examples/baldurs-gate-intro-0000-0030/effect.md): an exploratory catalog of overlays, picture inserts, caption styles, glitch, rough frame, and impact flashes. Use it to locate candidates; present each one for approval before adding its recipe, implementation, or preview to Git.
+- [Approved effects from 0:00–0:09](examples/baldurs-gate-approved-effects-0000-0900/effect.md): four user-approved examples with runnable components and a synthetic-media preview.
