@@ -46,5 +46,4 @@ In the final response, provide links to the Remotion code, preview, and recipe. 
 
 ## Analyzed examples
 
-- [Approved opening techniques, 0:00–0:04.23](examples/baldurs-gate-opening-0000-0004/README.md): a shaking portrait card with staggered blurred copy and a three-beat serif title. Each has a measured recipe, a runnable 60 fps composition, and its own preview. Read these when recreating either opening effect or continuing this video's review-first analysis.
-- [Broader 0:00–0:30 overview](examples/baldurs-gate-intro-0000-0030/effect.md): a preliminary catalog of later overlays, picture inserts, captions, glitch, rough frame, and flashes. Use it to locate candidates, then analyze and present each candidate for approval before treating it as an approved technique.
+- [The first 0:00–0:30 of a long fantasy video essay](examples/baldurs-gate-intro-0000-0030/effect.md): an exploratory catalog of overlays, picture inserts, caption styles, glitch, rough frame, and impact flashes. Use it to locate candidates; present each one for approval before adding its recipe, implementation, or preview to Git.
