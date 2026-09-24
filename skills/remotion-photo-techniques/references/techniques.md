@@ -57,3 +57,13 @@
 **Теги:** движущаяся текстура в буквах, титр с меняющейся фразой, зум в новый фон, moving texture title, textured glyphs, zoom transition.
 
 Фраза собирается по этапам; многослойная цветная текстура движется внутри отдельных букв, а короткие глитч-срезы остаются в маске глифа. После удержания полной надписи титр уходит во время увеличения исходной сцены и кроссфейда на новый кадр. `TextureZoomTitle` принимает две React-сцены, текстуру, этапы надписи и параметры перехода; он работает как самостоятельный оверлей, а не элемент `PhotoTechnique`. Рецепт и проверяемый пример: [TEXTURE_ZOOM_TITLE effect](../examples/texture-zoom-title/effect.md), [пример](../examples/texture-zoom-title/README.md); компонент: [texture-zoom-title.tsx](../assets/techniques/texture-zoom-title.tsx).
+
+## Approved source effects: Maxor
+
+These are standalone effects collected from one reviewed source segment, outside the numbered four-photo technique set. Use them as visual references and adapt text, footage, and frame timings to the new edit.
+
+- `MAXOR_ELDEN_RING_TITLE` — dissolve from `ELDEN` into one centered `ELDEN RING` title. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_ELDEN_RING_TITLE-reference.mp4).
+- `MAXOR_CAPTION_ZOOM` — two-line condensed caption, hard change to a new plate, then a background zoom. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_CAPTION_ZOOM-reference.mp4).
+- `MAXOR_BOOMER_FONT_CYCLE` — both words change typeface together through four phases, with strong red extrusion shadows. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_BOOMER_FONT_CYCLE-reference.mp4).
+- `TEXTURE_ZOOM_TITLE` — moving texture clipped per glyph, staged text, then a zoom cut into new footage. [Recipe](../examples/texture-zoom-title/effect.md), [preview](../assets/previews/TEXTURE_ZOOM_TITLE-reference.mp4).
+- `MAXOR_DARK_SOULS_OVERLAY` — progressive title reveal with an irregular, tinted video overlay across roughly two-thirds of frame. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_DARK_SOULS_OVERLAY-reference.mp4).
