@@ -35,6 +35,8 @@ When the user sends a segment to collect editing techniques, identify each trans
 ## 3. Compare and revise
 
 - Render or capture the Remotion output at meaningful checkpoints, including the first visible frame, peak motion, transitions, and final frame. Compare against source frames at matching times and dimensions. For moving effects, check a short rendered sequence as well as stills.
+- Before the first review, make a layer checklist from the reference (for example: frame, central title, side ticker, background interaction, and glitch). Compare every layer in one compact contact sheet: same timestamps and crop, source on the left and draft on the right. Resize the sheet enough to upload reliably while preserving text legibility; confirm the reviewer can actually see it before asking for feedback.
+- Ask the reviewer to list only concrete mismatches by layer and severity. Apply all material fixes together, then request a targeted recheck of those fixes instead of restarting a broad critique. Carry the user's already stated preferences into the initial brief.
 - Correct material differences in geometry, timing, layering, easing, color, and typography. Stop when the result is visually credible for the requested scope; report remaining mismatches precisely.
 - Run the project's relevant build or type check and a Remotion render or equivalent preview verification. State which checks actually ran and where the result is stored.
 
