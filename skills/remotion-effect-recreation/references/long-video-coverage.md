@@ -4,4 +4,6 @@ Use this file to resume a multipart visual analysis without skipping a cut at a 
 
 | Source | Covered interval | Example and effect recipe | Next interval |
 | --- | --- | --- | --- |
-| [Baldur's Gate 3 “Review”](https://www.youtube.com/watch?v=I6qlhmjkQ44), 21:59 | No approved intervals yet; exploratory overview covers 0:00–0:30 | [Exploratory overview](../examples/baldurs-gate-intro-0000-0030/effect.md) only; no segment recipes/previews approved | Resume with the four effects awaiting review from 0:00–0:08.60; next inspect 0:08.60 onward. |
+| [Baldur's Gate 3 “Review”](https://www.youtube.com/watch?v=I6qlhmjkQ44), 21:59 | 0:00–0:09.00: four approved techniques | [Approved opening effects](../examples/baldurs-gate-approved-effects-0000-0900/effect.md) | Inspect 0:09.00 onward; the first pass also identified later candidates. |
+| Same source | 0:10.70–0:11.60: Formula RGB Portrait | [Formula RGB Portrait](../examples/formula-rgb-portrait-1070-1160/effect.md) | Check 0:09.00–0:10.70 and 0:11.60 onward for additional techniques. |
+| Same source | 0:13.20–0:15.20: Editor Nameplate | [Editor Nameplate](../examples/editor-nameplate-1320-1520/effect.md) | Check 0:11.60–0:13.20, then inspect from 0:15.00 with a short overlap. |

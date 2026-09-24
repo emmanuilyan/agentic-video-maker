@@ -1,0 +1,143 @@
+"""Generate original, replaceable artwork for the Editor Nameplate demo."""
+
+from html import escape
+from pathlib import Path
+
+
+PUBLIC = Path(__file__).resolve().parents[1] / "public"
+PUBLIC.mkdir(parents=True, exist_ok=True)
+
+STATES = [
+    {
+        "file": "scene-rizzly.svg",
+        "title": "RIZZLY BEAR",
+        "class_name": "MYSTIC WARRIOR",
+        "sky": "#3e6b82",
+        "ground": "#26332d",
+        "face": "#463d59",
+        "armor": "#735782",
+        "accent": "#c44364",
+        "meme_bg": "#cbd8d3",
+        "meme_title": "THE ONLY THIN BLUE LINES",
+        "meme_small": "I RESPECT ARE MY LOCAL RIVERS",
+        "meme_art": '<path d="M25 220 Q90 175 160 223 T300 220 L300 310 H25Z" fill="#7192a4"/><path d="M25 240 Q90 205 160 245 T300 239" stroke="#ecf6ec" stroke-width="9" fill="none"/>',
+        "headwear": '<path d="M-68 -50 Q-96 -130 -74 -157 Q-65 -106 -32 -75 M68 -50 Q96 -130 74 -157 Q65 -106 32 -75" fill="#65516f" stroke="#b99dca" stroke-width="9"/>',
+    },
+    {
+        "file": "scene-diablo.svg",
+        "title": "EL DIABLO",
+        "class_name": "ZARIEL TIEFLING",
+        "sky": "#8ab9c5",
+        "ground": "#55695e",
+        "face": "#6da1a3",
+        "armor": "#bbc5c3",
+        "accent": "#4b69c4",
+        "meme_bg": "#222c39",
+        "meme_title": "I WANT SOME GOOD",
+        "meme_small": "PUBLIC TRANSPORTATION",
+        "meme_art": '<path d="M26 114 L300 70 L300 232 L26 255Z" fill="#657b9c"/><path d="M120 87 L159 50 L194 109 L183 235 L107 244Z" fill="#b0b9bf" stroke="#eff5ee" stroke-width="6"/><path d="M144 114 L172 115" stroke="#1d2747" stroke-width="6"/>',
+        "headwear": '<path d="M-55 -53 Q-82 -124 -64 -145 Q-50 -87 -26 -77 M55 -53 Q82 -124 64 -145 Q50 -87 26 -77" fill="#577879" stroke="#dce0d4" stroke-width="8"/>',
+    },
+    {
+        "file": "scene-gnomer.svg",
+        "title": "GNOMER SIMPSON",
+        "class_name": "DEEP GNOME",
+        "sky": "#97a6b7",
+        "ground": "#626f62",
+        "face": "#607187",
+        "armor": "#51789c",
+        "accent": "#d0a35b",
+        "meme_bg": "#1d202b",
+        "meme_title": "CHOOSE YOUR FATE",
+        "meme_small": "DARK TOO MUCH",
+        "meme_art": '<circle cx="164" cy="175" r="80" fill="#59616d"/><path d="M110 177 Q150 121 213 167 L199 235 H117Z" fill="#d2c8ab"/><circle cx="138" cy="179" r="9" fill="#15171e"/><circle cx="186" cy="179" r="9" fill="#15171e"/><path d="M141 218 Q165 230 186 218" stroke="#20212a" stroke-width="7" fill="none"/>',
+        "headwear": '<path d="M-100 -86 Q-8 -189 96 -91 L90 -35 Q7 -83 -96 -31Z" fill="#2c466e" stroke="#c79e54" stroke-width="8"/><path d="M-120 -38 Q0 -95 120 -35" stroke="#47729d" stroke-width="24" fill="none"/>',
+    },
+]
+
+
+def scene_svg(state: dict[str, str]) -> str:
+    title = escape(state["title"])
+    class_name = escape(state["class_name"])
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="{state['sky']}"/><stop offset="1" stop-color="{state['ground']}"/></linearGradient>
+  <linearGradient id="armor" x2="1" y2="1"><stop stop-color="#e1e6df"/><stop offset=".38" stop-color="{state['armor']}"/><stop offset="1" stop-color="#263548"/></linearGradient>
+  <linearGradient id="title" x2="0" y2="1"><stop stop-color="#f5f6ea"/><stop offset=".45" stop-color="#afb8bd"/><stop offset="1" stop-color="{state['accent']}"/></linearGradient>
+  <linearGradient id="meme" x2="1" y2="1"><stop stop-color="{state['meme_bg']}"/><stop offset="1" stop-color="#17202a"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1280" height="720" fill="url(#sky)"/>
+<circle cx="1110" cy="126" r="143" fill="#edf0de" opacity=".27" filter="url(#soft)"/>
+<path d="M0 348 L140 255 L236 329 L411 202 L584 351 L712 235 L882 347 L1015 230 L1280 331 V720H0Z" fill="#637c7b" opacity=".53"/>
+<path d="M0 405 L169 316 L329 381 L458 314 L608 405 L796 310 L993 404 L1112 315 L1280 391 V720H0Z" fill="#2a4a49" opacity=".64"/>
+<path d="M0 520 Q244 426 425 545 Q668 420 891 513 Q1077 442 1280 509 V720H0Z" fill="{state['ground']}"/>
+<g fill="#1a2c28" opacity=".48"><path d="M22 533 L50 400 L77 533M390 546 L423 378 L450 546M995 535 L1028 384 L1060 535M1183 559 L1210 401 L1248 559"/><path d="M24 464 L49 422 L75 464M395 446 L424 405 L450 446M1000 447 L1027 407 L1055 447"/></g>
+
+<!-- The character and outdoor scene form one camera plane. -->
+<g transform="translate(722 304)">
+  <ellipse cx="2" cy="355" rx="286" ry="83" fill="#091a22" opacity=".54"/>
+  <path d="M-198 341 L-160 15 Q-110 -65 0 -55 Q111 -65 163 12 L210 347Z" fill="url(#armor)" stroke="#2b3b4a" stroke-width="12"/>
+  <path d="M-166 20 Q-206 40 -217 127 L-177 244 L-129 231 L-111 67Z M166 20 Q206 40 217 127 L177 244 L129 231 L111 67Z" fill="url(#armor)" stroke="#344453" stroke-width="12"/>
+  <path d="M-87 22 L0 105 L87 22 M-80 171 L0 268 L80 171" fill="none" stroke="#e9e8db" stroke-width="12" opacity=".8"/>
+  <path d="M-77 112 L0 139 L77 112 L57 230 L0 268 L-57 230Z" fill="{state['accent']}" opacity=".31" stroke="#e8e2cc" stroke-width="7"/>
+  <path d="M-84 -62 Q-83 -132 0 -141 Q83 -132 84 -62 L65 8 Q0 51 -65 8Z" fill="{state['face']}" stroke="#263746" stroke-width="9"/>
+  {state['headwear']}
+  <path d="M-59 -55 Q-31 -67 -8 -48 M8 -48 Q31 -67 59 -55" stroke="#172430" stroke-width="10" fill="none"/>
+  <path d="M-43 -17 L-15 -18 M15 -18 L43 -17" stroke="#e9ece3" stroke-width="7"/>
+  <path d="M-30 13 Q0 25 30 13" stroke="#223641" stroke-width="8" fill="none"/>
+  <path d="M-139 260 L-120 359 M139 260 L120 359" stroke="#d9dccd" stroke-width="30"/>
+</g>
+
+<!-- Static character-editor chrome and the changing left insert. -->
+<rect x="20" y="18" width="359" height="504" rx="8" fill="#090d14" fill-opacity=".87" stroke="#a3926d" stroke-width="2"/>
+<path d="M54 43 H346" stroke="#bbad87" stroke-width="2"/><text x="200" y="39" text-anchor="middle" fill="#e6d9b4" font-size="16" font-family="Georgia" letter-spacing="2">CLASS</text>
+<g fill="#bcad81"><circle cx="78" cy="71" r="11"/><circle cx="153" cy="71" r="11"/><circle cx="226" cy="71" r="11"/><circle cx="300" cy="71" r="11"/></g>
+<rect x="54" y="95" width="293" height="318" rx="6" fill="url(#meme)" stroke="#d2c5a6" stroke-width="3"/>
+<svg x="54" y="95" width="293" height="318" viewBox="0 0 326 318">{state['meme_art']}</svg>
+<text x="200" y="126" text-anchor="middle" fill="#f7f1dd" font-size="21" font-family="Arial Black, Impact, sans-serif" font-weight="900" textLength="257" lengthAdjust="spacingAndGlyphs">{escape(state['meme_title'])}</text>
+<text x="200" y="384" text-anchor="middle" fill="#f5d076" font-size="27" font-family="Arial Black, Impact, sans-serif" font-weight="900" textLength="257" lengthAdjust="spacingAndGlyphs">{escape(state['meme_small'])}</text>
+<rect x="62" y="432" width="279" height="39" rx="3" fill="#171e25" stroke="#746a56"/>
+<text x="201" y="457" text-anchor="middle" fill="#d5d0b6" font-family="Georgia" font-size="15">Select a character</text>
+
+<rect x="1032" y="20" width="220" height="506" rx="8" fill="#0d1118" fill-opacity=".87" stroke="#a3936c" stroke-width="3"/>
+<path d="M1050 72 H1235" stroke="#9a8e70" stroke-width="2"/>
+<circle cx="1142" cy="54" r="22" fill="{state['accent']}" stroke="#eadcaa" stroke-width="3"/>
+<text x="1141" y="113" text-anchor="middle" fill="#f0e5cb" font-size="15" font-family="Georgia">{class_name}</text>
+<text x="1050" y="145" fill="#b6ac97" font-size="11" font-family="Arial">STR   DEX   CON   INT   WIS   CHA</text>
+<text x="1050" y="166" fill="#eee3cd" font-size="17" font-family="Georgia">16     13      15     11     12     17</text>
+<path d="M1050 185 H1234 M1050 292 H1234 M1050 393 H1234" stroke="#82765b" stroke-width="2"/>
+<text x="1142" y="208" text-anchor="middle" fill="#d7c398" font-size="16" font-family="Georgia">Cantrips</text>
+<g fill="{state['accent']}"><circle cx="1080" cy="249" r="16"/><circle cx="1142" cy="249" r="16"/><circle cx="1204" cy="249" r="16"/></g>
+<text x="1142" y="315" text-anchor="middle" fill="#d7c398" font-size="16" font-family="Georgia">Actions</text>
+<g fill="#aba489"><rect x="1065" y="330" width="40" height="40" rx="6"/><rect x="1122" y="330" width="40" height="40" rx="6"/><rect x="1179" y="330" width="40" height="40" rx="6"/></g>
+<text x="1142" y="420" text-anchor="middle" fill="#d7c398" font-size="16" font-family="Georgia">Proficiencies</text>
+<text x="1054" y="446" fill="#c6beaa" font-size="13" font-family="Georgia">Arcana · Athletics · History</text>
+<text x="1054" y="468" fill="#c6beaa" font-size="13" font-family="Georgia">Survival · Perception</text>
+
+<!-- Bevel and dark extrusion underneath the slanted three-dimensional title. -->
+<g transform="skewX(-9)">
+  <text x="366" y="609" fill="#142a48" stroke="#13243d" stroke-width="18" font-family="Arial Black, Impact, sans-serif" font-size="78" font-weight="900" textLength="673" lengthAdjust="spacingAndGlyphs">{title}</text>
+  <text x="359" y="592" fill="{state['accent']}" stroke="{state['accent']}" stroke-width="12" font-family="Arial Black, Impact, sans-serif" font-size="78" font-weight="900" textLength="673" lengthAdjust="spacingAndGlyphs">{title}</text>
+  <text x="359" y="586" fill="url(#title)" stroke="#e5ddcf" stroke-width="3" paint-order="stroke" font-family="Arial Black, Impact, sans-serif" font-size="78" font-weight="900" textLength="673" lengthAdjust="spacingAndGlyphs">{title}</text>
+</g>
+<rect x="452" y="675" width="469" height="20" rx="6" fill="#061217" opacity=".69"/>
+<text x="685" y="689" text-anchor="middle" fill="#b0dfb5" font-size="12" font-family="Georgia">CONTINUE</text>
+</svg>'''
+
+
+for state in STATES:
+    (PUBLIC / state["file"]).write_text(scene_svg(state), encoding="utf-8")
+
+(PUBLIC / "previous-scene.svg").write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#23334b"/><stop offset="1" stop-color="#685476"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#g)"/>
+<circle cx="465" cy="259" r="184" fill="#9183a7" opacity=".68"/>
+<circle cx="833" cy="259" r="184" fill="#a59daa" opacity=".6"/>
+<path d="M225 720 Q340 440 466 456 Q607 436 685 720Z" fill="#282636"/>
+<path d="M616 720 Q716 440 828 456 Q979 436 1060 720Z" fill="#334051"/>
+<path d="M328 187 Q355 95 424 94 Q493 78 541 196 L527 360 Q470 398 397 363Z" fill="#4b3e5b"/>
+<path d="M716 187 Q743 95 812 94 Q881 78 929 196 L915 360 Q858 398 785 363Z" fill="#737c86"/>
+</svg>''', encoding="utf-8")
+
+print(f"Wrote {len(STATES) + 1} SVGs to {PUBLIC}")
