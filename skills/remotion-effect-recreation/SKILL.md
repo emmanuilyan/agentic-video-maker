@@ -60,4 +60,5 @@ In the final response, provide links to the Remotion code, preview, and recipe. 
 ## Analyzed examples
 
 - [The first 0:00–0:30 of a long fantasy video essay](examples/baldurs-gate-intro-0000-0030/effect.md): an exploratory catalog of overlays, picture inserts, caption styles, glitch, rough frame, and impact flashes. Use it to locate candidates; present each one for approval before adding its recipe, implementation, or preview to Git.
+- [Formula RGB Portrait, 0:10.70–0:11.60](examples/formula-rgb-portrait-1070-1160/effect.md): a two-face hold that ghosts the selected portrait before a face-anchored push-in with soft color bands, drifting formulas, and narrow RGB edge splits.
 - [Approved effects from 0:00–0:09](examples/baldurs-gate-approved-effects-0000-0900/effect.md): four user-approved examples with runnable components and a synthetic-media preview.
