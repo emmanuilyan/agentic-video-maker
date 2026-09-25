@@ -25,6 +25,21 @@ export const BoomerBand:React.FC = () => {
   return <AbsoluteFill>{image("plate-boomer-clean.png")}<AbsoluteFill style={{background:"linear-gradient(90deg,rgba(61,42,32,.68),rgba(61,42,32,.3),transparent)",filter:"blur(14px)",left:0,top:35,width:600,height:174}}/><div style={{position:"absolute",left:75,top:40,display:"flex",alignItems:"baseline",gap:18,opacity:inx*exit,transform:`translate(${(1-inx)*-30}px,${(1-inx)*5}px) scale(${.91+.09*inx})`}}><span style={style}>boomer</span><span style={{...style,opacity:showBand,transform:`translateX(${(1-showBand)*-35}px)`}}>{showBand>0?"band":""}</span></div></AbsoluteFill>;
 };
 
+export const CyanCardMontage:React.FC = () => {
+  const f=useCurrentFrame(), start=ramp(f,0,4), firstScale=interpolate(f,[0,14,38,63],[.72,1.02,1.24,1.31],cl), secondIn=ramp(f,0,5), push=interpolate(f,[0,16,40,63],[0,36,175,245],cl), zoom=ramp(f,10,25), zoomEnd=ramp(f,24,36), title=ramp(f,8,15), japanese=ramp(f,13,26), meme=ramp(f,9,27), videoIn=ramp(f,14,24), out=1-ramp(f,60,63);
+  const card=(left:number,top:number,w:number,h:number,scale:number,rot:number,opacity:number):React.CSSProperties=>({position:"absolute",left,top,width:w,height:h,overflow:"hidden",transform:`scale(${scale}) rotate(${rot}deg)`,transformOrigin:"center",opacity});
+  const japaneseTransform=`translate(${interpolate(f,[0,14,30,51],[420,230,0,-12],cl)}px,${interpolate(f,[0,26,42,63],[-150,-60,0,4],cl)}px) scale(${interpolate(f,[0,14,30,51],[.45,.72,1,1.04],cl)})`;
+  const memeX=interpolate(f,[0,21,39,63],[1320,1320,865,820],cl), memeY=interpolate(f,[0,21,39,63],[365,365,342,325],cl);
+  return <AbsoluteFill style={{overflow:"hidden"}}><AbsoluteFill style={{opacity:1-videoIn,transform:`scale(${1+zoom*1.2+zoomEnd*.9})`,transformOrigin:"52% 50%",filter:`saturate(${1.05+zoom*.5})`}}>{image("plate-montage-bg.png")}</AbsoluteFill><AbsoluteFill style={{opacity:videoIn,transform:`scale(${1+zoom*.9+zoomEnd*1.2})`,transformOrigin:"52% 50%"}}><OffthreadVideo src={staticFile("montage-zoom-bg.mp4")} muted style={{width:"100%",height:"100%",objectFit:"cover"}}/></AbsoluteFill><div style={{position:"absolute",inset:0,background:"radial-gradient(circle at 54% 48%,transparent,rgba(0,0,0,.46))"}}/>
+    <div style={card(38+push,110,420,294,firstScale,-2,start)}>{image("plate-montage-card-a.png")}</div>
+    <div style={card(850-push*.52,330,420,294,secondIn,2,secondIn)}>{image("plate-montage-card-b.png")}</div>
+    <div style={{position:"absolute",left:840,top:34,fontFamily:"Arial,sans-serif",fontWeight:900,fontSize:54,letterSpacing:-2,color:"#48f7ef",textShadow:"0 0 7px #30e8ff,0 0 22px #22deed",opacity:title*out}}>Hide Your Tacos</div>
+
+    <div style={{position:"absolute",left:memeX,top:memeY,width:460,height:400,transform:`translate(${meme*.12*push}px,${Math.sin(f/7)*10}px) scale(${.72+.28*meme})`,opacity:meme*out,overflow:"hidden"}}>{image("plate-montage-meme.png")}</div>
+    <div style={{position:"absolute",left:0,right:0,top:278,textAlign:"center",fontFamily:"'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif",fontSize:124,fontWeight:900,letterSpacing:4,opacity:japanese*out,transform:japaneseTransform,color:"#efffff",background:"linear-gradient(90deg,#59f3ec,#e9ffff,#66efe9)",backgroundClip:"text",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",textShadow:"-7px 5px 0 rgba(255,37,132,.8),7px -3px 0 rgba(0,223,220,.84),0 0 25px #2bfff3",mixBlendMode:"screen"}}>タコスを隠せ</div>
+  </AbsoluteFill>;
+};
+
 export const DarkSouls:React.FC = () => {
   const f=useCurrentFrame(), width=interpolate(f,[0,20,42,58,74,84],[0,0,240,520,900,1120],cl), over=ramp(f,38,46), exit=1-ramp(f,88,96), next=ramp(f,89,97), pulse=.66+.18*Math.sin(f*1.8)+.08*Math.sin(f*3.9);
   return <AbsoluteFill><AbsoluteFill style={{opacity:1-next}}>{image("plate-souls-clean.png")}</AbsoluteFill><AbsoluteFill style={{opacity:next}}><OffthreadVideo src={staticFile("souls-overlay.mp4")} muted style={{width:"100%",height:"100%",objectFit:"cover"}}/></AbsoluteFill>
