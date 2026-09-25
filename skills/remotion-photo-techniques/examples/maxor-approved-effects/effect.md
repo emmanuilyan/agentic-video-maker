@@ -14,3 +14,5 @@ All timings below are measured at 60 fps and are relative to the effect segment.
 | `MAXOR_DARK_SOULS_OVERLAY` | 0:25.3–0:27.0 | `THE DARK SOULS OF` reveals horizontally; a shifting, translucent video insert covers an irregular area of roughly two-thirds of frame and overlaps the title before the cut. | `DarkSouls`, 102 frames |
 
 The page previews in [`docs/photo-techniques/previews`](../../../../docs/photo-techniques/previews) are the approved Remotion panels from the source comparisons, with the original panel and comparison labels removed. The full gallery is [`docs/photo-techniques/index.html`](../../../../docs/photo-techniques/index.html).
+
+Four approved Baldur's Gate effects from a later review batch are documented with standalone compositions and recipes in [`remotion-effect-recreation/examples/baldurs-gate-approved-effects-1710-3375`](../../../remotion-effect-recreation/examples/baldurs-gate-approved-effects-1710-3375/README.md). Their MAXOR cards are in the same gallery category; each card uses a standalone render and a poster extracted from that exact render.
