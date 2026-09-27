@@ -48,3 +48,49 @@ export const DarkSouls:React.FC = () => {
     <AbsoluteFill style={{background:`rgba(77,210,90,${over*exit*.11})`,mixBlendMode:"screen"}}/>
   </AbsoluteFill>;
 };
+
+export type WordmarkBuildProps = {
+  frame: number;
+  firstWord?: string;
+  centerInitial?: string;
+  centerFinal?: string;
+  rightInitial?: string;
+  rightFinal?: string;
+  lowerInitial?: string;
+  lowerFinal?: string;
+  centerChangeFrame?: number;
+  rightEnterFrame?: number;
+  rightChangeFrame?: number;
+  lowerEnterFrame?: number;
+  lowerChangeFrame?: number;
+};
+
+/** Four-color logo assembly with brief intermediate misspellings and hard updates. */
+export const WordmarkBuild:React.FC<WordmarkBuildProps> = ({
+  frame,
+  firstWord = "METAL",
+  centerInitial = "GERE",
+  centerFinal = "GEAR",
+  rightInitial = "RAISING",
+  rightFinal = "RISING",
+  lowerInitial = "REPEN.",
+  lowerFinal = "REVENGEANCE",
+  centerChangeFrame = 24,
+  rightEnterFrame = 25,
+  rightChangeFrame = 38,
+  lowerEnterFrame = 52,
+  lowerChangeFrame = 72,
+}) => {
+  const base:React.CSSProperties = {position:"absolute",display:"flex",alignItems:"center",fontFamily:"Impact, 'Arial Black', sans-serif",fontWeight:900,textTransform:"uppercase",lineHeight:.86,whiteSpace:"nowrap"};
+  return <AbsoluteFill>
+    <div style={{...base,left:50,top:130,fontSize:150,color:"#ffd500",WebkitTextStroke:"3px #20151a",textShadow:"5px 7px 0 #29140b,0 0 12px rgba(255,188,0,.42)"}}>{firstWord}</div>
+    {frame>=12&&<div style={{...base,left:400,top:128,width:480,justifyContent:"center",fontSize:150,color:"#00d9ec",fontStyle:"italic",letterSpacing:-5,WebkitTextStroke:"3px #111a22",textShadow:"5px 7px 0 #071821,0 0 14px rgba(0,220,255,.55)"}}>{frame<centerChangeFrame?centerInitial:centerFinal}</div>}
+    {frame>=rightEnterFrame&&<div style={{...base,left:952,top:130,fontSize:122,color:"#ed1f84",fontStyle:"italic",letterSpacing:-5,WebkitTextStroke:"3px #24121d",textShadow:"5px 7px 0 #210c20,0 0 14px rgba(255,30,145,.5)"}}>{frame<rightChangeFrame?rightInitial:rightFinal}</div>}
+    {frame>=lowerEnterFrame&&<div style={{...base,top:360,left:0,width:1280,justifyContent:"center",fontSize:162,color:"#ff202a",letterSpacing:1,WebkitTextStroke:"4px #210c11",textShadow:"6px 8px 0 #21070b,0 0 16px rgba(255,27,36,.48)"}}>{frame<lowerChangeFrame?lowerInitial:lowerFinal}</div>}
+  </AbsoluteFill>;
+};
+
+export const MetalGearWordmarkBuild:React.FC = () => {
+  const frame=useCurrentFrame();
+  return <AbsoluteFill>{image("plate-metal-gear-build.png")}<WordmarkBuild frame={frame}/></AbsoluteFill>;
+};
