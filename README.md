@@ -11,7 +11,7 @@
 | Монтаж и звук | `editing-montage`, `ffmpeg-video-editor`, `premiere-pro-audio-shorts-cutter`, `audio-mixing-mastering`, `dialogue-editing-adr` | Монтаж, работа с речью, музыкой и звуковым балансом. |
 | Титры и оформление | `captions-and-clipping`, `cinematic-typography`, `typography-editor` | Нарезка, субтитры и экранная типографика. |
 | Разбор и QC | `reference-media-analysis`, `media-qc-delivery`, `watch` | Анализ референсов, проверка и подготовка результата. |
-| Remotion | [`remotion-photo-techniques`](skills/remotion-photo-techniques/SKILL.md), [`remotion-effect-recreation`](skills/remotion-effect-recreation/SKILL.md), `remotion-*` | Создание, повторение эффекта по видео, анимация, captions, предпросмотр и рендер. |
+| Remotion | [`remotion-photo-techniques`](skills/remotion-photo-techniques/SKILL.md), [`remotion-effect-recreation`](skills/remotion-effect-recreation/SKILL.md), [`remotion-map-shorts-cartoon`](skills/remotion-map-shorts-cartoon/SKILL.md), `remotion-*` | Создание, повторение эффекта по видео, анимация карт, captions, предпросмотр и рендер. |
 | Вспомогательные | `cringe-meme` | Подбор мемной реакции. |
 
 Каждая папка в [`skills/`](skills/) содержит свой `SKILL.md` и связанные ресурсы. Выбирай подходящий skill напрямую, например `$ffmpeg-video-editor`; общей последовательности, которая выбирает и вызывает остальные, нет. Для skills с визуальными карточками обновляй их через `scripts/generate-skill-overviews.mjs`.

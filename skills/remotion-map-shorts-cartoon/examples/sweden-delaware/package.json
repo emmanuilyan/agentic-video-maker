@@ -1,0 +1,26 @@
+{
+  "name": "remotion-map-short-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts SwedenDelaware out/sweden-delaware.mp4",
+    "still": "remotion still src/index.ts SwedenDelaware out/representative.png --frame=70",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "d3-geo": "3.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.527",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.1",
+    "@types/react": "19.2.7",
+    "@types/topojson-client": "3.1.5",
+    "typescript": "5.9.3"
+  }
+}
