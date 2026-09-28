@@ -3,7 +3,7 @@
 ## Source and result
 
 - Source: [«Самый необычный остров»](https://www.youtube.com/shorts/EZbITnfIsuc), 0:00–0:17 of the map passage.
-- Output: `BorneoMap`, 1080×1920, 25 fps, 425 frames (17 s); local render `out/borneo-map.mp4`.
+- Output: `BorneoMap`, 1080×1920, 25 fps, 425 frames (17 s); [video preview](../../assets/previews/borneo-map.mp4) and [poster frame](../../assets/previews/borneo-map.png) from the final render.
 - Implementation: [`MapStory.tsx`](src/MapStory.tsx), [`borneoGeometry.ts`](src/borneoGeometry.ts), [`BorneoMapDemo.tsx`](src/BorneoMapDemo.tsx).
 - Fidelity: approximate composition, map camera, pale boundaries, numbered tags, and yellow Indonesia reveal. At the user's direction, the surroundings now darken after the zoom rather than starting dark as in the reference. The NASA plate has different surface texture and color. Caption text and typeface are approximations; the trial has no narration or music.
 
@@ -14,10 +14,10 @@
 | 1 | Southeast Asia map plate | 2160×3840 image transformed behind 1080×1920 frame | Teal grade; fixed raster from NASA GIBS. |
 | 2 | Surroundings dim | Everything outside the Borneo outline | Dark teal SVG layer revealed only after the zoom; island cut out with a mask. |
 | 3 | Borneo land emphasis | Same geographic extent as the plate; island about 0.4 canvas width at start and 0.85 near 4 s | Higher-resolution local plate clipped to island geometry; brightens as the surroundings dim. |
-| 3 | Island outline and borders | Geographic SVG paths sharing the plate transform | Off-white strokes, about 1–2 output pixels. |
-| 4 | Indonesia region | Country path on Borneo | Amber translucent fill and small dot pattern. |
-| 5 | Map labels and badges | Editorial positions around the island | Black compact labels; numbered hexagon badges. |
-| 6 | Subtitles and credit | Subtitle centered at y≈0.675H; credit bottom right | White, small shadow; credit stays visible. |
+| 4 | Island outline and borders | Geographic SVG paths sharing the plate transform | Off-white strokes, about 1–2 output pixels. |
+| 5 | Indonesia region | Country path on Borneo | Amber translucent fill and small dot pattern. |
+| 6 | Map labels and badges | Editorial positions around the island | Black compact labels; numbered hexagon badges. |
+| 7 | Subtitles and credit | Subtitle centered at y≈0.675H; credit bottom right | White, small shadow; credit stays visible. |
 
 ## Timeline
 
@@ -26,9 +26,9 @@ Times are from the first frame of the 25 fps composition.
 | Frames / time | Visible beat | Mechanism |
 | --- | --- | --- |
 | 0–105 / 0–4.2 s | Borneo grows from regional context to main subject | Shared map transform zoom 0.93→1.82, eased with cubic Bézier `(0.22,1,0.36,1)`; screen anchor moves from x=0.44W to 0.53W. The map stays at its normal grade. |
-| 120–158 / 4.8–6.3 s | The surroundings turn dark while Borneo stays bright | An SVG mask excludes the island from a dark teal tint that reaches 0.7 opacity; the detail plate brightens from 1.10 to 1.35. Camera remains still. |
 | 35–70 / 1.4–2.8 s | Island edge appears | Outline opacity 0→0.72. |
 | 75–222 / 3–8.9 s | Name tag holds then exits | Black tag opacity changes; kept outside map transform. |
+| 120–158 / 4.8–6.3 s | The surroundings turn dark while Borneo stays bright | An SVG mask excludes the island from a dark teal tint that reaches 0.7 opacity; the detail plate brightens from 1.10 to 1.35. Camera remains still. |
 | 220–250 / 8.8–10 s | National boundaries appear | Country path stroke opacity 0→0.62. |
 | 230–345 / 9.2–13.8 s | Three region badges appear in order, then leave | Per-badge frame offset and opacity. |
 | 333–350 / 13.3–14 s | Indonesian part becomes yellow | Fill and dot-pattern opacity; geographic path remains aligned with plate. |
@@ -52,6 +52,6 @@ The source at 0:00 shows Borneo about two fifths of frame width; near 0:10 it oc
 
 ## Verification
 
-`npm run typecheck` passed. Remotion rendered the full 425-frame MP4 and still frames at 0, 250, and 405. The 17-second local side-by-side check is `out/borneo-map-comparison.mp4`; it uses the source only for review, not as an implementation asset. The main visible difference is the NASA plate's softer land detail and darker ocean texture.
+`npm run typecheck` passed. Remotion rendered the full 425-frame MP4 and still frames at 0, 250, and 405. The committed [preview](../../assets/previews/borneo-map.mp4) and [poster](../../assets/previews/borneo-map.png) come from the final render after the timing change. A local side-by-side check uses the source only for review, not as an implementation asset. The main visible difference is the NASA plate's softer land detail and darker ocean texture.
 
 Run from this directory with `npm install`, `npm run typecheck`, and `npm run render`; `npm run dev` opens Studio.
