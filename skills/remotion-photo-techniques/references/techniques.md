@@ -58,6 +58,12 @@
 
 Фраза собирается по этапам; многослойная цветная текстура движется внутри отдельных букв, а короткие глитч-срезы остаются в маске глифа. После удержания полной надписи титр уходит во время увеличения исходной сцены и кроссфейда на новый кадр. `TextureZoomTitle` принимает две React-сцены, текстуру, этапы надписи и параметры перехода; он работает как самостоятельный оверлей, а не элемент `PhotoTechnique`. Рецепт и проверяемый пример: [TEXTURE_ZOOM_TITLE effect](../examples/texture-zoom-title/effect.md), [пример](../examples/texture-zoom-title/README.md); компонент: [texture-zoom-title.tsx](../assets/techniques/texture-zoom-title.tsx).
 
+## Standalone text effect: TEXT_OUTLINE
+
+**Теги:** прозрачный текст, текст только с обводкой, контурные буквы, hollow text, outline-only text.
+
+`OutlineOnlyText` рисует только SVG-обводку букв (`fill="none"`), чтобы фон оставался видимым через середину. Прямоугольная маска раскрывает слово слева направо на кадрах 6–34; масштаб слегка растёт от 0.96 до 1. Компонент — самостоятельный прозрачный оверлей поверх любой сцены, а не элемент `PhotoTechnique`. [Рецепт и параметры](../examples/outline-only-text/effect.md), [запускаемый пример](../examples/outline-only-text/README.md), [компонент](../assets/techniques/outline-only-text.tsx), [превью](../assets/previews/TEXT_OUTLINE-reference.mp4).
+
 ## Approved source effects: Maxor
 
 These are standalone effects collected from one reviewed source segment, outside the numbered four-photo technique set. Use them as visual references and adapt text, footage, and frame timings to the new edit.
