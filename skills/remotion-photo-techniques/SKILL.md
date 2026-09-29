@@ -17,6 +17,8 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 
 `MAXOR_DICE_GLITCH_QUOTE` — утверждённая [глитч-цитата с настоящим падением d20](../remotion-effect-recreation/examples/baldurs-gate-dice-glitch-fall-4105/README.md). Используй её, когда нужен короткий RGB-смаз игровой сцены, две полосы фрагментов, затем пиксельная двухстрочная надпись с удержанием до завершения броска. Параметры и точные кадры — в [рецепте](../remotion-effect-recreation/examples/baldurs-gate-dice-glitch-fall-4105/effect.md); [превью](assets/previews/MAXOR_DICE_GLITCH_QUOTE-reference.mp4).
 
+Шесть следующих утверждённых приёмов собраны в [запускаемом примере](examples/maxor-batch7-effects/README.md) и [рецептах](examples/maxor-batch7-effects/effect.md): `MAXOR_SKYRIM_BLENDED_TITLE` (крупный титр смешивается с фоном и исчезает по буквам), `MAXOR_SPEED_DISCLAIMER_WIPE` (подпись уходит влево под световым проходом), `MAXOR_JAPAN_MAP_CALLOUT` (единый силуэт Японии поверх всех вставок), `MAXOR_EASTERN_EUROPE_SCALE` (растущая карта и дописываемое сравнение с Африкой), `MAXOR_RGB_BLOCK_GLITCH` (RGB-блоки, глитч букв, зум и цветокоррекция), `MAXOR_MARGIT_FRAME_TITLE` (светлая рамка, выгнутый жёлтый титр и тонкая нижняя подпись). Каждый эффект короче трёх секунд; выбирай конкретный рецепт по визуальному приёму.
+
 ## Как работать
 
 1. Определи нужный приём, длительность, формат и предоставленные фотографии. Если приём уже назван, сразу используй соответствующую реализацию. Для выбора сравни геометрию в каталоге.
