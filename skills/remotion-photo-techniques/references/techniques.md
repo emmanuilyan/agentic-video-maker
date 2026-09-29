@@ -42,6 +42,7 @@
 - Подчеркнуть момент: FREEZE_FRAME остановкой, IMPACT_SHAKE ударом, FLASH_CUT светом, RGB_SPLIT каналами.
 - Выделить фразу: TEXT_HIGHLIGHT жёлтой плашкой за уже видимым текстом; TEXT_REVEAL вводит саму надпись из-за маски.
 - Добавить пространственность: PARALLAX для относительного движения планов, CAMERA_FLYTHROUGH для прохождения между ними.
+- Текстурировать титр и перейти в новую сцену: самостоятельный `TEXTURE_ZOOM_TITLE` меняет фразу по этапам, двигает текстуру внутри глифов и завершает титр зум-кроссфейдом.
 
 При смешивании приёмов сохраняй один доминирующий жест на монтажный акцент. Для обучения и сравнения показывай каждый отдельно.
 
@@ -50,3 +51,34 @@
 **Теги:** крупный титр, ползущий текст, бегущая строка, large title, scrolling text, crawling ticker, glitch typography.
 
 Большой одноцветный титр собирается из фрагментов; отдельные глитч-срезы ограничены маской каждой буквы, чтобы сохранять межбуквенные просветы. По верхнему и нижнему краям одновременно ползут полупрозрачные строки в одном акцентном цвете; по периметру проходит широкая пиксельная рамка. `GlitchTitleCrawl` — самостоятельный прозрачный оверлей поверх любого фонового видео, а не элемент четырёхфотного `PhotoTechnique`. Рецепт, параметры и измеренный таймлайн: [GLITCH_TITLE_CRAWL effect](../examples/glitch-title-crawl/effect.md); компонент: [glitch-title-crawl.tsx](../assets/techniques/glitch-title-crawl.tsx).
+
+## Standalone text effect: TEXTURE_ZOOM_TITLE
+
+**Теги:** движущаяся текстура в буквах, титр с меняющейся фразой, зум в новый фон, moving texture title, textured glyphs, zoom transition.
+
+Фраза собирается по этапам; многослойная цветная текстура движется внутри отдельных букв, а короткие глитч-срезы остаются в маске глифа. После удержания полной надписи титр уходит во время увеличения исходной сцены и кроссфейда на новый кадр. `TextureZoomTitle` принимает две React-сцены, текстуру, этапы надписи и параметры перехода; он работает как самостоятельный оверлей, а не элемент `PhotoTechnique`. Рецепт и проверяемый пример: [TEXTURE_ZOOM_TITLE effect](../examples/texture-zoom-title/effect.md), [пример](../examples/texture-zoom-title/README.md); компонент: [texture-zoom-title.tsx](../assets/techniques/texture-zoom-title.tsx).
+
+## Standalone text effect: TEXT_OUTLINE
+
+**Теги:** прозрачный текст, текст только с обводкой, контурные буквы, hollow text, outline-only text.
+
+`OutlineOnlyText` рисует только SVG-обводку букв (`fill="none"`), чтобы фон оставался видимым через середину. Прямоугольная маска раскрывает слово слева направо на кадрах 6–34; масштаб слегка растёт от 0.96 до 1. Компонент — самостоятельный прозрачный оверлей поверх любой сцены, а не элемент `PhotoTechnique`. [Рецепт и параметры](../examples/outline-only-text/effect.md), [запускаемый пример](../examples/outline-only-text/README.md), [компонент](../assets/techniques/outline-only-text.tsx), [превью](../assets/previews/TEXT_OUTLINE-reference.mp4).
+
+## Standalone text effect: TEXT_BLEND_MODES
+
+**Теги:** цвет внутри букв, наложение цветов, смешение с видео, полупрозрачный титр, blend modes, screen, multiply, overlay, Premiere Pro.
+
+Один приём с выбором режима смешивания, цвета и прозрачности заливки. `BlendedFillText` накладывает SVG-титр поверх живого фона с одним из [17 CSS-режимов](../assets/techniques/blend-modes.ts). `PremiereBlendStillText` покрывает ещё 11 режимов через вычисление пикселей изображения или последовательности кадров; это отдельный полный композитор фона и титра, а не прозрачный оверлей. Рецепт, код, сравнение и ограничения: [TEXT_BLEND_MODES](../examples/text-blend-modes/effect.md); [запускаемый пример](../examples/text-blend-modes/README.md), [превью](../assets/previews/TEXT_BLEND_MODES-reference.mp4).
+
+## Approved source effects: Maxor
+
+These are standalone effects collected from one reviewed source segment, outside the numbered four-photo technique set. Use them as visual references and adapt text, footage, and frame timings to the new edit.
+
+- `MAXOR_ELDEN_RING_TITLE` — dissolve from `ELDEN` into one centered `ELDEN RING` title. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_ELDEN_RING_TITLE-reference.mp4).
+- `MAXOR_CAPTION_ZOOM` — two-line condensed caption, hard change to a new plate, then a background zoom. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_CAPTION_ZOOM-reference.mp4).
+- `MAXOR_BOOMER_FONT_CYCLE` — both words change typeface together through four phases, with strong red extrusion shadows. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_BOOMER_FONT_CYCLE-reference.mp4).
+- `TEXTURE_ZOOM_TITLE` — moving texture clipped per glyph, staged text, then a zoom cut into new footage. [Recipe](../examples/texture-zoom-title/effect.md), [preview](../assets/previews/TEXTURE_ZOOM_TITLE-reference.mp4).
+- `MAXOR_CYAN_MEME_COLLAGE` — two photo cards grow and shift, followed by a zooming video background, a cyan Japanese title above all layers, and a meme picture-in-picture. [Recipe, runnable component, and preview](../examples/maxor-approved-effects/effect.md).
+- `MAXOR_DARK_SOULS_OVERLAY` — progressive title reveal with an irregular, tinted video overlay across roughly two-thirds of frame. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_DARK_SOULS_OVERLAY-reference.mp4).
+- `MAXOR_METAL_GEAR_WORDMARK_BUILD` — a two-row, four-color wordmark assembles through hard word entrances and in-place spelling corrections. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_METAL_GEAR_WORDMARK_BUILD-reference.mp4).
+- `MAXOR_DICE_GLITCH_QUOTE` — two fragmented glitch bands and a brief whole-scene RGB smear reveal a pixel quote; a real d20 falls inside the game card while the quote holds. [Recipe and runnable component](../../remotion-effect-recreation/examples/baldurs-gate-dice-glitch-fall-4105/effect.md), [preview](../assets/previews/MAXOR_DICE_GLITCH_QUOTE-reference.mp4).
