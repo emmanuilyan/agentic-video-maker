@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Смешение цвета титра · 28 режимов</title>
+<style>
+  :root{color-scheme:dark;--fill:#c4c7d7;--alpha:.66}
+  *{box-sizing:border-box}
+  body{margin:0;background:#0b0e14;color:#f2f1ef;font:16px/1.5 Arial,sans-serif}
+  main{max-width:1620px;margin:auto;padding:32px 24px 60px}
+  h1{font:700 clamp(28px,4vw,54px)/1.05 Arial,sans-serif;letter-spacing:-.045em;margin:0 0 12px}
+  p{color:#b9c1d0;margin:0 0 22px;max-width:820px}
+  .controls{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding:16px 20px;background:#171d28;border:1px solid #364052;border-radius:16px;margin-bottom:26px}
+  label{display:flex;gap:12px;align-items:center;font-weight:600}
+  input[type=color]{width:52px;height:36px;border:0;background:transparent;cursor:pointer}
+  input[type=range]{width:180px;accent-color:#bac8ff}
+  .picked{display:flex;gap:14px;align-items:baseline;margin:0 0 10px}
+  .picked b{font-size:24px}
+  .picked span{color:#b9c1d0}
+  .scene{position:relative;isolation:isolate;container-type:inline-size;overflow:hidden;background:#10151a;aspect-ratio:16/9}
+  .plate{position:absolute;inset:-4%;background:url('public/plate-skyrim.jpg') center/cover;filter:brightness(.77) saturate(.82) contrast(1.06)}
+  .title{position:absolute;left:0;right:0;bottom:14%;text-align:center;white-space:nowrap;font:400 19.53cqw/1 Georgia,'Times New Roman',serif;letter-spacing:.01em;color:var(--fill);opacity:var(--alpha);pointer-events:none}
+  .hero .title{font-size:19.53cqw;bottom:14%}
+  .hero{max-width:1100px;border:1px solid #4a5362;border-radius:14px}
+  h2{font-size:23px;margin:38px 0 16px}
+  .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+  .card{display:block;padding:0;border:1px solid #343d4d;border-radius:13px;overflow:hidden;background:#171d28;color:inherit;text-align:left;cursor:pointer}
+  .card[aria-pressed=true]{outline:3px solid #b8c9ff;outline-offset:2px}
+  .card .title{font-size:19.53cqw}
+  .card .scene{border-radius:0}
+  canvas.special{width:100%;height:100%;display:block}
+  #hero-canvas{display:none}
+  .name{padding:10px 15px;font-size:17px;font-weight:700}
+  .name small{font-size:14px;color:#aeb8ca;margin-left:8px;font-weight:400}
+  .note{font-size:14px;margin-top:20px}
+  @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:600px){main{padding:22px 12px 40px}.grid{grid-template-columns:1fr}.card .title{font-size:19.53cqw}}
+</style>
+<main>
+  <h1>Как текст смешивается с фоном</h1>
+  <p>Один кадр, один цвет, одна прозрачность. В карточках меняется только режим смешивания. Нажмите вариант, чтобы рассмотреть его крупно.</p>
+  <div class="controls">
+    <label>Цвет заливки <input id="color" type="color" value="#c4c7d7"></label>
+    <label>Прозрачность <input id="opacity" type="range" min="0" max="100" value="66"><output id="value">66%</output></label>
+  </div>
+  <div class="picked"><b id="selected">screen</b><span id="selected-ru">Экран</span></div>
+  <div class="scene hero"><div id="hero-plate" class="plate"></div><div id="hero-title" class="title" style="mix-blend-mode:screen">SKYRIM</div><canvas id="hero-canvas" class="special" width="1280" height="720"></canvas></div>
+  <h2>Все 17 режимов, доступных в Remotion через CSS</h2>
+  <div id="grid" class="grid"></div>
+  <h2>Ещё 11 режимов Premiere Pro — предпросмотр с вычислением пикселей</h2>
+  <div id="premiere-grid" class="grid"></div>
+  <p class="note">Режим <code>normal</code> — контрольный образец. <code>plus-darker</code> текущий Chromium не поддерживает. В дополнительных режимах используются формулы поверх пикселей sRGB; цвет может немного отличаться от Premiere из-за его цветового пространства. Для титра на этом кадре начните со Screen, Lighten, Overlay и Soft Light.</p>
+</main>
+<script>
+const modes=[
+ ['normal','Обычный'],['multiply','Умножение'],['screen','Экран'],
+ ['overlay','Перекрытие'],['darken','Темнее'],['lighten','Светлее'],
+ ['color-dodge','Осветление цвета'],['color-burn','Затемнение цвета'],['soft-light','Мягкий свет'],
+ ['hard-light','Жёсткий свет'],['difference','Разница'],['exclusion','Исключение'],
+ ['hue','Цветовой тон'],['saturation','Насыщенность'],['color','Цвет'],
+ ['luminosity','Яркость'],['plus-lighter','Сложение света']
+];
+const premiereModes=[
+ ['dissolve','Растворение'],['linear-burn','Линейное затемнение'],['darker-color','Цвет темнее'],
+ ['linear-dodge','Линейное осветление'],['lighter-color','Цвет светлее'],['vivid-light','Яркий свет'],
+ ['linear-light','Линейный свет'],['pin-light','Точечный свет'],['hard-mix','Жёсткое смешение'],
+ ['subtract','Вычитание'],['divide','Деление']
+];
+const grid=document.getElementById('grid');
+for(const [mode,label] of modes){
+ const card=document.createElement('button');card.type='button';card.className='card';card.dataset.mode=mode;card.setAttribute('aria-pressed',String(mode==='screen'));
+ card.innerHTML='<div class="scene"><div class="plate"></div><div class="title">SKYRIM</div></div><div class="name">'+mode+' <small>'+label+'</small></div>';
+ card.querySelector('.title').style.mixBlendMode=mode;
+ card.addEventListener('click',()=>{
+  document.querySelectorAll('.card').forEach(x=>x.setAttribute('aria-pressed',String(x===card)));
+  document.getElementById('hero-plate').style.display='block';
+  document.getElementById('hero-title').style.display='block';
+  document.getElementById('hero-canvas').style.display='none';
+  document.getElementById('hero-title').style.mixBlendMode=mode;
+  document.getElementById('selected').textContent=mode;
+  document.getElementById('selected-ru').textContent=label;
+ });
+ grid.append(card);
+}
+const image=new Image();image.src='public/plate-skyrim.jpg';
+const cards=[];
+const clamp=x=>Math.max(0,Math.min(1,x));
+const burn=(b,s)=>s<=0?0:1-Math.min(1,(1-b)/s);
+const dodge=(b,s)=>s>=1?1:Math.min(1,b/(1-s));
+const vivid=(b,s)=>s<.5?burn(b,2*s):dodge(b,2*s-1);
+const luminance=c=>.2126*c[0]+.7152*c[1]+.0722*c[2];
+const rgb=hex=>[1,3,5].map(i=>parseInt(hex.slice(i,i+2),16)/255);
+function blend(mode,b,s,x,y){
+ if(mode==='dissolve')return ((x*73856093^y*19349663)>>>0)%997/997<Number(document.getElementById('opacity').value)/100?s:b;
+ if(mode==='darker-color')return luminance(s)<luminance(b)?s:b;
+ if(mode==='lighter-color')return luminance(s)>luminance(b)?s:b;
+ return b.map((v,i)=>{
+  const q=s[i];
+  if(mode==='linear-burn')return clamp(v+q-1);
+  if(mode==='linear-dodge')return clamp(v+q);
+  if(mode==='vivid-light')return vivid(v,q);
+  if(mode==='linear-light')return clamp(v+2*q-1);
+  if(mode==='pin-light')return q<.5?Math.min(v,2*q):Math.max(v,2*q-1);
+  if(mode==='hard-mix')return vivid(v,q)<.5?0:1;
+  if(mode==='subtract')return clamp(v-q);
+  if(mode==='divide')return q===0?1:clamp(v/q);
+  return v;
+ });
+}
+function renderSpecial(canvas,mode){
+ if(!image.complete||!image.naturalWidth)return;
+ const w=canvas.width,h=canvas.height,k=w/640,ctx=canvas.getContext('2d',{willReadFrequently:true});
+ ctx.clearRect(0,0,w,h);ctx.filter='brightness(.77) saturate(.82) contrast(1.06)';
+ ctx.drawImage(image,-w*.04,-h*.04,w*1.08,h*1.08);ctx.filter='none';
+ const backdrop=ctx.getImageData(0,0,w,h);
+ const mask=document.createElement('canvas');mask.width=w;mask.height=h;
+ const mctx=mask.getContext('2d',{willReadFrequently:true});
+ mctx.fillStyle='#fff';mctx.font=`${125*k}px Georgia`;mctx.textAlign='center';mctx.textBaseline='alphabetic';
+ mctx.fillText('SKYRIM',w/2,295*k);
+ const alpha=mctx.getImageData(0,0,w,h).data,src=rgb(document.getElementById('color').value);
+ const opacity=Number(document.getElementById('opacity').value)/100,d=backdrop.data;
+ for(let p=0;p<d.length;p+=4){
+  const a=alpha[p+3]/255*opacity;if(!a)continue;
+  const b=[d[p]/255,d[p+1]/255,d[p+2]/255],mixed=blend(mode,b,src,(p/4)%w,Math.floor((p/4)/w));
+  const mix=mode==='dissolve'?alpha[p+3]/255: a;
+  for(let c=0;c<3;c++)d[p+c]=Math.round(255*(b[c]*(1-mix)+mixed[c]*mix));
+ }
+ ctx.putImageData(backdrop,0,0);
+}
+const extras=document.getElementById('premiere-grid');
+for(const [mode,label] of premiereModes){
+ const card=document.createElement('button');card.type='button';card.className='card';card.dataset.mode=mode;card.setAttribute('aria-pressed','false');
+ card.innerHTML='<div class="scene"><canvas class="special" width="640" height="360"></canvas></div><div class="name">'+mode+' <small>'+label+'</small></div>';
+ const canvas=card.querySelector('canvas');cards.push([canvas,mode]);
+ card.addEventListener('click',()=>{
+  document.querySelectorAll('.card').forEach(x=>x.setAttribute('aria-pressed',String(x===card)));
+  document.getElementById('hero-plate').style.display='none';
+  document.getElementById('hero-title').style.display='none';
+  const hero=document.getElementById('hero-canvas');hero.style.display='block';renderSpecial(hero,mode);
+  document.getElementById('selected').textContent=mode;
+  document.getElementById('selected-ru').textContent=label;
+ });
+ extras.append(card);
+}
+const refresh=()=>{
+ for(const [canvas,mode] of cards)renderSpecial(canvas,mode);
+ const selected=document.querySelector('#premiere-grid .card[aria-pressed=true]');
+ if(selected)renderSpecial(document.getElementById('hero-canvas'),selected.dataset.mode);
+};
+image.onload=refresh;
+document.getElementById('color').addEventListener('input',e=>{document.documentElement.style.setProperty('--fill',e.target.value);refresh()});
+document.getElementById('opacity').addEventListener('input',e=>{
+ const n=Number(e.target.value);document.documentElement.style.setProperty('--alpha',n/100);document.getElementById('value').textContent=n+'%';
+ refresh();
+});
+</script>
+</html>
