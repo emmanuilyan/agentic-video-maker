@@ -1,0 +1,20 @@
+{
+  "name": "remotion-map-shorts-satellite-borneo-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts BorneoMap out/borneo-map.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.527"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
