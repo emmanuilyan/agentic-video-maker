@@ -21,6 +21,8 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 
 Шесть следующих утверждённых приёмов собраны в [запускаемом примере](examples/maxor-batch7-effects/README.md) и [рецептах](examples/maxor-batch7-effects/effect.md): `MAXOR_SKYRIM_BLENDED_TITLE` (крупный титр смешивается с фоном и исчезает по буквам), `MAXOR_SPEED_DISCLAIMER_WIPE` (подпись уходит влево под световым проходом), `MAXOR_JAPAN_MAP_CALLOUT` (единый силуэт Японии поверх всех вставок), `MAXOR_EASTERN_EUROPE_SCALE` (растущая карта и дописываемое сравнение с Африкой), `MAXOR_RGB_BLOCK_GLITCH` (RGB-блоки, глитч букв, зум и цветокоррекция), `MAXOR_MARGIT_FRAME_TITLE` (светлая рамка, выгнутый жёлтый титр и тонкая нижняя подпись). Каждый эффект короче трёх секунд; выбирай конкретный рецепт по визуальному приёму.
 
+Четыре одобренных эффекта из Metal Gear Rising описаны и запускаются в [наборе примеров](examples/metal-gear-approved-effects-2026/README.md): `MG_RED_MOSAIC_REVEAL` (красная мозаика карточек с отдельным раскрытием лица), `MG_CRT_SIGNAL_BREAKUP` (портрет в зелёном CRT-окне с широкими полосами помех), `MG_SPLIT_WORDMARK_BUILD` (кастомный логотип с поэтапным исправлением слов), `MG_CYAN_NEON_EXIT` (логотип и электрические дуги синхронно уходят вверх). Рецепты, исходные интервалы и тайминг — в [effect.md](examples/metal-gear-approved-effects-2026/effect.md). Для галереи используй только одобренную панель Remotion и постер из того же MP4.
+
 ## Как работать
 
 1. Определи нужный приём, длительность, формат и предоставленные фотографии. Если приём уже назван, сразу используй соответствующую реализацию. Для выбора сравни геометрию в каталоге.
