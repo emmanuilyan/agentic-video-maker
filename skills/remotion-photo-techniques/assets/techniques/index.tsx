@@ -10,6 +10,8 @@ export { GlitchTitleCrawl } from "./glitch-title-crawl";
 export type { GlitchTitleCrawlProps } from "./glitch-title-crawl";
 export { LensWarp, lensState } from "./lens-warp";
 export type { LensWarpProps } from "./lens-warp";
+export { LateralPhotoPan } from "./lateral-photo-pan";
+export type { PhotoPanel, CameraKey, LateralPhotoPanProps } from "./lateral-photo-pan";
 export { IDS } from "./core";
 export type { Photo, Technique } from "./core";
 const components: Record<Technique, React.FC<Scene>> = {

@@ -31,7 +31,7 @@
 ## Документы
 
 - [`docs/README.md`](docs/README.md) — указатель по темам и этапам.
-- [`docs/photo-techniques/index.html`](docs/photo-techniques/index.html) — интерактивный каталог 30 Remotion-приёмов с видео-превью.
+- [`docs/photo-techniques/index.html`](docs/photo-techniques/index.html) — интерактивный каталог 61 Remotion-приёма с видео-превью.
 - [`docs/png-delivery.md`](docs/png-delivery.md) — когда и какое PNG-превью прикладывать к результату.
 - [`docs/chatgpt-video-review.md`](docs/chatgpt-video-review.md) — промпт для необязательной проверки монтажа готового видео в браузерном ChatGPT.
 - [`docs/stop-motion/`](docs/stop-motion/) — полная тематическая база: поиск источников, сцена, движение, покадровая работа и QC.
