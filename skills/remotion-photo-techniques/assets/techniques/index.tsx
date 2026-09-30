@@ -8,6 +8,8 @@ export { YellowTextHighlight } from "./text-highlight";
 export type { YellowTextHighlightProps } from "./text-highlight";
 export { GlitchTitleCrawl } from "./glitch-title-crawl";
 export type { GlitchTitleCrawlProps } from "./glitch-title-crawl";
+export { LensWarp, lensState } from "./lens-warp";
+export type { LensWarpProps } from "./lens-warp";
 export { IDS } from "./core";
 export type { Photo, Technique } from "./core";
 const components: Record<Technique, React.FC<Scene>> = {

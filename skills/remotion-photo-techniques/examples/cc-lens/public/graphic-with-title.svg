@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="506" height="700" viewBox="0 0 506 700">
+  <defs>
+    <radialGradient id="shade"><stop stop-color="#262922"/><stop offset="1" stop-color="#0c0e0c"/></radialGradient>
+    <pattern id="grain" width="15" height="15" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#596047" opacity=".28"/></pattern>
+  </defs>
+  <rect width="506" height="700" fill="url(#shade)"/>
+  <rect width="506" height="700" fill="url(#grain)"/>
+  <g font-family="Arial Black,Arial,sans-serif" font-weight="900" fill="none" stroke="#c3df4d" stroke-width="2.3" opacity=".93">
+    <text x="-175" y="85" font-size="78" transform="rotate(-30 0 0)">EFFECTS</text>
+    <text x="80" y="50" font-size="78" transform="rotate(-30 200 50)">EFFECTS</text>
+    <text x="300" y="150" font-size="83" transform="rotate(-30 300 150)">EFFECTS</text>
+    <text x="-170" y="300" font-size="88" transform="rotate(-30 -170 300)">EFFECTS</text>
+    <text x="300" y="445" font-size="90" transform="rotate(-30 300 445)">EFFECTS</text>
+    <text x="-120" y="600" font-size="95" transform="rotate(-30 -120 600)">EFFECTS</text>
+    <text x="140" y="735" font-size="85" transform="rotate(-30 140 735)">EFFECTS</text>
+  </g>
+  <g font-family="Arial Black,Arial,sans-serif" font-weight="900" fill="#bada42" opacity=".9">
+    <text x="-30" y="520" font-size="120" transform="rotate(-22 0 520)">TOP</text>
+    <text x="295" y="180" font-size="136" transform="rotate(26 295 180)">5</text>
+    <text x="320" y="685" font-size="155" transform="rotate(30 320 685)">5</text>
+    <text x="20" y="690" font-size="115" transform="rotate(-30 20 690)">TOP</text>
+  </g>
+  <g fill="none" stroke="#fff" stroke-linecap="round" opacity=".98">
+    <path d="M-30 70 Q145 -20 325 35" stroke-width="27"/>
+    <path d="M380 18 Q445 34 540 118" stroke-width="24"/>
+    <path d="M-45 625 Q80 700 195 681" stroke-width="32"/>
+    <path d="M315 685 Q425 680 550 600" stroke-width="26"/>
+  </g>
+<g fill="none" stroke="white" stroke-linecap="round">
+<path d="M65 130 Q230 42 411 140" stroke-width="38"/>
+<path d="M67 570 Q250 669 427 568" stroke-width="42"/>
+<path d="M33 180 Q-5 287 49 348" stroke-width="34"/>
+<path d="M470 183 Q530 290 454 352" stroke-width="31"/>
+<path d="M74 403 Q-5 480 94 555" stroke-width="35"/>
+<path d="M427 405 Q519 492 420 560" stroke-width="39"/>
+</g>
+  <g font-family="Arial Black,Arial,sans-serif" font-weight="900" fill="#fff" stroke="#fff" stroke-width="1" text-anchor="middle">
+    <text x="253" y="325" font-size="69" letter-spacing="-2">TOP 5</text>
+    <text x="253" y="385" font-size="65" letter-spacing="-3">EFFECTS</text>
+  </g>
+</svg>

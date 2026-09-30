@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
+    "strict": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "react": [
+        "node_modules/@types/react/index.d.ts"
+      ],
+      "react/*": [
+        "node_modules/@types/react/*"
+      ],
+      "remotion": [
+        "node_modules/remotion/dist/cjs/index.d.ts"
+      ],
+      "@remotion/three": [
+        "node_modules/@remotion/three/dist/cjs/index.d.ts"
+      ],
+      "@react-three/fiber": [
+        "node_modules/@react-three/fiber/dist/react-three-fiber.cjs.d.ts"
+      ],
+      "three": [
+        "node_modules/@types/three/index.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}
