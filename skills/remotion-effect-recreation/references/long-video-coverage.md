@@ -11,3 +11,5 @@ Use this file to resume a multipart visual analysis without skipping a cut at a 
 | Same source | Five approved techniques at44.05–45.57,45.55–47.15,47.75–49.15,51.45–52.85,57.10–60.35; gaps are not claimed as complete coverage | [Approved44–60batch](../examples/baldurs-gate-approved-effects-4405-6035/effect.md) | Resume at60.20 with overlap; inspect60.35 onward for the next five techniques. |
 
 | Same source | Five approved effects60.20–62.40,64.10–65.20,67.20–69.20,69.20–70.00,71.60–73.10; gaps not claimed as complete coverage | [Approved60–73batch](../examples/baldurs-gate-approved-effects-6020-7310/effect.md) | Resume73.00 with overlap; inspect73.10 onward. Red hit-smear65.10–65.65 excluded because editorial attribution uncertain. |
+
+| Same source | Five approved effects73.90–74.65,75.43–76.32,77.42–78.65,78.55–79.17,81.20–81.85; gaps not claimed as complete coverage | [Approved73–82batch](../examples/baldurs-gate-approved-effects-7390-8185/effect.md) | Resume81.70 with overlap. Native spell VFX and repeated Rizz title excluded from candidate overview. |

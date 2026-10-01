@@ -51,3 +51,8 @@ Use [five approved montage examples](../remotion-effect-recreation/examples/bald
 ## Approved BG3 batch60–73seconds
 
 Use [five approved examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-6020-7310/README.md) for `MAXOR_SQUID_STAGED_CARD`, `MAXOR_HUMAN_CLASSIFICATION`, `MAXOR_METALLIC_RIZZ_TITLE`, `MAXOR_PRONOUN_CARDS`, and `MAXOR_DIFFERENCE_MEME_STACK`. The recipe includes exact stage/cut timing and a tested TEXT_BLEND_MODES variant with separate blended-fill and normal-outline SVG layers.
+
+
+## Approved BG3 batch73–82seconds
+
+Use [five approved examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-7390-8185/README.md) for `MAXOR_RED_EDGE_TITLES`, `MAXOR_GROWING_MEME_SWAP`, `MAXOR_STAGED_PERSUASION_GAG`, `MAXOR_RGB_MEME_POSTER`, and `MAXOR_RED_REACTION_CAPTION`. Includes frame timelines, independent overlays, RGB/blur/shake implementation and exact approved previews. Distinguish native gameplay from author layers as described in the recipe.
