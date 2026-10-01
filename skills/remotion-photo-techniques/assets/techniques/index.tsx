@@ -12,6 +12,8 @@ export { LensWarp, lensState } from "./lens-warp";
 export type { LensWarpProps } from "./lens-warp";
 export { LateralPhotoPan } from "./lateral-photo-pan";
 export type { PhotoPanel, CameraKey, LateralPhotoPanProps } from "./lateral-photo-pan";
+export { PhotoFlipbook } from "./photo-flipbook";
+export type { FlipbookPhoto, PhotoFlipbookProps } from "./photo-flipbook";
 export { Echo, Glow, CCLens, PixelPolly, MotionTile } from "./shorts-five-effects";
 export type { PollyRegion } from "./shorts-five-effects";
 export { IDS } from "./core";

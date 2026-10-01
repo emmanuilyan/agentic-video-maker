@@ -1,6 +1,6 @@
 ---
 name: remotion-photo-techniques
-description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, photo transitions, lateral camera pans across adjacent photos, kinetic text, yellow marker highlights, transparent outline-only text (TEXT_OUTLINE), impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), or approved short Maxor effects.
+description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, rapid photo flipbook cuts, photo transitions, lateral camera pans across adjacent photos, kinetic text, yellow marker highlights, transparent outline-only text (TEXT_OUTLINE), impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), or approved short Maxor effects.
 ---
 
 # Remotion Photo Techniques
@@ -8,6 +8,8 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 Применяй 30 именованных приёмов монтажа фото и текста в Remotion, включая 8 пространственных сцен с камерой. Сохраняй точные идентификаторы из [каталога](references/techniques.md), чтобы запрос «сделай GRID_ZOOM» однозначно выбирал эффект. Для жёлтого выделения текста по видеореференсу используй [TEXT_HIGHLIGHT](references/text-highlight.md): приём доступен и как отдельный компонент поверх любого кадра.
 
 Для этого приёма есть [запускаемый пример](examples/yellow-highlight/README.md) и [видео-превью](assets/previews/TEXT_HIGHLIGHT-reference.mp4).
+
+Для быстрого «перелистывания» полноэкранных фотографий жёсткими склейками используй [RAPID_PHOTO_FLIPBOOK](references/techniques.md#standalone-photo-effect-rapid_photo_flipbook). Приём из `Sundress` (1:57–1:59) держит каждый план два кадра при 24 fps; внутри пары можно передать два микрокадра. [Компонент](assets/techniques/photo-flipbook.tsx), [пример](examples/rapid-photo-flipbook/README.md) и [одобренное превью](assets/previews/RAPID_PHOTO_FLIPBOOK-reference.mp4).
 
 Для крупного глитч-титра с ползущим текстом по краям используй отдельный эффект [GLITCH_TITLE_CRAWL](references/techniques.md#standalone-text-effect-glitch_title_crawl). Теги для выбора: **крупный титр**, **ползущий/бегущий текст**, **glitch title**, **crawling ticker**. Компонент [GlitchTitleCrawl](assets/techniques/glitch-title-crawl.tsx) работает как оверлей поверх видео и не входит в четырёхфотный `PhotoTechnique`; смотри [пример](examples/glitch-title-crawl/README.md) и [превью](assets/previews/GLITCH_TITLE_CRAWL-reference.mp4).
 
