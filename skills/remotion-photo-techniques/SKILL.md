@@ -43,3 +43,7 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 - TEXT_HIGHLIGHT раскрывает жёлтые полосы позади неподвижного текста; нижняя строка стартует позже верхней. Используй отдельный компонент для точного наложения на существующую сцену.
 
 Демо по умолчанию: 6 секунд, 30 fps, 16:9, без звука. Это параметры примера, не ограничения пользовательских роликов. Готовый skill не требует конкретных фото, абсолютных путей или дополнительного генератора изображений.
+
+## Approved BG3 batch44–60seconds
+
+Use [five approved montage examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-4405-6035/README.md) for `MAXOR_POKEMON_CALLOUT`, `MAXOR_EXPLOSION_COUNTDOWN`, `MAXOR_N64_PIXEL_CAPTION`, `MAXOR_COMIC_FRAME_CAPTIONS`, and `MAXOR_CHARACTER_NAMEPLATES`. Recipes, independent layers and the exact approved previews are included.

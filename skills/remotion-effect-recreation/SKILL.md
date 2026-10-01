@@ -66,3 +66,7 @@ In the final response, provide links to the Remotion code, preview, and recipe. 
 - [Editor Nameplate, 0:13.20–0:15.20](examples/editor-nameplate-1320-1520/effect.md): three gallery states where the left insert and slanted title lead each character change, followed by a one-way zoom of the character and background.
 - [Approved effects from 0:00–0:09](examples/baldurs-gate-approved-effects-0000-0900/effect.md): four user-approved examples with runnable components and a synthetic-media preview.
 - [Approved effects from 0:17.10–0:33.75](examples/baldurs-gate-approved-effects-1710-3375/README.md): four more user-approved examples (electric impact title, two-stage D&D lower third, wavy explosion title, and two-beat caption bands), with standalone renders, recipes, and a runnable Remotion project. The original footage is not bundled.
+
+## Approved BG3 batch44–60seconds
+
+Use [five approved montage examples](examples/baldurs-gate-approved-effects-4405-6035/README.md) for `MAXOR_POKEMON_CALLOUT`, `MAXOR_EXPLOSION_COUNTDOWN`, `MAXOR_N64_PIXEL_CAPTION`, `MAXOR_COMIC_FRAME_CAPTIONS`, and `MAXOR_CHARACTER_NAMEPLATES`. Recipes, independent layers and the exact approved previews are included.
