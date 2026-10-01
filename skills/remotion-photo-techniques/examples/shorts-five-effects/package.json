@@ -1,0 +1,23 @@
+{
+  "name": "shorts-five-effects-draft",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts FiveEffects out/five-effects.mp4 --gl=angle",
+    "studio": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "@remotion/three": "4.0.527",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.527",
+    "three": "0.186.0",
+    "@react-three/fiber": "9.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/three": "0.186.0",
+    "typescript": "5.9.3"
+  }
+}

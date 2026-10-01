@@ -25,6 +25,8 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 
 Четыре одобренных эффекта из Metal Gear Rising описаны и запускаются в [наборе примеров](examples/metal-gear-approved-effects-2026/README.md): `MG_RED_MOSAIC_REVEAL` (красная мозаика карточек с отдельным раскрытием лица), `MG_CRT_SIGNAL_BREAKUP` (портрет в зелёном CRT-окне с широкими полосами помех), `MG_SPLIT_WORDMARK_BUILD` (кастомный логотип с поэтапным исправлением слов), `MG_CYAN_NEON_EXIT` (логотип и электрические дуги синхронно уходят вверх). Рецепты, исходные интервалы и тайминг — в [effect.md](examples/metal-gear-approved-effects-2026/effect.md). Для галереи используй только одобренную панель Remotion и постер из того же MP4.
 
+Для пяти одобренных эффектов из Shorts используй `ECHO`, `GLOW`, `CC_LENS`, `CC_PIXEL_POLLY`, `MOTION_TILE`: [компоненты](assets/techniques/shorts-five-effects.tsx), [запускаемый пример](examples/shorts-five-effects/README.md), [рецепты и параметры](examples/shorts-five-effects/effect.md). Echo создаёт задержанные копии движущегося слоя; Glow добавляет неоновый ореол; CC Lens изгибает всю композицию; Pixel Polly разрезает изображение на треугольные осколки; Motion Tile бесшовно повторяет и прокручивает ячейку. Эффекты работают отдельно от четырёхфотного `PhotoTechnique`; превью каждого ID находятся в `assets/previews`.
+
 ## Как работать
 
 1. Определи нужный приём, длительность, формат и предоставленные фотографии. Если приём уже назван, сразу используй соответствующую реализацию. Для выбора сравни геометрию в каталоге.
