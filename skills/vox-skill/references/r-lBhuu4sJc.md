@@ -13,3 +13,11 @@
 | 0:48–0:59 | The signature comes from storytelling, editing, and graphics together. | Three-part “Vox formula” graphic and examples of presenter, map, and document. |
 
 The paper-texture chapter cards and source footage are examples inside this creator's Short. They should be studied as particular effects, not asserted as mandatory Vox branding.
+
+## Texture observations from the review pass
+
+- 0:00.5–0:02.5 and 0:15–0:17.8: the paper has fine curving engraved lines, and dark headings are not perfectly solid; small gaps and the paper relief remain visible inside the lettering. The yellow Vox circles also pick up the surface pattern.
+- 0:28–0:30.7: the pale field contains sparse dark dust points, occasional short scratches, and weak uneven tone across the whole frame. The visible pattern is finer and less dense than a generic heavy film-grain filter.
+- 0:51–0:52.8: the central black panel has scratches and light specks; two connector strokes visibly draw from the title toward the first and middle question boxes in the sampled interval. The box interiors have weak blurred light, while the white outlines remain legible.
+
+The mechanism behind the texture is inferred from rendered frames. The source Short does not expose its edit project or name the assets and blend modes used. Compare at exact timestamps before copying any value.
