@@ -9,3 +9,5 @@ Use this file to resume a multipart visual analysis without skipping a cut at a 
 | Same source | 0:13.20–0:15.20: Editor Nameplate | [Editor Nameplate](../examples/editor-nameplate-1320-1520/effect.md) | Check 0:11.60–0:13.20, then inspect from 0:15.00 with a short overlap. |
 
 | Same source | Five approved techniques at44.05–45.57,45.55–47.15,47.75–49.15,51.45–52.85,57.10–60.35; gaps are not claimed as complete coverage | [Approved44–60batch](../examples/baldurs-gate-approved-effects-4405-6035/effect.md) | Resume at60.20 with overlap; inspect60.35 onward for the next five techniques. |
+
+| Same source | Five approved effects60.20–62.40,64.10–65.20,67.20–69.20,69.20–70.00,71.60–73.10; gaps not claimed as complete coverage | [Approved60–73batch](../examples/baldurs-gate-approved-effects-6020-7310/effect.md) | Resume73.00 with overlap; inspect73.10 onward. Red hit-smear65.10–65.65 excluded because editorial attribution uncertain. |
