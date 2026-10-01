@@ -91,3 +91,7 @@ These are standalone effects collected from one reviewed source segment, outside
 ## Five approved Shorts effects
 
 Для пяти одобренных эффектов из Shorts используй `ECHO`, `GLOW`, `CC_LENS`, `CC_PIXEL_POLLY`, `MOTION_TILE`: [компоненты](../assets/techniques/shorts-five-effects.tsx), [запускаемый пример](../examples/shorts-five-effects/README.md), [рецепты и параметры](../examples/shorts-five-effects/effect.md). Echo создаёт задержанные копии движущегося слоя; Glow добавляет неоновый ореол; CC Lens изгибает всю композицию; Pixel Polly разрезает изображение на треугольные осколки; Motion Tile бесшовно повторяет и прокручивает ячейку. Эффекты работают отдельно от четырёхфотного `PhotoTechnique`; превью каждого ID находятся в `assets/previews`.
+
+## MG_MAP_COLLAGE_IRIS
+
+Движущаяся карта за отдельным передним планом, смена палитры и круговой выход. [Компонент, параметры и рецепт](../examples/metal-gear-map-collage-iris/README.md), [утверждённое превью](../assets/previews/MG_MAP_COLLAGE_IRIS-reference.mp4).
