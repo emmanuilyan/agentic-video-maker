@@ -1,6 +1,6 @@
 ---
 name: remotion-photo-techniques
-description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, photo transitions, kinetic text, yellow marker highlights, transparent outline-only text (TEXT_OUTLINE), color-blended text over footage (TEXT_BLEND_MODES), impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), approved short Maxor effects, or the VOX_FORMULA_BOARD textured infographic with three animated connector lines.
+description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, photo transitions, kinetic text, yellow marker highlights, transparent outline-only text (TEXT_OUTLINE), color-blended text over footage (TEXT_BLEND_MODES), impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), approved short Maxor effects, VOX_FORMULA_BOARD, or a smooth zoom-out into a flat callout (VOX_SMOOTH_PULLBACK).
 ---
 
 # Remotion Photo Techniques
@@ -18,6 +18,8 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 Когда цвет заливки текста взаимодействует с фоном, используй один приём [TEXT_BLEND_MODES](references/techniques.md#standalone-text-effect-text_blend_modes), а режим выбирай параметром. Для 17 CSS-режимов поверх любого видео бери [BlendedFillText](assets/techniques/blended-fill-text.tsx); 11 дополнительных режимов Premiere реализованы [пиксельным композитором](assets/techniques/premiere-blend-still-text.tsx) для изображения или последовательности кадров. [Рецепт](examples/text-blend-modes/effect.md), [запускаемый пример](examples/text-blend-modes/README.md) и [интерактивное сравнение всех 28 вариантов](examples/text-blend-modes/modes.html) находятся вместе.
 
 For the approved Vox infographic, use [VOX_FORMULA_BOARD](references/techniques.md#standalone-vox-effect-vox_formula_board): distressed black board, heading, three question boxes and **three animated connectors**. Tags: Vox, textured infographic, question boxes, three lines. See the [component](assets/techniques/vox-formula-board.tsx), [runnable example](examples/vox-formula-board/README.md), [recipe](examples/vox-formula-board/effect.md) and [exact approved preview](assets/previews/VOX_FORMULA_BOARD-reference.mp4). Copy all four texture files in the example's `public/` folder with the component.
+
+For a Vox-style shot that smoothly pulls back from a close photo into a softened, dimmed still before a callout appears, use [VOX_SMOOTH_PULLBACK](references/techniques.md#standalone-vox-effect-vox_smooth_pullback). Tags: плавный отъезд, zoom out, flat image, title after zoom. See the [component](assets/techniques/vox-smooth-pullback.tsx), [runnable example](examples/vox-smooth-pullback/README.md), [recipe](examples/vox-smooth-pullback/effect.md), and [exact approved preview](assets/previews/VOX_SMOOTH_PULLBACK-reference.mp4).
 
 ## Как работать
 

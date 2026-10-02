@@ -86,3 +86,9 @@ These are standalone effects collected from one reviewed source segment, outside
 ## Standalone Vox effect VOX_FORMULA_BOARD
 
 A vertical distressed black board with a centered heading, three question boxes and three animated connector lines. Use [VoxFormulaBoard](../assets/techniques/vox-formula-board.tsx), its [recipe](../examples/vox-formula-board/effect.md) and [approved preview](../assets/previews/VOX_FORMULA_BOARD-reference.mp4). Copy the four texture files from `examples/vox-formula-board/public/`. This standalone scene is separate from the four-photo `PhotoTechnique` IDs.
+
+## Standalone Vox effect VOX_SMOOTH_PULLBACK
+
+**Теги:** плавный отъезд, плавное уменьшение масштаба, zoom out, flat image, надпись после зума, Vox.
+
+Один и тот же кадр плавно уменьшается без переключения между слоями. Одновременно появляются лёгкое размытие и затемнение; только по окончании отъезда входит белый титр с красным выделенным словом и стрелкой. Используй [VoxSmoothPullback](../assets/techniques/vox-smooth-pullback.tsx), [рецепт](../examples/vox-smooth-pullback/effect.md), [запускаемый пример](../examples/vox-smooth-pullback/README.md) и [утверждённое превью](../assets/previews/VOX_SMOOTH_PULLBACK-reference.mp4). Это самостоятельный эффект из [Vox Shorts](https://www.youtube.com/shorts/KkckBGX6Yho), а не элемент четырёхфотного `PhotoTechnique`.

@@ -1,0 +1,19 @@
+{
+  "name": "remotion-vox-smooth-pullback",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "render": "remotion render src/index.ts VoxSmoothPullback out/VOX_SMOOTH_PULLBACK.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "remotion": "4.0.527",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.7"
+  }
+}
