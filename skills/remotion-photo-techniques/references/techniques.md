@@ -82,3 +82,7 @@ These are standalone effects collected from one reviewed source segment, outside
 - `MAXOR_DARK_SOULS_OVERLAY` — progressive title reveal with an irregular, tinted video overlay across roughly two-thirds of frame. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_DARK_SOULS_OVERLAY-reference.mp4).
 - `MAXOR_METAL_GEAR_WORDMARK_BUILD` — a two-row, four-color wordmark assembles through hard word entrances and in-place spelling corrections. [Recipe and runnable component](../examples/maxor-approved-effects/effect.md), [preview](../assets/previews/MAXOR_METAL_GEAR_WORDMARK_BUILD-reference.mp4).
 - `MAXOR_DICE_GLITCH_QUOTE` — two fragmented glitch bands and a brief whole-scene RGB smear reveal a pixel quote; a real d20 falls inside the game card while the quote holds. [Recipe and runnable component](../../remotion-effect-recreation/examples/baldurs-gate-dice-glitch-fall-4105/effect.md), [preview](../assets/previews/MAXOR_DICE_GLITCH_QUOTE-reference.mp4).
+
+## Standalone Vox effect VOX_FORMULA_BOARD
+
+A vertical distressed black board with a centered heading, three question boxes and three animated connector lines. Use [VoxFormulaBoard](../assets/techniques/vox-formula-board.tsx), its [recipe](../examples/vox-formula-board/effect.md) and [approved preview](../assets/previews/VOX_FORMULA_BOARD-reference.mp4). Copy the four texture files from `examples/vox-formula-board/public/`. This standalone scene is separate from the four-photo `PhotoTechnique` IDs.
