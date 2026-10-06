@@ -29,6 +29,8 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 
 Для пяти одобренных эффектов из Shorts используй `ECHO`, `GLOW`, `CC_LENS`, `CC_PIXEL_POLLY`, `MOTION_TILE`: [компоненты](assets/techniques/shorts-five-effects.tsx), [запускаемый пример](examples/shorts-five-effects/README.md), [рецепты и параметры](examples/shorts-five-effects/effect.md). Echo создаёт задержанные копии движущегося слоя; Glow добавляет неоновый ореол; CC Lens изгибает всю композицию; Pixel Polly разрезает изображение на треугольные осколки; Motion Tile бесшовно повторяет и прокручивает ячейку. Эффекты работают отдельно от четырёхфотного `PhotoTechnique`; превью каждого ID находятся в `assets/previews`.
 
+Четыре утверждённых эффекта Maxor из фрагментов 00:50–01:10: `MG_GUITAR_ROCK_TITLE` (гитара и цветной RGB-титр), `MG_TOONTOWN_ARTICLE_COLLAGE` (логотип, фото и три статьи), `MG_FALLING_ABOVE_40` (раздельное падение слоёв и допись числа), `MG_OVAL_MEME_CAPTIONS` (овальная вставка и две встречные подписи). [Запускаемый пример](examples/metal-gear-approved-effects-50-70/README.md), [рецепты с таймингом](examples/metal-gear-approved-effects-50-70/effect.md) и точные утверждённые сравнения лежат вместе; чистые превью доступны в `assets/previews/`.
+
 ## Как работать
 
 1. Определи нужный приём, длительность, формат и предоставленные фотографии. Если приём уже назван, сразу используй соответствующую реализацию. Для выбора сравни геометрию в каталоге.

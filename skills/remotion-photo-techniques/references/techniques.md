@@ -83,6 +83,10 @@
 - `MG_CRT_SIGNAL_BREAKUP` — портрет в зелёном CRT-окне, широкие размытые полосы сигнала и сканлинии внутри окна. [Рецепт и запуск](../examples/metal-gear-approved-effects-2026/effect.md), [превью](../assets/previews/MG_CRT_SIGNAL_BREAKUP-reference.mp4).
 - `MG_SPLIT_WORDMARK_BUILD` — кастомный двухрядный логотип собирается жёсткими входами и заменой промежуточных написаний. [Рецепт и запуск](../examples/metal-gear-approved-effects-2026/effect.md), [превью](../assets/previews/MG_SPLIT_WORDMARK_BUILD-reference.mp4).
 - `MG_CYAN_NEON_EXIT` — циановый логотип с электрическими дугами цельной композицией уходит вверх. [Рецепт и запуск](../examples/metal-gear-approved-effects-2026/effect.md), [превью](../assets/previews/MG_CYAN_NEON_EXIT-reference.mp4).
+- `MG_GUITAR_ROCK_TITLE` — гитара влетает независимо от тонкого разноцветного RGB-титра; композиция растёт и растворяется через склейку. [Рецепт и запуск](../examples/metal-gear-approved-effects-50-70/effect.md), [превью](../assets/previews/MG_GUITAR_ROCK_TITLE-reference.mp4).
+- `MG_TOONTOWN_ARTICLE_COLLAGE` — логотип, центральное фото и три статьи появляются по отдельным тактам. [Рецепт и запуск](../examples/metal-gear-approved-effects-50-70/effect.md), [превью](../assets/previews/MG_TOONTOWN_ARTICLE_COLLAGE-reference.mp4).
+- `MG_FALLING_ABOVE_40` — персонаж, ноутбук и клинок падают раздельно, затем надпись дополняется числом и коллаж растворяется. [Рецепт и запуск](../examples/metal-gear-approved-effects-50-70/effect.md), [превью](../assets/previews/MG_FALLING_ABOVE_40-reference.mp4).
+- `MG_OVAL_MEME_CAPTIONS` — овальная мем-вставка и две встречные подписи покачиваются, увеличиваются и растворяются. [Рецепт и запуск](../examples/metal-gear-approved-effects-50-70/effect.md), [превью](../assets/previews/MG_OVAL_MEME_CAPTIONS-reference.mp4).
 
 These are standalone effects collected from one reviewed source segment, outside the numbered four-photo technique set. Use them as visual references and adapt text, footage, and frame timings to the new edit.
 
