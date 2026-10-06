@@ -53,3 +53,7 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 Для сферического искажения и раскрытия изображения используй `CC_LENS` — одобренную адаптацию CC Lens из Shorts: [LensWarp](assets/techniques/lens-warp.tsx), [пример и параметры](examples/cc-lens/effect.md), [превью](assets/previews/CC_LENS-reference.mp4). Теги: **сферическая линза**, **fisheye**, **CC Lens**. Эффект принимает одно изображение; собственная SVG-графика в примере заменяет графику оригинала.
 
 Для утверждённого `MG_MAP_COLLAGE_IRIS` («Движущаяся карта и круговой выход») используй [пример и рецепт](examples/metal-gear-map-collage-iris/README.md): карта панорамируется отдельно за игровым передним планом, меняет палитру и закрывается круглой маской. Демо — точная утверждённая v13.
+
+## Maxor: шесть приёмов 0:59–1:18
+
+Для `MAXOR_DOG_CAPTION_FRAME`, `MAXOR_GOD_FREED_FRAME`, `MAXOR_PART_ONE_DRIFT_CARD`, `MAXOR_LOGO_PRESS_ZOOM`, `MAXOR_KEYBOARD_FLASH_COLLAGE`, `MAXOR_CHARACTER_SMEAR_TITLE` используй [запускаемый пример](examples/maxor-batch8-effects/README.md) и [покадровые рецепты](examples/maxor-batch8-effects/effect.md). В третьем приёме после появления обе строки продолжают движение в разные стороны. Превью каждой карточки Maxor — точная последняя утверждённая версия без оригинального видео слева.

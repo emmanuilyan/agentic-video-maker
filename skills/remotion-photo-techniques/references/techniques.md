@@ -102,3 +102,12 @@ These are standalone effects collected from one reviewed source segment, outside
 ## MG_MAP_COLLAGE_IRIS
 
 Движущаяся карта за отдельным передним планом, смена палитры и круговой выход. [Компонент, параметры и рецепт](../examples/metal-gear-map-collage-iris/README.md), [утверждённое превью](../assets/previews/MG_MAP_COLLAGE_IRIS-reference.mp4).
+
+## Maxor: утверждённые приёмы 0:59–1:18
+
+- `MAXOR_DOG_CAPTION_FRAME` — красная открытая рамка, двухцветная нижняя подпись и RGB-акцент. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_DOG_CAPTION_FRAME-reference.mp4).
+- `MAXOR_GOD_FREED_FRAME` — крупный жёлтый титр в рамке, толчок и смена плана. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_GOD_FREED_FRAME-reference.mp4).
+- `MAXOR_PART_ONE_DRIFT_CARD` — поэтапный титр и две строки карточки, медленно расходящиеся после появления. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_PART_ONE_DRIFT_CARD-reference.mp4).
+- `MAXOR_LOGO_PRESS_ZOOM` — приближение логотипа и оптический удар фразы PRESS ANY BUTTON. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_LOGO_PRESS_ZOOM-reference.mp4).
+- `MAXOR_KEYBOARD_FLASH_COLLAGE` — три фрагмента, пересвет, движущийся фон, подпись и зум. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_KEYBOARD_FLASH_COLLAGE-reference.mp4).
+- `MAXOR_CHARACTER_SMEAR_TITLE` — смазанный переход, металлическое слово и две мем-вставки. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_CHARACTER_SMEAR_TITLE-reference.mp4).
