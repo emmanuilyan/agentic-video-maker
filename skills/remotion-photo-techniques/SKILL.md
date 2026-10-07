@@ -63,3 +63,7 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 ## Approved Metal Gear effects, 01:10–01:55
 
 For a logo that preserves bright UI, a menu zoom with an arrow, a gameplay squash into a meme strip, or a glitch portrait pileup, use [four approved recipes](examples/metal-gear-approved-effects-70-115/effect.md): `MG_LOGO_UI_BLEND`, `MG_SETTING_ARROW_ZOOM`, `MG_MEME_STRIP_SQUASH`, `MG_GLITCH_PORTRAIT_PILEUP`. The runnable example and latest user-approved previews are linked in [README](examples/metal-gear-approved-effects-70-115/README.md).
+
+## Approved Maxor effects, 80–84 seconds
+
+Use [three approved examples](examples/maxor-approved-effects-80-84/effect.md) for `MAXOR_COMIC_PRESENTATION`, `MAXOR_DIAGONAL_HAND_WIPE`, and `MAXOR_VERTICAL_CHAPEL_SLIT`: presentation layers, a diagonal footage wipe, or a widening central slit. Exact approved renders are attached to their Maxor gallery cards.
