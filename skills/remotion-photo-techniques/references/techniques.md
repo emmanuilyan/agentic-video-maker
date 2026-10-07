@@ -92,3 +92,9 @@ A vertical distressed black board with a centered heading, three question boxes 
 **Теги:** плавный отъезд, плавное уменьшение масштаба, zoom out, flat image, надпись после зума, Vox.
 
 Один и тот же кадр плавно уменьшается без переключения между слоями. Одновременно появляются лёгкое размытие и затемнение; только по окончании отъезда входит белый титр с красным выделенным словом и стрелкой. Используй [VoxSmoothPullback](../assets/techniques/vox-smooth-pullback.tsx), [рецепт](../examples/vox-smooth-pullback/effect.md), [запускаемый пример](../examples/vox-smooth-pullback/README.md) и [утверждённое превью](../assets/previews/VOX_SMOOTH_PULLBACK-reference.mp4). Это самостоятельный эффект из [Vox Shorts](https://www.youtube.com/shorts/KkckBGX6Yho), а не элемент четырёхфотного `PhotoTechnique`.
+
+## Standalone Vox effect VOX_NEWSPAPER_FOCUS_PUSH
+
+**Теги:** газетная анимация, newspaper reveal, небольшой отход назад, расфокус, приближение с возвратом резкости, focus push, Vox.
+
+В газетной карточке дата, заголовок, маркер, портрет, подпись и стрелка появляются разными слоями. Затем содержимое слегка уменьшается, теряет фокус и приближается; резкость возвращается во время приближения, а увеличенный масштаб сохраняется. Синяя рамка остаётся резкой. Используй [NewspaperFocusPush](../assets/techniques/vox-newspaper-focus-push.tsx), [рецепт](../examples/vox-newspaper-focus-push/effect.md), [запускаемый пример](../examples/vox-newspaper-focus-push/README.md) и [точное утверждённое превью](../assets/previews/VOX_NEWSPAPER_FOCUS_PUSH-reference.mp4). Эффект разобран по [короткому видео StanzMedia](https://www.youtube.com/shorts/_HU37rX4G1U); это самостоятельная сцена, а не элемент четырёхфотного `PhotoTechnique`.

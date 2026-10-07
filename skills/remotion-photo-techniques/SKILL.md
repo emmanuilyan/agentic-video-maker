@@ -1,6 +1,6 @@
 ---
 name: remotion-photo-techniques
-description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, photo transitions, kinetic text, yellow marker highlights, transparent outline-only text (TEXT_OUTLINE), color-blended text over footage (TEXT_BLEND_MODES), impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), approved short Maxor effects, VOX_FORMULA_BOARD, or a smooth zoom-out into a flat callout (VOX_SMOOTH_PULLBACK).
+description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, photo transitions, kinetic text, yellow marker highlights, transparent outline-only text (TEXT_OUTLINE), color-blended text over footage (TEXT_BLEND_MODES), impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), approved short Maxor effects, VOX_FORMULA_BOARD, VOX_SMOOTH_PULLBACK, or VOX_NEWSPAPER_FOCUS_PUSH.
 ---
 
 # Remotion Photo Techniques
@@ -20,6 +20,8 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 For the approved Vox infographic, use [VOX_FORMULA_BOARD](references/techniques.md#standalone-vox-effect-vox_formula_board): distressed black board, heading, three question boxes and **three animated connectors**. Tags: Vox, textured infographic, question boxes, three lines. See the [component](assets/techniques/vox-formula-board.tsx), [runnable example](examples/vox-formula-board/README.md), [recipe](examples/vox-formula-board/effect.md) and [exact approved preview](assets/previews/VOX_FORMULA_BOARD-reference.mp4). Copy all four texture files in the example's `public/` folder with the component.
 
 For a Vox-style shot that smoothly pulls back from a close photo into a softened, dimmed still before a callout appears, use [VOX_SMOOTH_PULLBACK](references/techniques.md#standalone-vox-effect-vox_smooth_pullback). Tags: плавный отъезд, zoom out, flat image, title after zoom. See the [component](assets/techniques/vox-smooth-pullback.tsx), [runnable example](examples/vox-smooth-pullback/README.md), [recipe](examples/vox-smooth-pullback/effect.md), and [exact approved preview](assets/previews/VOX_SMOOTH_PULLBACK-reference.mp4).
+
+For the approved newspaper animation with a slight handheld retreat, defocus, then a lasting push-in as focus returns, use [VOX_NEWSPAPER_FOCUS_PUSH](references/techniques.md#standalone-vox-effect-vox_newspaper_focus_push). Tags: газетная анимация, newspaper reveal, pullback, defocus, focus push. See the [reusable camera wrapper](assets/techniques/vox-newspaper-focus-push.tsx), [runnable article scene](examples/vox-newspaper-focus-push/README.md), [recipe](examples/vox-newspaper-focus-push/effect.md), and [exact approved preview](assets/previews/VOX_NEWSPAPER_FOCUS_PUSH-reference.mp4).
 
 ## Как работать
 
