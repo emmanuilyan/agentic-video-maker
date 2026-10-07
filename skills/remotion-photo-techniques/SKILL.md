@@ -56,3 +56,7 @@ Use [five approved examples](../remotion-effect-recreation/examples/baldurs-gate
 ## Approved BG3 batch73–82seconds
 
 Use [five approved examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-7390-8185/README.md) for `MAXOR_RED_EDGE_TITLES`, `MAXOR_GROWING_MEME_SWAP`, `MAXOR_STAGED_PERSUASION_GAG`, `MAXOR_RGB_MEME_POSTER`, and `MAXOR_RED_REACTION_CAPTION`. Includes frame timelines, independent overlays, RGB/blur/shake implementation and exact approved previews. Distinguish native gameplay from author layers as described in the recipe.
+
+## Approved BG3 captions83–93seconds
+
+Use [five approved approximate caption examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-8310-9285/README.md) for `MAXOR_GROWING_MEME_CAPTION`, `MAXOR_DETONATE_CAPTION`, `MAXOR_NECROMANCY_CAPTION`, `MAXOR_TWO_STAGE_METALLIC_CAST`, `MAXOR_DIALOGUE_ESCALATION`. Editable SVG fill/outline, growing captions, staged metallic gradient/depth and dialogue escalation. Exact user-approved v4 previews are included; font, background and intermediate-motion substitutions are documented in the recipe.
