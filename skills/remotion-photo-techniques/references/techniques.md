@@ -115,3 +115,10 @@ These are standalone effects collected from one reviewed source segment, outside
 - `MAXOR_LOGO_PRESS_ZOOM` — приближение логотипа и оптический удар фразы PRESS ANY BUTTON. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_LOGO_PRESS_ZOOM-reference.mp4).
 - `MAXOR_KEYBOARD_FLASH_COLLAGE` — три фрагмента, пересвет, движущийся фон, подпись и зум. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_KEYBOARD_FLASH_COLLAGE-reference.mp4).
 - `MAXOR_CHARACTER_SMEAR_TITLE` — смазанный переход, металлическое слово и две мем-вставки. [Рецепт](../examples/maxor-batch8-effects/effect.md), [превью](../assets/previews/MAXOR_CHARACTER_SMEAR_TITLE-reference.mp4).
+
+## Metal Gear: утверждённые приёмы 01:10–01:55
+
+- `MG_LOGO_UI_BLEND` — Логотип поверх интерфейса. [Рецепт](../examples/metal-gear-approved-effects-70-115/effect.md), [превью](../assets/previews/MG_LOGO_UI_BLEND-reference.mp4).
+- `MG_SETTING_ARROW_ZOOM` — Наезд на настройку со стрелкой. [Рецепт](../examples/metal-gear-approved-effects-70-115/effect.md), [превью](../assets/previews/MG_SETTING_ARROW_ZOOM-reference.mp4).
+- `MG_MEME_STRIP_SQUASH` — Сжатие видео в мем-полоску. [Рецепт](../examples/metal-gear-approved-effects-70-115/effect.md), [превью](../assets/previews/MG_MEME_STRIP_SQUASH-reference.mp4).
+- `MG_GLITCH_PORTRAIT_PILEUP` — Глитч-коллаж с разъездом фотографий. [Рецепт](../examples/metal-gear-approved-effects-70-115/effect.md), [превью](../assets/previews/MG_GLITCH_PORTRAIT_PILEUP-reference.mp4).

@@ -59,3 +59,7 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 ## Maxor: шесть приёмов 0:59–1:18
 
 Для `MAXOR_DOG_CAPTION_FRAME`, `MAXOR_GOD_FREED_FRAME`, `MAXOR_PART_ONE_DRIFT_CARD`, `MAXOR_LOGO_PRESS_ZOOM`, `MAXOR_KEYBOARD_FLASH_COLLAGE`, `MAXOR_CHARACTER_SMEAR_TITLE` используй [запускаемый пример](examples/maxor-batch8-effects/README.md) и [покадровые рецепты](examples/maxor-batch8-effects/effect.md). В третьем приёме после появления обе строки продолжают движение в разные стороны. Превью каждой карточки Maxor — точная последняя утверждённая версия без оригинального видео слева.
+
+## Approved Metal Gear effects, 01:10–01:55
+
+For a logo that preserves bright UI, a menu zoom with an arrow, a gameplay squash into a meme strip, or a glitch portrait pileup, use [four approved recipes](examples/metal-gear-approved-effects-70-115/effect.md): `MG_LOGO_UI_BLEND`, `MG_SETTING_ARROW_ZOOM`, `MG_MEME_STRIP_SQUASH`, `MG_GLITCH_PORTRAIT_PILEUP`. The runnable example and latest user-approved previews are linked in [README](examples/metal-gear-approved-effects-70-115/README.md).
