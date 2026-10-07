@@ -67,3 +67,7 @@ For a logo that preserves bright UI, a menu zoom with an arrow, a gameplay squas
 ## Approved Maxor effects, 80–84 seconds
 
 Use [three approved examples](examples/maxor-approved-effects-80-84/effect.md) for `MAXOR_COMIC_PRESENTATION`, `MAXOR_DIAGONAL_HAND_WIPE`, and `MAXOR_VERTICAL_CHAPEL_SLIT`: presentation layers, a diagonal footage wipe, or a widening central slit. Exact approved renders are attached to their Maxor gallery cards.
+
+## Approved Maxor composite and quote
+
+Use [the composite example and quote recipe](examples/maxor-chapel-neon-sequence/effect.md) for `MAXOR_CHAPEL_SKELETON_NEON_SEQUENCE` (effects3–5 as one montage) and `MAXOR_FROM_SOFTWARE_QUOTE` (heading, portrait and translucent speech bubble). Exact saved previews appear in Maxor.
