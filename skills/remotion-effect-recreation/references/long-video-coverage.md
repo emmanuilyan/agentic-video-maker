@@ -14,4 +14,6 @@ Use this file to resume a multipart visual analysis without skipping a cut at a 
 
 | Same source | Five approved effects73.90–74.65,75.43–76.32,77.42–78.65,78.55–79.17,81.20–81.85; gaps not claimed as complete coverage | [Approved73–82batch](../examples/baldurs-gate-approved-effects-7390-8185/effect.md) | Resume81.70 with overlap. Native spell VFX and repeated Rizz title excluded from candidate overview. |
 
-| Same source | Five approved approximate rebuilds83.10–84.02,86.62–87.22,88.25–88.85,88.73–90.02,89.95–92.85; gaps not claimed as coverage | [Approved83–93batch](../examples/baldurs-gate-approved-effects-8310-9285/effect.md) | STOP at user request2026-10-07. Resume only on explicit request, from92.75 with overlap. |
+| Same source | Five approved approximate rebuilds83.10–84.02,86.62–87.22,88.25–88.85,88.73–90.02,89.95–92.85; gaps not claimed as coverage | [Approved83–93batch](../examples/baldurs-gate-approved-effects-8310-9285/effect.md) | Resumed explicitly for non-text selection/recreation on2026-10-07; see next row. |
+
+| Same source | Five approved non-text examples96.20–97.50,108.00–109.05,136.65–138.05,151.55–153.05,153.80–155.00. Inspected92.50–160.00; gaps not claimed as complete coverage. Frozen media and simulated degradation limits documented. | [Approved non-text batch](../examples/baldurs-gate-approved-nontext-9620-15500/effect.md) | User requested continuation. Inspect159.50 onward with overlap for next five non-text candidates. |

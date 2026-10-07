@@ -83,3 +83,7 @@ Use [five approved examples](examples/baldurs-gate-approved-effects-7390-8185/RE
 ## Approved BG3 captions83–93seconds
 
 Use [five approved approximate caption examples](examples/baldurs-gate-approved-effects-8310-9285/README.md) for `MAXOR_GROWING_MEME_CAPTION`, `MAXOR_DETONATE_CAPTION`, `MAXOR_NECROMANCY_CAPTION`, `MAXOR_TWO_STAGE_METALLIC_CAST`, `MAXOR_DIALOGUE_ESCALATION`. Editable SVG fill/outline, growing captions, staged metallic gradient/depth and dialogue escalation. Exact user-approved v4 previews are included; font, background and intermediate-motion substitutions are documented in the recipe.
+
+## Approved non-text Maxor effects96–155seconds
+
+For cutout replacement, paired card growth, RGB hand collage, impact camera zoom or simulated block degradation, use [five approved recipes](examples/baldurs-gate-approved-nontext-9620-15500/effect.md). IDs: `MAXOR_CUTOUT_CARD_SWAP`, `MAXOR_PAIRED_IMAGE_GROWTH`, `MAXOR_HAND_COLLAGE_RGB`, `MAXOR_IMPACT_CAMERA_ZOOM`, `MAXOR_BLOCK_FRAME_DEGRADATION`. Exact approved previews are linked in the example. Preserve documented frozen-background, frozen-explosion and simulated-codec limits; no independent ChatGPT verdict was obtained because its limit was exhausted.
