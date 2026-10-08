@@ -75,3 +75,7 @@ Use [the composite example and quote recipe](examples/maxor-chapel-neon-sequence
 ## Approved Maxor effects, 91–108 seconds
 
 Use [six approved examples](examples/maxor-approved-effects-91-108/effect.md) for `MAXOR_HOLE_SLIDE_TITLE`, `MAXOR_FUN_RED_IMPACT`, `MAXOR_MAKING_FRIENDS_ZOOM`, `MAXOR_LIFE_STAGED_CAPTION`, `MAXOR_TOUCH_GRASS_COLLAGE`, and `MAXOR_WELCOME_LIMGRAVE`. Includes exact approved previews, frame timelines and documented static-background/blend approximations.
+
+## Approved Maxor effects, 108–120 seconds
+
+For a centered location title, paired tree inserts, a two-color name reveal, a character cutout swap, a red-circle pulse or a typewriter quote box, use [six approved examples](examples/maxor-approved-effects-108-120/effect.md). IDs: `MAXOR_LIMGRAVE_CENTER_TITLE`, `MAXOR_PAIRED_TREE_INSERTS`, `MAXOR_MARTIN_NAME_REVEAL`, `MAXOR_WALTER_CHARACTER_SWAP`, `MAXOR_RED_CIRCLE_PULSE`, `MAXOR_TYPEWRITER_QUOTE_BOX`. Exact approved previews, frame timing and still-background/mask limits are included.

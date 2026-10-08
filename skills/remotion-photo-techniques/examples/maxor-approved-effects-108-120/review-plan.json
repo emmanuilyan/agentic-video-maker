@@ -1,0 +1,38 @@
+[
+  {
+    "composition": "01-limgrave",
+    "sourceStart": 108.0,
+    "sourceEnd": 109.0,
+    "version": 7
+  },
+  {
+    "composition": "02-tree-inserts",
+    "sourceStart": 109.05,
+    "sourceEnd": 110.35,
+    "version": 8
+  },
+  {
+    "composition": "03-martin-name",
+    "sourceStart": 112.8,
+    "sourceEnd": 114.1,
+    "version": 7
+  },
+  {
+    "composition": "04-walter-swap",
+    "sourceStart": 115.55,
+    "sourceEnd": 116.9,
+    "version": 8
+  },
+  {
+    "composition": "05-red-circle",
+    "sourceStart": 117.9,
+    "sourceEnd": 118.7,
+    "version": 2
+  },
+  {
+    "composition": "06-shower-quote",
+    "sourceStart": 118.75,
+    "sourceEnd": 120.1,
+    "version": 7
+  }
+]
