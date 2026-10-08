@@ -68,3 +68,7 @@ For cutout replacement, paired card growth, RGB hand collage, impact camera zoom
 ## Approved non-text Maxor effects164–217seconds
 
 For selective color, UI collage, dark focus, an in-panel meme reveal or RGB reaction entry, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-16480-21680/effect.md). IDs: `MAXOR_SELECTIVE_COLOR`, `MAXOR_UI_COLLAGE`, `MAXOR_DARK_FOCUS`, `MAXOR_MEME_IN_UI`, `MAXOR_REACTION_GLITCH`. Preserve the documented frozen footage and restored background limits. The exact approved renders are included; ChatGPT review was unavailable.
+
+## Approved non-text Maxor effects227–257seconds
+
+For staged meme cards, a two-shot dissolve, monochrome focus, a head-anchored mind orb or a full-frame-to-editor reveal, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-22730-25655/effect.md). IDs: `MAXOR_STAGED_MEME_COLLAGE`, `MAXOR_DOUBLE_EXPOSURE`, `MAXOR_MONOCHROME_FOCUS`, `MAXOR_MIND_ORB`, `MAXOR_EDITOR_REVEAL`. Import reusable components from src/effects.tsx. Preserve the documented frozen footage, restored orb and native-VFX attribution limits. These are user-approved approximations; no independent ChatGPT verdict was obtained.
