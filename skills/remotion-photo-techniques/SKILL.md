@@ -64,3 +64,7 @@ Use [five approved approximate caption examples](../remotion-effect-recreation/e
 ## Approved non-text Maxor effects96–155seconds
 
 For cutout replacement, paired card growth, RGB hand collage, impact camera zoom or simulated block degradation, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-9620-15500/effect.md). IDs: `MAXOR_CUTOUT_CARD_SWAP`, `MAXOR_PAIRED_IMAGE_GROWTH`, `MAXOR_HAND_COLLAGE_RGB`, `MAXOR_IMPACT_CAMERA_ZOOM`, `MAXOR_BLOCK_FRAME_DEGRADATION`. Exact approved previews are linked in the example. Preserve documented frozen-background, frozen-explosion and simulated-codec limits; no independent ChatGPT verdict was obtained because its limit was exhausted.
+
+## Approved non-text Maxor effects164–217seconds
+
+For selective color, UI collage, dark focus, an in-panel meme reveal or RGB reaction entry, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-16480-21680/effect.md). IDs: `MAXOR_SELECTIVE_COLOR`, `MAXOR_UI_COLLAGE`, `MAXOR_DARK_FOCUS`, `MAXOR_MEME_IN_UI`, `MAXOR_REACTION_GLITCH`. Preserve the documented frozen footage and restored background limits. The exact approved renders are included; ChatGPT review was unavailable.
