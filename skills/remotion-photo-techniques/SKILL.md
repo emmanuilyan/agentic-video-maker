@@ -83,3 +83,7 @@ For a centered location title, paired tree inserts, a two-color name reveal, a c
 ## Approved Metal Gear effects, 146–192 seconds
 
 Use [four approved examples](examples/metal-gear-approved-effects-146-192/README.md) for `MG_NEON_CHARACTER_TITLE`, `MG_SPEEDLINE_GLITCH_BURST`, `MG_PIXEL_DIALOG_SLIDE`, `MG_DIAGONAL_CUTOUT_PILEUP`. Exact approved component code, previews, frame timelines and documented background/typography approximations are included.
+
+## Approved Maxor effects,119–126 seconds
+
+For a staged helmet collage, rainbow depth title, meme aura, chromatic fringe, sliding meme card or talking-mouth overlay, use [six approved examples](examples/maxor-approved-effects-119-126/effect.md). IDs: `MAXOR_HELMET_COLLAGE`, `MAXOR_HELMET_RAINBOW_TITLE`, `MAXOR_MEME_AURA`, `MAXOR_CRINGE_CHROMATIC_FRINGE`, `MAXOR_MAIDEN_MEME_SLIDE`, `MAXOR_TALKING_MOUTH_OVERLAY`. Exact approved previews and frame timelines included; retain the documented still-background, glyph and speech approximations.

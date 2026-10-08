@@ -1,0 +1,38 @@
+[
+  {
+    "composition": "01-helmets",
+    "sourceStart": 119.85,
+    "sourceEnd": 120.95,
+    "version": 10
+  },
+  {
+    "composition": "02-helmet-title",
+    "sourceStart": 120.85,
+    "sourceEnd": 121.6,
+    "version": 7
+  },
+  {
+    "composition": "03-rick-aura",
+    "sourceStart": 122.35,
+    "sourceEnd": 123.2,
+    "version": 8
+  },
+  {
+    "composition": "04-cringe-glitch",
+    "sourceStart": 123.1,
+    "sourceEnd": 123.517,
+    "version": 8
+  },
+  {
+    "composition": "05-maiden-meme",
+    "sourceStart": 123.43,
+    "sourceEnd": 123.997,
+    "version": 8
+  },
+  {
+    "composition": "06-face-talk",
+    "sourceStart": 123.85,
+    "sourceEnd": 126.45,
+    "version": 4
+  }
+]
