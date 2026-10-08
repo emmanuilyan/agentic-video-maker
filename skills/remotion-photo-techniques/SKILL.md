@@ -71,3 +71,7 @@ Use [three approved examples](examples/maxor-approved-effects-80-84/effect.md) f
 ## Approved Maxor composite and quote
 
 Use [the composite example and quote recipe](examples/maxor-chapel-neon-sequence/effect.md) for `MAXOR_CHAPEL_SKELETON_NEON_SEQUENCE` (effects3–5 as one montage) and `MAXOR_FROM_SOFTWARE_QUOTE` (heading, portrait and translucent speech bubble). Exact saved previews appear in Maxor.
+
+## Approved Maxor effects, 91–108 seconds
+
+Use [six approved examples](examples/maxor-approved-effects-91-108/effect.md) for `MAXOR_HOLE_SLIDE_TITLE`, `MAXOR_FUN_RED_IMPACT`, `MAXOR_MAKING_FRIENDS_ZOOM`, `MAXOR_LIFE_STAGED_CAPTION`, `MAXOR_TOUCH_GRASS_COLLAGE`, and `MAXOR_WELCOME_LIMGRAVE`. Includes exact approved previews, frame timelines and documented static-background/blend approximations.
