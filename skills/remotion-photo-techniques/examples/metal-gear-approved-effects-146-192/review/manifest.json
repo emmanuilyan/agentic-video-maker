@@ -1,0 +1,59 @@
+{
+  "chat": "https://chatgpt.com/c/6ac7603b-6968-83ed-8c2b-8495bff3678d",
+  "status": "all-ready-awaiting-user-review",
+  "files": [
+    {
+      "name": "SamNameplate",
+      "version": 4,
+      "frames": 69,
+      "fps": 60,
+      "width": 2560,
+      "height": 720,
+      "sourceStart": 146.65,
+      "sourceEnd": 147.8,
+      "path": "/Users/mac/PycharmProjects/video-maker/agentic-video-maker/out/metal-gear-batch5/previews/SamNameplate-v4.mp4",
+      "sha256": "fab8d96f43269d74a6a337ec5a5009a6d8721d5475186262513e952e16863cb6",
+      "verdict": "READY"
+    },
+    {
+      "name": "PixelDialog",
+      "version": 3,
+      "frames": 90,
+      "fps": 60,
+      "width": 2560,
+      "height": 720,
+      "sourceStart": 183.15,
+      "sourceEnd": 184.65,
+      "path": "/Users/mac/PycharmProjects/video-maker/agentic-video-maker/out/metal-gear-batch5/previews/PixelDialog-v3.mp4",
+      "sha256": "dfc61083b7186655a5df64cf7a6f30d8ac6fb5d5c70b478e3f6e9c3acd57acbc",
+      "verdict": "READY"
+    },
+    {
+      "name": "PrehistoricPileup",
+      "version": 3,
+      "frames": 93,
+      "fps": 60,
+      "width": 2560,
+      "height": 720,
+      "sourceStart": 189.85,
+      "sourceEnd": 191.4,
+      "path": "/Users/mac/PycharmProjects/video-maker/agentic-video-maker/out/metal-gear-batch5/previews/PrehistoricPileup-v3.mp4",
+      "sha256": "43d6deae7b487312a0ba0800e2468d78056721b4ea9284eb4c61d40601089753",
+      "verdict": "READY"
+    },
+    {
+      "name": "SpeedlineGlitch",
+      "version": 10,
+      "frames": 207,
+      "fps": 60,
+      "width": 2560,
+      "height": 720,
+      "sourceStart": 161.05,
+      "sourceEnd": 164.5,
+      "path": "/Users/mac/PycharmProjects/video-maker/agentic-video-maker/out/metal-gear-batch5/previews/SpeedlineGlitch-v10.mp4",
+      "sha256": "e2357a48d2403628937a221782931913db8c81e38cd25efccc0bbe944a26e6e3",
+      "verdict": "READY"
+    }
+  ],
+  "reviewMethod": "All 207 sequential frames plus six enlarged frames; no playback. Three earlier READY verdicts retained."
+}

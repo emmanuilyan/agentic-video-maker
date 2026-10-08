@@ -1,0 +1,34 @@
+import React from 'react';
+import {AbsoluteFill,Img,OffthreadVideo,Sequence,staticFile,interpolate} from 'remotion';
+import {EffectProps} from './Comparison';
+const mix=(f:number,a:number[],b:number[])=>interpolate(f,a,b,{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+export const SamNameplate:React.FC<EffectProps>=({frame:f})=>{
+ const x=mix(f,[0,9,10,14,25,41,42,49],[-850,-850,-740,-170,0,0,140,1400]);
+ return <AbsoluteFill><OffthreadVideo src={staticFile("assets/sam-background.mp4")} muted style={{width:1280,height:720}}/><Img src={staticFile('assets/sam-title.png')} style={{position:'absolute',left:35+x,top:15,width:765,height:415}}/><div style={{position:'absolute',left:mix(f,[16,26,40,49],[-800,35,35,1450]),bottom:15,font:'italic 64px Arial',width:900,whiteSpace:'nowrap',letterSpacing:-2,transform:'scaleX(.925)',transformOrigin:'left',background:'linear-gradient(90deg,#eaff00 0%,#c1ed00 30%,#41988c 42%,#41a4a7 100%)',backgroundClip:'text',color:'transparent',WebkitTextStroke:'1px #3338'}}>INTERNET CONNOISSEUR</div></AbsoluteFill>;
+};
+export const SpeedlineGlitch:React.FC<EffectProps>=({frame:f})=>{
+ const glow=mix(f,[100,125,182],[0,1,1.8]);
+ const hole=mix(f,[182,188,192],[0,680,900]);
+ const visible=f>=101&&f<192;
+ const noise=(i:number)=>{const v=Math.sin(i*127.1+Math.floor(f/2)*311.7)*43758.5453;return v-Math.floor(v);};
+ const edge=Array.from({length:72},(_,i)=>{const a=i*Math.PI/36;const r=glow*(245+noise(i)*55);return `${640+Math.cos(a)*r}px ${360+Math.sin(a)*r}px`;}).join(', ');
+ return <AbsoluteFill>
+  <svg width="0" height="0"><defs><filter id="pixelBurst" x="-10%" y="-10%" width="120%" height="120%"><feComponentTransfer><feFuncR type="discrete" tableValues="0 .1 .3 .8 1"/><feFuncG type="discrete" tableValues="0 .15 .5 .9 1"/><feFuncB type="discrete" tableValues="0 .05 .2 .75 1"/></feComponentTransfer><feColorMatrix type="matrix" values=".12 .04 .06 0 .01  .4 .9 .25 0 .08  .15 .42 .15 0 .1  0 0 0 1 0"/></filter><filter id="textTear"><feTurbulence type="fractalNoise" baseFrequency=".02 .16" numOctaves="1" seed={Math.floor(f/3)%17}/><feDisplacementMap in="SourceGraphic" scale={mix(f,[104,150,180],[15,8,4])} xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
+  <Sequence durationInFrames={90}><OffthreadVideo src={staticFile('assets/lines-background.mp4')} muted style={{width:1280,height:720}}/></Sequence>
+  <Sequence from={90}><OffthreadVideo src={staticFile('assets/lines-background.mp4')} muted style={{width:1280,height:720}}/></Sequence>
+  {f>=182&&<Img src={staticFile('assets/lines-next.png')} style={{position:'absolute',width:1280,height:720}}/>}
+  {f<192&&<><AbsoluteFill style={{background:'#3820a5',opacity:.15}}/><svg width="1280" height="720" style={{position:'absolute'}}>{Array.from({length:60},(_,i)=>{const a=i*2.399+Math.floor(f/3)*.025;const x=Math.cos(a),y=Math.sin(a);const r=450+(i*71+f*37)%200;return <line key={i} x1={640+x*r} y1={360+y*r*.6} x2={640+x*(r+180+i%4*40)} y2={360+y*(r+180+i%4*40)*.6} stroke={i%3?'#eba0ff':'white'} strokeWidth={i%5===0?13:5}/>;})}</svg></>}
+  {visible&&<div style={{position:'absolute',width:1280,height:720,WebkitMaskImage:`radial-gradient(circle at 50% 50%,transparent ${hole}px,black ${hole+2}px)`}}>
+   <div style={{position:'absolute',left:640-glow*270,top:360-glow*245,width:glow*540,height:glow*490,background:'radial-gradient(ellipse,#c4ffe2 0%,#38ffb0 30%,#00ef39 57%,transparent 76%)',filter:'blur(18px)',opacity:.82}}/>
+   <div style={{position:'absolute',width:1280,height:720,clipPath:`polygon(${edge})`,opacity:.64,WebkitMaskImage:`radial-gradient(ellipse ${glow*275}px ${glow*250}px at 50% 50%,black 0%,black 45%,#0009 65%,transparent 95%)`}}><OffthreadVideo src={staticFile('assets/pixel-texture.mp4')} muted style={{width:1280,height:720,transform:`scale(${1+glow*.4})`}}/></div>
+   <svg width="1280" height="720" style={{position:'absolute'}}>{Array.from({length:65},(_,i)=>{const a=noise(i+72)*Math.PI*2;const r=noise(i+142)*glow*295;const x=640+Math.cos(a)*r,y=360+Math.sin(a)*r;return <rect key={i} x={x} y={y} width={12+noise(i+230)*105} height={3+noise(i+315)*38} fill={['#00ff32','#2affa0','#00af18','#fa4163','#9ffff0'][i%5]} opacity={.15+noise(i+390)*.4}/>;})}</svg>
+   {f>=132&&<svg width="1280" height="720" style={{position:'absolute',clipPath:`polygon(${edge})`,WebkitMaskImage:`radial-gradient(ellipse ${glow*245}px ${glow*220}px at 50% 50%,black 45%,transparent 90%)`}}>{Array.from({length:7},(_,i)=>{const x=480+noise(i+940)*300,y=170+noise(i+1010)*340,a=noise(i+1080)*Math.PI;return <line key={i} x1={x} y1={y} x2={x+Math.cos(a)*(120+noise(i+1150)*200)} y2={y+Math.sin(a)*(120+noise(i+1150)*200)} stroke={i%3?'#041008':'#d5ffeb'} strokeWidth={4+noise(i+1220)*17} opacity={.55}/>;})}</svg>}<Img src={staticFile('assets/glitch-title.png')} style={{position:'absolute',left:265,top:260,width:740,height:175,opacity:mix(f,[101,125],[0,1]),transform:`scale(${mix(f,[104,130,150,182],[.18,.55,.9,1.08])}) skewX(${Math.sin(f*1.7)*2}deg)`,filter:`url(#textTear) drop-shadow(${Math.sin(f*3)*5}px 2px 0 #ff255f)`}}/>
+   {f<164&&<svg width="1280" height="720" style={{position:'absolute'}}>{Array.from({length:8},(_,i)=><rect key={i} x={470+noise(i+500)*310} y={310+noise(i+600)*95} width={15+noise(i+700)*70} height={2+noise(i+800)*12} fill={i%3?'#00ff59':'#cffff4'} opacity={mix(f,[104,145,164],[.8,.45,0])}/>)}</svg>}
+  </div>}
+ </AbsoluteFill>;
+};
+export const PixelDialog:React.FC<EffectProps>=({frame:f})=><AbsoluteFill><OffthreadVideo src={staticFile("assets/dialog-background.mp4")} muted style={{width:1280,height:720}}/>{f>=83&&<Img src={staticFile("assets/dialog-next.png")} style={{position:"absolute",width:1280,height:720}}/>}{f>=4&&f<83&&<Img src={staticFile('assets/pixel-dialog.png')} style={{position:'absolute',left:438,top:mix(f,[4,8,12],[718,594,566]),width:405,height:114}}/>}</AbsoluteFill>;
+export const PrehistoricPileup:React.FC<EffectProps>=({frame:f})=>{
+ const items=[{name:'mammoth',x:842,y:365,w:417,h:334,start:1},{name:'tiger',x:47,y:460,w:391,h:222,start:9},{name:'rex',x:0,y:13,w:404,h:331,start:16},{name:'rhino',x:813,y:0,w:434,h:353,start:33}];
+ const exit=mix(f,[74,81],[0,1]);return <AbsoluteFill><Img src={staticFile('assets/animals-next.png')} style={{position:'absolute',width:1280,height:720}}/><div style={{position:'absolute',width:1280,height:720,clipPath:`polygon(${exit*2300}px 0,1280px 0,1280px 720px,${exit*2300-1020}px 720px)`}}><OffthreadVideo src={staticFile("assets/animals-background.mp4")} muted style={{width:1280,height:720}}/>{items.map(p=>f>=p.start&&<Img key={p.name} src={staticFile(`assets/${p.name}.png`)} style={{position:'absolute',left:p.x+mix(f,[p.start,p.start+5],[p.x<500?-420:430,0]),top:p.y+(p.name==='rex'||p.name==='rhino'?mix(f,[p.start,p.start+5],[-250,0]):0),width:p.w,height:p.h,transformOrigin:'center'}}/>)}</div></AbsoluteFill>;
+};

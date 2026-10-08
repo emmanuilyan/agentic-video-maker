@@ -122,3 +122,7 @@ These are standalone effects collected from one reviewed source segment, outside
 - `MG_SETTING_ARROW_ZOOM` — Наезд на настройку со стрелкой. [Рецепт](../examples/metal-gear-approved-effects-70-115/effect.md), [превью](../assets/previews/MG_SETTING_ARROW_ZOOM-reference.mp4).
 - `MG_MEME_STRIP_SQUASH` — Сжатие видео в мем-полоску. [Рецепт](../examples/metal-gear-approved-effects-70-115/effect.md), [превью](../assets/previews/MG_MEME_STRIP_SQUASH-reference.mp4).
 - `MG_GLITCH_PORTRAIT_PILEUP` — Глитч-коллаж с разъездом фотографий. [Рецепт](../examples/metal-gear-approved-effects-70-115/effect.md), [превью](../assets/previews/MG_GLITCH_PORTRAIT_PILEUP-reference.mp4).
+
+## Approved Metal Gear effects, 146–192 seconds
+
+Use [four approved examples](../examples/metal-gear-approved-effects-146-192/README.md) for `MG_NEON_CHARACTER_TITLE`, `MG_SPEEDLINE_GLITCH_BURST`, `MG_PIXEL_DIALOG_SLIDE`, `MG_DIAGONAL_CUTOUT_PILEUP`. Exact approved component code, previews, frame timelines and documented background/typography approximations are included.

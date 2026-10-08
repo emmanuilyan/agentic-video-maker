@@ -1,0 +1,6 @@
+import React from 'react';
+import {AbsoluteFill,Composition,useCurrentFrame} from 'remotion';
+import {Comparison} from './Comparison';
+import {SamNameplate,SpeedlineGlitch,PixelDialog,PrehistoricPileup} from './Effects';
+const items=[{id:'MG-NEON-CHARACTER-TITLE',n:69,src:'sam-source.mp4',label:'02:26.650–02:27.800',effect:SamNameplate},{id:'MG-SPEEDLINE-GLITCH-BURST',n:207,src:'lines-source.mp4',label:'02:41.050–02:44.500',effect:SpeedlineGlitch},{id:'MG-PIXEL-DIALOG-SLIDE',n:90,src:'dialog-source.mp4',label:'03:03.150–03:04.650',effect:PixelDialog},{id:'MG-DIAGONAL-CUTOUT-PILEUP',n:93,src:'animals-source.mp4',label:'03:09.850–03:11.400',effect:PrehistoricPileup}];
+export const Root:React.FC=()=> <>{items.map(p=>{const Standalone:React.FC=()=>{const frame=useCurrentFrame();return <AbsoluteFill><p.effect frame={frame} duration={p.n}/></AbsoluteFill>};return <React.Fragment key={p.id}><Composition id={p.id} component={Standalone} width={1280} height={720} fps={60} durationInFrames={p.n}/><Composition id={`${p.id}-REVIEW`} component={()=> <Comparison source={p.src} label={p.label} duration={p.n} effect={p.effect}/>} width={2560} height={720} fps={60} durationInFrames={p.n}/></React.Fragment>})}</>;

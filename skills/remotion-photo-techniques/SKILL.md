@@ -79,3 +79,7 @@ Use [six approved examples](examples/maxor-approved-effects-91-108/effect.md) fo
 ## Approved Maxor effects, 108–120 seconds
 
 For a centered location title, paired tree inserts, a two-color name reveal, a character cutout swap, a red-circle pulse or a typewriter quote box, use [six approved examples](examples/maxor-approved-effects-108-120/effect.md). IDs: `MAXOR_LIMGRAVE_CENTER_TITLE`, `MAXOR_PAIRED_TREE_INSERTS`, `MAXOR_MARTIN_NAME_REVEAL`, `MAXOR_WALTER_CHARACTER_SWAP`, `MAXOR_RED_CIRCLE_PULSE`, `MAXOR_TYPEWRITER_QUOTE_BOX`. Exact approved previews, frame timing and still-background/mask limits are included.
+
+## Approved Metal Gear effects, 146–192 seconds
+
+Use [four approved examples](examples/metal-gear-approved-effects-146-192/README.md) for `MG_NEON_CHARACTER_TITLE`, `MG_SPEEDLINE_GLITCH_BURST`, `MG_PIXEL_DIALOG_SLIDE`, `MG_DIAGONAL_CUTOUT_PILEUP`. Exact approved component code, previews, frame timelines and documented background/typography approximations are included.
