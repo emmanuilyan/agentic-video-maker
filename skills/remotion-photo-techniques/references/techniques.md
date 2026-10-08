@@ -126,3 +126,7 @@ These are standalone effects collected from one reviewed source segment, outside
 ## Approved Metal Gear effects, 146–192 seconds
 
 Use [four approved examples](../examples/metal-gear-approved-effects-146-192/README.md) for `MG_NEON_CHARACTER_TITLE`, `MG_SPEEDLINE_GLITCH_BURST`, `MG_PIXEL_DIALOG_SLIDE`, `MG_DIAGONAL_CUTOUT_PILEUP`. Exact approved component code, previews, frame timelines and documented background/typography approximations are included.
+
+## Approved Metal Gear effects, 195–230 seconds
+
+Use [four approved examples](../examples/metal-gear-approved-effects-195-230/README.md) for `MG_BLUE_TITLE_EXIT`, `MG_POV_COLOR_EDGES`, `MG_RED_SCANNING_HUD`, `MG_CUT_EXTENDED_CAPTION`. Includes independent title, color-edge, scanning HUD and cut-persistent caption layers, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.

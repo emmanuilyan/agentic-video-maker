@@ -1,0 +1,51 @@
+{
+  "status": "user-approved",
+  "chat": "https://chatgpt.com/c/6ac7603b-6968-83ed-8c2b-8495bff3678d",
+  "files": [
+    {
+      "name": "VergilTitle",
+      "version": 4,
+      "sourceStart": 195.3,
+      "sourceEnd": 197.7,
+      "frames": 144,
+      "fps": 60,
+      "path": "approved-comparisons/VergilTitle-v4.mp4",
+      "sha256": "f4289685ba5238152e1db835c87f9c0980ddbb7e0df8f0d2dd45b6372120a2be",
+      "verdict": "READY"
+    },
+    {
+      "name": "PovRGB",
+      "version": 3,
+      "sourceStart": 216.4,
+      "sourceEnd": 217.5,
+      "frames": 66,
+      "fps": 60,
+      "path": "approved-comparisons/PovRGB-v3.mp4",
+      "sha256": "6d6959de621085e9078f6b0df99f1ce4ec7fbde695259f733df563ad003eb153",
+      "verdict": "READY"
+    },
+    {
+      "name": "RedHUD",
+      "version": 10,
+      "sourceStart": 219.2,
+      "sourceEnd": 220.8,
+      "frames": 96,
+      "fps": 60,
+      "path": "approved-comparisons/RedHUD-v10.mp4",
+      "sha256": "1f135f80e22084452ceb1d7215e02b1bafb056968557a4db7ff25e4cbca380d9",
+      "verdict": "READY"
+    },
+    {
+      "name": "PresidentCaption",
+      "version": 3,
+      "sourceStart": 228,
+      "sourceEnd": 230,
+      "frames": 120,
+      "fps": 60,
+      "path": "approved-comparisons/PresidentCaption-v3.mp4",
+      "sha256": "3678dccddde0d62ab760a812dcfcfb669474c89e649d8856efa6131f4bedb914",
+      "verdict": "READY"
+    }
+  ],
+  "approvedOn": "2026-10-08"
+}

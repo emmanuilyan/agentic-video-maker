@@ -87,3 +87,7 @@ Use [four approved examples](examples/metal-gear-approved-effects-146-192/README
 ## Approved Maxor effects,119–126 seconds
 
 For a staged helmet collage, rainbow depth title, meme aura, chromatic fringe, sliding meme card or talking-mouth overlay, use [six approved examples](examples/maxor-approved-effects-119-126/effect.md). IDs: `MAXOR_HELMET_COLLAGE`, `MAXOR_HELMET_RAINBOW_TITLE`, `MAXOR_MEME_AURA`, `MAXOR_CRINGE_CHROMATIC_FRINGE`, `MAXOR_MAIDEN_MEME_SLIDE`, `MAXOR_TALKING_MOUTH_OVERLAY`. Exact approved previews and frame timelines included; retain the documented still-background, glyph and speech approximations.
+
+## Approved Metal Gear effects, 195–230 seconds
+
+Use [four approved examples](examples/metal-gear-approved-effects-195-230/README.md) for `MG_BLUE_TITLE_EXIT`, `MG_POV_COLOR_EDGES`, `MG_RED_SCANNING_HUD`, `MG_CUT_EXTENDED_CAPTION`. Includes independent title, color-edge, scanning HUD and cut-persistent caption layers, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
