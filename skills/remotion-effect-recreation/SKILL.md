@@ -99,3 +99,7 @@ For staged meme cards, a two-shot dissolve, monochrome focus, a head-anchored mi
 ## Approved non-text Maxor effects274–335seconds
 
 For a rough matte, color thaw with radial zoom, directional RGB smear, cat focus with meme overlay or inventory punch with insert, use [five approved recipes](examples/baldurs-gate-approved-nontext-27445-33535/effect.md). IDs: `MAXOR_ROUGH_MATTE`, `MAXOR_COLOR_THAW_ZOOM`, `MAXOR_DIRECTIONAL_RGB_SMEAR`, `MAXOR_CAT_FOCUS_MEME`, `MAXOR_INVENTORY_PUNCH_INSERT`. Import reusable components from src/effects.tsx. Exact approved renders are in out/. Preserve the documented frozen gameplay, raster caption and repaired background limits. All five passed independent ChatGPT frame review before user approval.
+
+## Approved non-text Maxor effects341–368seconds
+
+For a circular reveal, framed product collage, promo cut with directional smear, packshot cascade or webpage focus/scroll, use [five approved recipes](examples/baldurs-gate-approved-nontext-34145-36790/effect.md). IDs: `MAXOR_CIRCLE_REVEAL`, `MAXOR_FRAMED_PRODUCTS`, `MAXOR_NEON_PROMO_CUT`, `MAXOR_PRODUCT_CASCADE`, `MAXOR_WEBPAGE_SPOTLIGHT`. Components are in src/effects.tsx; exact approved previews in out/. Preserve the documented frozen gameplay, inherited hero grading/glow and webpage blur limits. Independent ChatGPT v3 passed all five before user approval.
