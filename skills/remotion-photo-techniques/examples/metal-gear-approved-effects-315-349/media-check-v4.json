@@ -1,0 +1,78 @@
+{
+  "BorisTitle-v4.mp4": {
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 2560,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "75",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    "decode_ok": true,
+    "errors": ""
+  },
+  "DoktorCollage-v4.mp4": {
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 2560,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "189",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    "decode_ok": true,
+    "errors": ""
+  },
+  "PresidentCaption-v4.mp4": {
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 2560,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "108",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    "decode_ok": true,
+    "errors": ""
+  },
+  "ReactionFlash-v4.mp4": {
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 2560,
+          "height": 720,
+          "r_frame_rate": "60/1",
+          "nb_frames": "144",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    "decode_ok": true,
+    "errors": ""
+  }
+}

@@ -142,3 +142,7 @@ Use [four approved examples](../examples/metal-gear-approved-effects-247-270/REA
 ## Approved Metal Gear effects,271–293 seconds
 
 For a headline/subline exit, brief logo overlay, italic word append or layered diagonal wipe, use [four approved examples](../examples/metal-gear-approved-effects-271-293/README.md). IDs: `MG_HEADLINE_SUBLINE_EXIT`, `MG_BRIEF_LOGO_OVERLAY`, `MG_ITALIC_WORD_APPEND`, `MG_LAYERED_DIAGONAL_EXIT`. Includes independent components, animated cutout assets, frame timelines and the exact approved previews; preserve the documented raster-color and repaired-background limits.
+
+## Approved Metal Gear effects,315–349 seconds
+
+For a side-entering title/subtitle, pulsing portrait, title-to-edge collage or staged caption with portraits, use [four approved examples](../examples/metal-gear-approved-effects-315-349/README.md). IDs: `MG_SIDE_TITLE_SUBLINE`, `MG_PORTRAIT_WHITE_PULSES`, `MG_TITLE_TO_EDGE_COLLAGE`, `MG_STAGED_CAPTION_PORTRAITS`. Includes independent layers, frame timelines and exact user-approved v4 previews. Preserve the documented repaired-background, raster-artwork and static-portrait limits.

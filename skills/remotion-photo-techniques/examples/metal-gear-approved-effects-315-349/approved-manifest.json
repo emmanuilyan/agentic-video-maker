@@ -1,0 +1,58 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=41v3L0zCkNY",
+  "status": "user-approved",
+  "effects": [
+    {
+      "composition": "BorisTitle",
+      "provisional_name": "Титр с боковым въездом",
+      "start": 315.5,
+      "end": 316.75,
+      "frames": 75,
+      "comparison": "approved-comparisons/BorisTitle-v4.mp4",
+      "version": 4,
+      "approval": "user-approved",
+      "external_review": "READY",
+      "id": "MG_SIDE_TITLE_SUBLINE"
+    },
+    {
+      "composition": "ReactionFlash",
+      "provisional_name": "Мем-портрет с белыми импульсами",
+      "start": 325.6,
+      "end": 328,
+      "frames": 144,
+      "comparison": "approved-comparisons/ReactionFlash-v4.mp4",
+      "version": 4,
+      "approval": "user-approved",
+      "external_review": "READY",
+      "id": "MG_PORTRAIT_WHITE_PULSES"
+    },
+    {
+      "composition": "DoktorCollage",
+      "provisional_name": "Титр с переходом в коллаж",
+      "start": 333.15,
+      "end": 336.3,
+      "frames": 189,
+      "comparison": "approved-comparisons/DoktorCollage-v4.mp4",
+      "version": 4,
+      "approval": "user-approved",
+      "external_review": "READY",
+      "id": "MG_TITLE_TO_EDGE_COLLAGE"
+    },
+    {
+      "composition": "PresidentCaption",
+      "provisional_name": "Фраза по частям с портретами",
+      "start": 347.2,
+      "end": 349,
+      "frames": 108,
+      "comparison": "approved-comparisons/PresidentCaption-v4.mp4",
+      "version": 4,
+      "approval": "user-approved",
+      "external_review": "READY",
+      "id": "MG_STAGED_CAPTION_PORTRAITS"
+    }
+  ],
+  "chatgpt_review": "all four v4 READY for user review; critical phases checked without frame skips; full-res exhaustive all-frame audit not performed",
+  "review_report": "chatgpt-final-review-v4.txt",
+  "review_proof": "chatgpt-ready-proof.png",
+  "approved_on": "2026-10-09"
+}
