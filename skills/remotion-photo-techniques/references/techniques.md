@@ -130,3 +130,7 @@ Use [four approved examples](../examples/metal-gear-approved-effects-146-192/REA
 ## Approved Metal Gear effects, 195–230 seconds
 
 Use [four approved examples](../examples/metal-gear-approved-effects-195-230/README.md) for `MG_BLUE_TITLE_EXIT`, `MG_POV_COLOR_EDGES`, `MG_RED_SCANNING_HUD`, `MG_CUT_EXTENDED_CAPTION`. Includes independent title, color-edge, scanning HUD and cut-persistent caption layers, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
+
+## Approved Metal Gear effects, 233–243 seconds
+
+Use [four approved examples](../examples/metal-gear-approved-effects-233-243/README.md) for `MG_FEDERAL_TYPE_CAPTION`, `MG_FIVE_PHOTO_PILEUP`, `MG_TUTORIAL_WORD_CAPTION`, `MG_LEARNING_TWO_PART_CAPTION`. Includes staged captions and independent photo accumulation, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.

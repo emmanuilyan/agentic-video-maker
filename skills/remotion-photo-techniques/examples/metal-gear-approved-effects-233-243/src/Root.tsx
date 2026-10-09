@@ -1,0 +1,6 @@
+import React from 'react';
+import {AbsoluteFill,Composition,useCurrentFrame} from 'remotion';
+import {Comparison} from './Comparison';
+import {FederalType,PhotoPile,TutorialWords,LearningWords} from './Effects';
+const items=[{id:'MG-FEDERAL-TYPE-CAPTION',n:84,src:'federal-source.mp4',label:'03:53.650–03:55.050',effect:FederalType},{id:'MG-FIVE-PHOTO-PILEUP',n:69,src:'pile-source.mp4',label:'03:56.650–03:57.800',effect:PhotoPile},{id:'MG-TUTORIAL-WORD-CAPTION',n:78,src:'tutorial-source.mp4',label:'03:59.000–04:00.300',effect:TutorialWords},{id:'MG-LEARNING-TWO-PART-CAPTION',n:90,src:'learning-source.mp4',label:'04:01.050–04:02.550',effect:LearningWords}];
+export const Root:React.FC=()=> <>{items.map(p=>{const Standalone:React.FC=()=>{const frame=useCurrentFrame();return <AbsoluteFill><p.effect frame={frame} duration={p.n}/></AbsoluteFill>};return <React.Fragment key={p.id}><Composition id={p.id} component={Standalone} width={1280} height={720} fps={60} durationInFrames={p.n}/><Composition id={`${p.id}-REVIEW`} component={()=> <Comparison source={p.src} label={p.label} duration={p.n} effect={p.effect}/>} width={2560} height={720} fps={60} durationInFrames={p.n}/></React.Fragment>})}</>;

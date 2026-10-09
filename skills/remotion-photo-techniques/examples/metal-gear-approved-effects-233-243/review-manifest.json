@@ -1,0 +1,51 @@
+{
+  "status": "user-approved",
+  "chat": "https://chatgpt.com/c/6ac7603b-6968-83ed-8c2b-8495bff3678d",
+  "files": [
+    {
+      "name": "FederalType",
+      "version": 3,
+      "sourceStart": 233.65,
+      "sourceEnd": 235.05,
+      "frames": 84,
+      "fps": 60,
+      "path": "approved-comparisons/FederalType-v3.mp4",
+      "sha256": "5c23936350b776334d773bb49e6303df03918970a90dc87d4d64708342ffaecb",
+      "verdict": "READY"
+    },
+    {
+      "name": "PhotoPile",
+      "version": 5,
+      "sourceStart": 236.65,
+      "sourceEnd": 237.8,
+      "frames": 69,
+      "fps": 60,
+      "path": "approved-comparisons/PhotoPile-v5.mp4",
+      "sha256": "073cfe6eb4b76aa37670b5c6e5d611ed6df246f4c0957eca42dc087e92e7c15d",
+      "verdict": "READY"
+    },
+    {
+      "name": "TutorialWords",
+      "version": 2,
+      "sourceStart": 239,
+      "sourceEnd": 240.3,
+      "frames": 78,
+      "fps": 60,
+      "path": "approved-comparisons/TutorialWords-v2.mp4",
+      "sha256": "e37e444a403ba125fd5d2b9533a52bd99f52f16fac540f428ceeaee06f04f99a",
+      "verdict": "READY"
+    },
+    {
+      "name": "LearningWords",
+      "version": 3,
+      "sourceStart": 241.05,
+      "sourceEnd": 242.55,
+      "frames": 90,
+      "fps": 60,
+      "path": "approved-comparisons/LearningWords-v3.mp4",
+      "sha256": "c8f84d9801068c2d450718fcb90272c4c9cb73112ef7252200a4049d542b0cc7",
+      "verdict": "READY"
+    }
+  ],
+  "approvedOn": "2026-10-09"
+}

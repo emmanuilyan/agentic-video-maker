@@ -1,0 +1,9 @@
+import React from 'react';
+import {AbsoluteFill,Img,OffthreadVideo,interpolate,staticFile} from 'remotion';
+import {EffectProps} from './Comparison';
+const mix=(f:number,x:number[],y:number[])=>interpolate(f,x,y,{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+const Background:React.FC<{name:string}>=({name})=><OffthreadVideo src={staticFile(`assets/${name}-background.mp4`)} muted style={{width:1280,height:720}}/>;
+export const FederalType:React.FC<EffectProps>=({frame:f})=>{const stage=f<16?9:f<23?19:f<35?25:f<49?40:55;return <AbsoluteFill><Background name="federal"/>{f>=7&&f<77&&<Img src={staticFile(`assets/federal-${stage}.png`)} style={{position:'absolute',left:70,top:465,width:1140,height:100,opacity:mix(f,[73,77],[1,0])}}/>}</AbsoluteFill>};
+export const PhotoPile:React.FC<EffectProps>=({frame:f})=>{const layers=[{on:9,x:mix(f,[9,13],[260,0]),y:0},{on:13,x:mix(f,[13,20],[270,0]),y:0},{on:34,x:mix(f,[34,38],[-420,0]),y:0},{on:41,x:0,y:mix(f,[41,48],[300,0])},{on:48,x:0,y:mix(f,[48,54],[350,0])}];return <AbsoluteFill><Background name="pile"/>{f<61&&layers.map((p,i)=>f>=p.on&&<Img key={i} src={staticFile(`assets/person-${i}.png`)} style={{position:'absolute',left:p.x,top:p.y,width:1280,height:720}}/>)}</AbsoluteFill>};
+export const TutorialWords:React.FC<EffectProps>=({frame:f})=>{const stage=f<10?8:f<47?22:53;return <AbsoluteFill><Background name="tutorial"/>{f>=5&&f<70&&<Img src={staticFile(`assets/tutorial-${stage}.png`)} style={{position:'absolute',left:45,top:545,width:940,height:110}}/>}</AbsoluteFill>};
+export const LearningWords:React.FC<EffectProps>=({frame:f})=>{const stage=f<16?15:f<42?26:54;return <AbsoluteFill><Background name="learning"/>{f>=11&&f<78&&<Img src={staticFile(`assets/learning-${stage}.png`)} style={{position:'absolute',left:10,top:490,width:1250,height:175}}/>}</AbsoluteFill>};

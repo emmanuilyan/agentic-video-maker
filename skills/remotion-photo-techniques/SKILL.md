@@ -95,3 +95,7 @@ Use [four approved examples](examples/metal-gear-approved-effects-195-230/README
 ## Approved Maxor effects,127–138 seconds
 
 For a staged texture title, sneaker/logo entrance, contrast ramp, comic collage, castle wipe or meme/burn transition, use [six approved examples](examples/maxor-approved-effects-127-138/effect.md). IDs: `MAXOR_ZERO_TEXTURE_TITLE`, `MAXOR_SNEAKER_LOGO_SLIDE`, `MAXOR_CONTRAST_CRUSH_RAMP`, `MAXOR_COMIC_GRACE_COLLAGE`, `MAXOR_CASTLE_WIPE`, `MAXOR_MEME_BURN_TRANSITION`. Exact approved previews, tags and frame timelines included; preserve documented still-background and color approximations.
+
+## Approved Metal Gear effects, 233–243 seconds
+
+Use [four approved examples](examples/metal-gear-approved-effects-233-243/README.md) for `MG_FEDERAL_TYPE_CAPTION`, `MG_FIVE_PHOTO_PILEUP`, `MG_TUTORIAL_WORD_CAPTION`, `MG_LEARNING_TWO_PART_CAPTION`. Includes staged captions and independent photo accumulation, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
