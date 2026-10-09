@@ -25,3 +25,5 @@ Use this file to resume a multipart visual analysis without skipping a cut at a 
 | Same source | Five approved non-text examples274.45–275.25,293.35–294.20,319.35–319.95,322.25–322.80,334.35–335.35. Revisited257–280 and inspected279.5–340; gaps not claimed as exhaustive recreation. | [Approved274–335batch](../examples/baldurs-gate-approved-nontext-27445-33535/effect.md) | Resume339.5 onward with overlap for five new non-text candidates. |
 
 | Same source | Surveyed339.5–400; dense-checked five approved non-text effects341.45–341.95,349.00–349.70,355.40–356.30,356.30–356.80,366.70–367.90. Later survey not exhaustive; native DOF candidate excluded. | [Approved341–368batch](../examples/baldurs-gate-approved-nontext-34145-36790/effect.md) | Resume367.5 onward with overlap, before moving beyond400. |
+
+| Same source | Surveyed367.5–460; dense checked405–406,408–410,417–419,429–431,453.5–455.5. Five partial recreations approved404.90–430.60; later survey not exhaustive. | [Approved405–431batch](../examples/baldurs-gate-approved-nontext-40500-43060/effect.md) | Resume430.4 with overlap; inspect remaining candidates through460 before extending source. |

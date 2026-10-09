@@ -80,3 +80,7 @@ For a rough matte, color thaw with radial zoom, directional RGB smear, cat focus
 ## Approved non-text Maxor effects341–368seconds
 
 For a circular reveal, framed product collage, promo cut with directional smear, packshot cascade or webpage focus/scroll, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-34145-36790/effect.md). IDs: `MAXOR_CIRCLE_REVEAL`, `MAXOR_FRAMED_PRODUCTS`, `MAXOR_NEON_PROMO_CUT`, `MAXOR_PRODUCT_CASCADE`, `MAXOR_WEBPAGE_SPOTLIGHT`. Components are in src/effects.tsx; exact approved previews in out/. Preserve the documented frozen gameplay, inherited hero grading/glow and webpage blur limits. Independent ChatGPT v3 passed all five before user approval.
+
+## Approved non-text Maxor variants405–431seconds
+
+For location dissolves, editor shot changes, Mod Manager assembly, portrait screenshot callouts or paired dossiers, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-40500-43060/effect.md). IDs: `MAXOR_LOCATION_MATCH_DISSOLVE`, `MAXOR_EDITOR_SHOT_SWITCH`, `MAXOR_MOD_MANAGER_ASSEMBLY`, `MAXOR_PORTRAIT_SCREENSHOT_CALLOUTS`, `MAXOR_PAIRED_DOSSIER_DISSOLVE`. Independent montage is in src/effects.tsx; exact approved renders in out/. Preserve the frozen source footage, raster frame/title artwork and panel repair limitations. User approved these approximations after explicit clarification; independent ChatGPT review was unavailable.
