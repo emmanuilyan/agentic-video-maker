@@ -72,3 +72,7 @@ For selective color, UI collage, dark focus, an in-panel meme reveal or RGB reac
 ## Approved non-text Maxor effects227–257seconds
 
 For staged meme cards, a two-shot dissolve, monochrome focus, a head-anchored mind orb or a full-frame-to-editor reveal, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-22730-25655/effect.md). IDs: `MAXOR_STAGED_MEME_COLLAGE`, `MAXOR_DOUBLE_EXPOSURE`, `MAXOR_MONOCHROME_FOCUS`, `MAXOR_MIND_ORB`, `MAXOR_EDITOR_REVEAL`. Import reusable components from src/effects.tsx. Preserve the documented frozen footage, restored orb and native-VFX attribution limits. These are user-approved approximations; no independent ChatGPT verdict was obtained.
+
+## Approved non-text Maxor effects274–335seconds
+
+For a rough matte, color thaw with radial zoom, directional RGB smear, cat focus with meme overlay or inventory punch with insert, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-27445-33535/effect.md). IDs: `MAXOR_ROUGH_MATTE`, `MAXOR_COLOR_THAW_ZOOM`, `MAXOR_DIRECTIONAL_RGB_SMEAR`, `MAXOR_CAT_FOCUS_MEME`, `MAXOR_INVENTORY_PUNCH_INSERT`. Import reusable components from src/effects.tsx. Exact approved renders are in out/. Preserve the documented frozen gameplay, raster caption and repaired background limits. All five passed independent ChatGPT frame review before user approval.
