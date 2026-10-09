@@ -1,0 +1,53 @@
+{
+  "status": "user-approved",
+  "source_url": "https://www.youtube.com/watch?v=41v3L0zCkNY",
+  "fps": 60,
+  "items": [
+    {
+      "composition": "BuffBezos",
+      "name": "Разъезд заголовка и подписи",
+      "reference_start": 270.95,
+      "reference_end": 272.45,
+      "frames": 90,
+      "comparison": "approved-comparisons/BuffBezos-v4.mp4",
+      "sha256": "22443d5adf1ad5f0c346e4da83f7f46f844ab2fe4dfd9d4a2dc3d31269a461fe",
+      "status": "user-approved",
+      "id": "MG_HEADLINE_SUBLINE_EXIT"
+    },
+    {
+      "composition": "PrimeLogo",
+      "name": "Короткая вставка логотипа",
+      "reference_start": 279.75,
+      "reference_end": 280.65,
+      "frames": 54,
+      "comparison": "approved-comparisons/PrimeLogo-v1.mp4",
+      "sha256": "2151af9227829863caeede188cf8c61458ceac68cb0540669df816c813203aa0",
+      "status": "user-approved",
+      "id": "MG_BRIEF_LOGO_OVERLAY"
+    },
+    {
+      "composition": "BossFight",
+      "name": "Наклонная фраза по словам",
+      "reference_start": 285.5,
+      "reference_end": 286.45,
+      "frames": 57,
+      "comparison": "approved-comparisons/BossFight-v2.mp4",
+      "sha256": "529b2ffbca83061fdf37f25c8014a9057e0494e3b82d88f9fc6168db97c7d062",
+      "status": "user-approved",
+      "id": "MG_ITALIC_WORD_APPEND"
+    },
+    {
+      "composition": "InFront",
+      "name": "Многослойная вставка с диагональным выходом",
+      "reference_start": 292.3,
+      "reference_end": 293.45,
+      "frames": 69,
+      "comparison": "approved-comparisons/InFront-v5.mp4",
+      "sha256": "9467cb90219f0d16793b43b5cd53b0c8f317008a593bca1a719891423a480673",
+      "status": "user-approved",
+      "id": "MG_LAYERED_DIAGONAL_EXIT"
+    }
+  ],
+  "review": "chatgpt-review-final.txt",
+  "approved_on": "2026-10-09"
+}

@@ -138,3 +138,7 @@ Use [four approved examples](../examples/metal-gear-approved-effects-233-243/REA
 ## Approved Metal Gear effects, 247–270 seconds
 
 Use [four approved examples](../examples/metal-gear-approved-effects-247-270/README.md) for `MG_ITALIC_STAGED_QUOTE`, `MG_OPPOSING_CUTOUT_INSERT`, `MG_RGB_TITLE_PUNCHLINE`, `MG_RED_RECENTERED_PHRASE`. Includes staged captions, opposing cutouts and a two-row RGB title, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
+
+## Approved Metal Gear effects,271–293 seconds
+
+For a headline/subline exit, brief logo overlay, italic word append or layered diagonal wipe, use [four approved examples](../examples/metal-gear-approved-effects-271-293/README.md). IDs: `MG_HEADLINE_SUBLINE_EXIT`, `MG_BRIEF_LOGO_OVERLAY`, `MG_ITALIC_WORD_APPEND`, `MG_LAYERED_DIAGONAL_EXIT`. Includes independent components, animated cutout assets, frame timelines and the exact approved previews; preserve the documented raster-color and repaired-background limits.
