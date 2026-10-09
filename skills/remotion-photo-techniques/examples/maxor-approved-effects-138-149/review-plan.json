@@ -1,0 +1,106 @@
+[
+  {
+    "id": "MAXOR_SPECTRE_BLOODBORNE_SEQUENCE",
+    "composition": "01-spectre-bloodborne",
+    "frames": 138,
+    "approvedParts": [
+      {
+        "composition": "01-spectre",
+        "sourceStart": 138.45,
+        "sourceEnd": 139.95,
+        "version": 8,
+        "userApproval": "2026-10-09",
+        "comparison": "drafts/maxor-batch14-review/out/01-spectre-comparison-v8.mp4",
+        "remotionOnly": "drafts/maxor-batch14-review/out/01-spectre-v8.mp4",
+        "chatgptReview": "READY",
+        "reviewScope": "Initial v5 MP4 review; targeted corrected frame review"
+      },
+      {
+        "composition": "02-anime",
+        "sourceStart": 139.62,
+        "sourceEnd": 140.753,
+        "version": 8,
+        "userApproval": "2026-10-09",
+        "comparison": "drafts/maxor-batch14-review/out/02-anime-comparison-v8.mp4",
+        "remotionOnly": "drafts/maxor-batch14-review/out/02-anime-v8.mp4",
+        "chatgptReview": "READY",
+        "reviewScope": "Initial v5 MP4 review; targeted corrected frame review"
+      }
+    ],
+    "handoff": {
+      "firstFrames": 84,
+      "secondSkipFrames": 14
+    }
+  },
+  {
+    "id": "MAXOR_ESCAPE_BRACELET_SEQUENCE",
+    "composition": "02-escape-bracelet",
+    "frames": 139,
+    "approvedParts": [
+      {
+        "composition": "03-escape",
+        "sourceStart": 141,
+        "sourceEnd": 142.333,
+        "version": 8,
+        "userApproval": "2026-10-09",
+        "comparison": "drafts/maxor-batch14-review/out/03-escape-comparison-v8.mp4",
+        "remotionOnly": "drafts/maxor-batch14-review/out/03-escape-v8.mp4",
+        "chatgptReview": "READY",
+        "reviewScope": "Initial v5 MP4 review; targeted corrected frame review"
+      },
+      {
+        "composition": "04-bracelet",
+        "sourceStart": 142.15,
+        "sourceEnd": 143.433,
+        "version": 8,
+        "userApproval": "2026-10-09",
+        "comparison": "drafts/maxor-batch14-review/out/04-bracelet-comparison-v8.mp4",
+        "remotionOnly": "drafts/maxor-batch14-review/out/04-bracelet-v8.mp4",
+        "chatgptReview": "READY",
+        "reviewScope": "Initial v5 MP4 review; targeted corrected frame review"
+      }
+    ],
+    "handoff": {
+      "firstFrames": 80,
+      "secondSkipFrames": 18
+    }
+  },
+  {
+    "id": "MAXOR_HOSE_OBJECT_COLLAGE",
+    "composition": "03-hose",
+    "frames": 84,
+    "approvedParts": [
+      {
+        "composition": "05-hose",
+        "sourceStart": 144.1,
+        "sourceEnd": 145.5,
+        "version": 9,
+        "userApproval": "2026-10-09",
+        "comparison": "drafts/maxor-batch14-review/out/05-hose-comparison-v9.mp4",
+        "remotionOnly": "drafts/maxor-batch14-review/out/05-hose-v9.mp4",
+        "chatgptReview": "READY",
+        "reviewScope": "Initial v5 MP4 review; targeted corrected frame review"
+      }
+    ],
+    "handoff": null
+  },
+  {
+    "id": "MAXOR_GIRLBOSS_HEART_STACK",
+    "composition": "04-girlboss",
+    "frames": 72,
+    "approvedParts": [
+      {
+        "composition": "06-girlboss",
+        "sourceStart": 147.7333333333,
+        "sourceEnd": 148.933,
+        "version": 10,
+        "userApproval": "2026-10-09",
+        "comparison": "drafts/maxor-batch14-review/out/06-girlboss-comparison-v10.mp4",
+        "remotionOnly": "drafts/maxor-batch14-review/out/06-girlboss-v10.mp4",
+        "chatgptReview": "READY",
+        "reviewScope": "Initial v5 MP4 review; targeted corrected frame review"
+      }
+    ],
+    "handoff": null
+  }
+]

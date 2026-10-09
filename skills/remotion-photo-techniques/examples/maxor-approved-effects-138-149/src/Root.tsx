@@ -1,0 +1,2 @@
+import React from 'react';import {Composition} from 'remotion';import {Hose,Girlboss} from './Effects';import {SpectreBloodborne,EscapeBracelet} from './Joined';
+export const Root:React.FC=()=> <>{[{id:'01-spectre-bloodborne',c:SpectreBloodborne,n:138},{id:'02-escape-bracelet',c:EscapeBracelet,n:139},{id:'03-hose',c:Hose,n:84},{id:'04-girlboss',c:Girlboss,n:72}].map(x=><Composition key={x.id} id={x.id} component={x.c} width={1280} height={720} fps={60} durationInFrames={x.n}/>)}</>;

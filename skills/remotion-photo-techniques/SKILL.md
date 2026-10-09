@@ -107,3 +107,7 @@ Use [four approved examples](examples/metal-gear-approved-effects-247-270/README
 ## Approved Metal Gear effects,271–293 seconds
 
 For a headline/subline exit, brief logo overlay, italic word append or layered diagonal wipe, use [four approved examples](examples/metal-gear-approved-effects-271-293/README.md). IDs: `MG_HEADLINE_SUBLINE_EXIT`, `MG_BRIEF_LOGO_OVERLAY`, `MG_ITALIC_WORD_APPEND`, `MG_LAYERED_DIAGONAL_EXIT`. Includes independent components, animated cutout assets, frame timelines and the exact approved previews; preserve the documented raster-color and repaired-background limits.
+
+## Approved Maxor effects138–149sec
+
+For a staged title that transitions into an anime callout, an Escape/flag sequence that transitions into a rotating bracelet ring, a hose-object collage or a three-font/heart meme stack, use [four approved grouped examples](examples/maxor-approved-effects-138-149/effect.md). IDs: `MAXOR_SPECTRE_BLOODBORNE_SEQUENCE`, `MAXOR_ESCAPE_BRACELET_SEQUENCE`, `MAXOR_HOSE_OBJECT_COLLAGE`, `MAXOR_GIRLBOSS_HEART_STACK`. Group1–2 and3–4 as single effects; exact approved frame selections, joined previews, tags and media approximations are documented.
