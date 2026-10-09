@@ -1,0 +1,6 @@
+import React from 'react';
+import {AbsoluteFill,Composition,useCurrentFrame} from 'remotion';
+import {Comparison} from './Comparison';
+import {SimpleQuote,RoosterInsert,JackedTitle,DimesCaption} from './Effects';
+const items=[{id:'MG-ITALIC-STAGED-QUOTE',n:69,src:'simple-source.mp4',label:'04:07.900–04:09.050',effect:SimpleQuote},{id:'MG-OPPOSING-CUTOUT-INSERT',n:54,src:'roosters-source.mp4',label:'04:14.900–04:15.800',effect:RoosterInsert},{id:'MG-RGB-TITLE-PUNCHLINE',n:84,src:'jacked-source.mp4',label:'04:18.200–04:19.600',effect:JackedTitle},{id:'MG-RED-RECENTERED-PHRASE',n:81,src:'dimes-source.mp4',label:'04:28.800–04:30.150',effect:DimesCaption}];
+export const Root:React.FC=()=> <>{items.map(p=>{const Standalone:React.FC=()=>{const frame=useCurrentFrame();return <AbsoluteFill><p.effect frame={frame} duration={p.n}/></AbsoluteFill>};return <React.Fragment key={p.id}><Composition id={p.id} component={Standalone} width={1280} height={720} fps={60} durationInFrames={p.n}/><Composition id={`${p.id}-REVIEW`} component={()=> <Comparison source={p.src} label={p.label} duration={p.n} effect={p.effect}/>} width={2560} height={720} fps={60} durationInFrames={p.n}/></React.Fragment>})}</>;

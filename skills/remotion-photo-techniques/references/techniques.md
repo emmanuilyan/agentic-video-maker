@@ -134,3 +134,7 @@ Use [four approved examples](../examples/metal-gear-approved-effects-195-230/REA
 ## Approved Metal Gear effects, 233–243 seconds
 
 Use [four approved examples](../examples/metal-gear-approved-effects-233-243/README.md) for `MG_FEDERAL_TYPE_CAPTION`, `MG_FIVE_PHOTO_PILEUP`, `MG_TUTORIAL_WORD_CAPTION`, `MG_LEARNING_TWO_PART_CAPTION`. Includes staged captions and independent photo accumulation, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
+
+## Approved Metal Gear effects, 247–270 seconds
+
+Use [four approved examples](../examples/metal-gear-approved-effects-247-270/README.md) for `MG_ITALIC_STAGED_QUOTE`, `MG_OPPOSING_CUTOUT_INSERT`, `MG_RGB_TITLE_PUNCHLINE`, `MG_RED_RECENTERED_PHRASE`. Includes staged captions, opposing cutouts and a two-row RGB title, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.

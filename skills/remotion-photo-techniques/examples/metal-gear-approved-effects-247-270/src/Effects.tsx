@@ -1,0 +1,10 @@
+import React from 'react';
+import {AbsoluteFill,Img,OffthreadVideo,interpolate,staticFile} from 'remotion';
+import {EffectProps} from './Comparison';
+const mix=(f:number,x:number[],y:number[])=>interpolate(f,x,y,{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+const Background:React.FC<{name:string}>=({name})=><OffthreadVideo src={staticFile(`assets/${name}-background.mp4`)} muted style={{width:1280,height:720}}/>;
+const Sprite:React.FC<{src:string;x?:number;y?:number;clip?:string}>=({src,x=0,y=0,clip})=><Img src={staticFile(`assets/${src}.png`)} style={{position:'absolute',left:x,top:y,width:1280,height:720,clipPath:clip}}/>;
+export const SimpleQuote:React.FC<EffectProps>=({frame:f})=><AbsoluteFill><Background name="simple"/>{f>=6&&f<55&&<Sprite src={`simple-full-${f<11?8:f<29?15:36}`}/>}</AbsoluteFill>;
+export const RoosterInsert:React.FC<EffectProps>=({frame:f})=><AbsoluteFill><Background name="roosters"/>{f>=10&&f<38&&<Sprite src="rooster-0" x={mix(f,[10,14],[-460,0])}/>} {f>=16&&f<38&&<Sprite src="rooster-1" x={mix(f,[16,20],[420,0])} y={mix(f,[16,20],[150,0])}/>}</AbsoluteFill>;
+export const JackedTitle:React.FC<EffectProps>=({frame:f})=><AbsoluteFill><Background name="jacked"/>{f>=10&&f<64&&<Sprite src="jacked-full-50" x={mix(f,[10,12,15,18],[-1020,-670,-180,0])} clip="inset(0 0 450px 0)"/>}{f>=28&&f<64&&<Sprite src="jacked-full-50" x={mix(f,[28,31], [300,0])} clip="inset(270px 0 260px 0)"/>}{f>=44&&f<64&&<Sprite src="jacked-full-50" clip="inset(610px 0 0 0)"/>}</AbsoluteFill>;
+export const DimesCaption:React.FC<EffectProps>=({frame:f})=><AbsoluteFill><Background name="dimes"/>{f>=8&&f<68&&<Sprite src={`dimes-full-${f<28?12:f<37?32:48}`}/>}</AbsoluteFill>;

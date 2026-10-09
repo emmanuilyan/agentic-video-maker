@@ -1,0 +1,59 @@
+{
+  "status": "user-approved",
+  "previousSavedCommit": "9b03978",
+  "reviewChat": "https://chatgpt.com/c/6ac7603b-6968-83ed-8c2b-8495bff3678d",
+  "prompt": "chatgpt-review-prompt.txt",
+  "effects": [
+    {
+      "id": "MG_ITALIC_STAGED_QUOTE",
+      "comparison": "approved-comparisons/SimpleQuote-v3.mp4",
+      "start": 247.9,
+      "end": 249.05,
+      "frames": 69,
+      "fps": 60,
+      "sha256": "f7a32351db914878fda6f0ecb8cf20dcd49a6fc14fe46e57c69e074288cd58ad",
+      "externalVerdict": "READY",
+      "standalonePreview": "../../assets/previews/MG_ITALIC_STAGED_QUOTE-reference.mp4"
+    },
+    {
+      "id": "MG_OPPOSING_CUTOUT_INSERT",
+      "comparison": "approved-comparisons/RoosterInsert-v3.mp4",
+      "start": 254.9,
+      "end": 255.8,
+      "frames": 54,
+      "fps": 60,
+      "sha256": "aaf2e1897aa088c5a184aba1305b96177a91d827ea64fb7aa1a408f34968becb",
+      "externalVerdict": "READY",
+      "standalonePreview": "../../assets/previews/MG_OPPOSING_CUTOUT_INSERT-reference.mp4"
+    },
+    {
+      "id": "MG_RGB_TITLE_PUNCHLINE",
+      "comparison": "approved-comparisons/JackedTitle-v4.mp4",
+      "start": 258.2,
+      "end": 259.6,
+      "frames": 84,
+      "fps": 60,
+      "sha256": "e9393f9068158253d7928c3ed1526aeb2f41f1de5d9d1b09b7c88ffc0a86d906",
+      "externalVerdict": "READY",
+      "standalonePreview": "../../assets/previews/MG_RGB_TITLE_PUNCHLINE-reference.mp4"
+    },
+    {
+      "id": "MG_RED_RECENTERED_PHRASE",
+      "comparison": "approved-comparisons/DimesCaption-v2.mp4",
+      "start": 268.8,
+      "end": 270.15,
+      "frames": 81,
+      "fps": 60,
+      "sha256": "98c1b66d6b2ecdeab9570cfc5c210a4e598011abde90b3c457ddb48318f22b39",
+      "externalVerdict": "READY",
+      "standalonePreview": "../../assets/previews/MG_RED_RECENTERED_PHRASE-reference.mp4"
+    }
+  ],
+  "reviewMethod": "All extracted frames, sequential contact sheets and enlarged disputed frames; ChatGPT did not play video continuously.",
+  "finalReview": "chatgpt-final-review.txt",
+  "reviewProof": "review-proof.jpg",
+  "limitations": [
+    "Text sprite color is sampled from stable reference frames; dynamic RGB texture remains approximate. Native gameplay VFX are demonstration footage."
+  ],
+  "approvedOn": "2026-10-09"
+}
