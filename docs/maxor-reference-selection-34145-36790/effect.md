@@ -4,7 +4,7 @@ Status: USER APPROVED on 2026-10-09. Exact approved renders in out/.
 
 Source: https://www.youtube.com/watch?v=I6qlhmjkQ44 . Audio omitted.
 
-Original on LEFT, independent Remotion animation on RIGHT in review/*-comparison.mp4.
+[Approved comparisons](comparisons/) show the original LEFT and Remotion RIGHT.
 
 ## Run
 
@@ -24,7 +24,7 @@ Other compositions and frame counts are in candidates.json. All are 1280×720, 6
 
 ## Review
 
-All228 consecutive comparison frames are supplied in review/*-all-*.jpg, larger checkpoints in *-sheet.jpg. Scope sent to ordinary ChatGPT explicitly separates inherited source treatments from rebuilt animation. Actual v3 verdict: all five READY for user review. Evidence in review/verdict-v3.md and review/chatgpt-final-review.png. Reviewer used consecutive frames, not realtime playback. User approved all five on 2026-10-09.
+Independent review used all 228 consecutive comparison frames and larger checkpoints. Retained verdicts are in review/. Scope sent to ordinary ChatGPT explicitly separates inherited source treatments from rebuilt animation. Actual v3 verdict: all five READY for user review. Evidence in review/verdict-v3.md and review/chatgpt-final-review.png. Reviewer used consecutive frames, not realtime playback. User approved all five on 2026-10-09.
 
 ## Reuse
 
