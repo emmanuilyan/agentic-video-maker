@@ -1,0 +1,2 @@
+import React from 'react';import {Composition} from 'remotion';import {Zero,Shoe,Crushed,Comic,Wipe,Memes} from './Effects';
+export const Root:React.FC=()=> <>{[{id:'01-zero',c:Zero,n:50},{id:'02-shoe',c:Shoe,n:42},{id:'03-crushed',c:Crushed,n:45},{id:'04-comic',c:Comic,n:76},{id:'05-wipe',c:Wipe,n:96},{id:'06-memes',c:Memes,n:90}].map(x=><Composition key={x.id} id={x.id} component={x.c} width={1280} height={720} fps={60} durationInFrames={x.n}/>)}</>;

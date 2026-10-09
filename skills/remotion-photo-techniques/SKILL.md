@@ -91,3 +91,7 @@ For a staged helmet collage, rainbow depth title, meme aura, chromatic fringe, s
 ## Approved Metal Gear effects, 195–230 seconds
 
 Use [four approved examples](examples/metal-gear-approved-effects-195-230/README.md) for `MG_BLUE_TITLE_EXIT`, `MG_POV_COLOR_EDGES`, `MG_RED_SCANNING_HUD`, `MG_CUT_EXTENDED_CAPTION`. Includes independent title, color-edge, scanning HUD and cut-persistent caption layers, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
+
+## Approved Maxor effects,127–138 seconds
+
+For a staged texture title, sneaker/logo entrance, contrast ramp, comic collage, castle wipe or meme/burn transition, use [six approved examples](examples/maxor-approved-effects-127-138/effect.md). IDs: `MAXOR_ZERO_TEXTURE_TITLE`, `MAXOR_SNEAKER_LOGO_SLIDE`, `MAXOR_CONTRAST_CRUSH_RAMP`, `MAXOR_COMIC_GRACE_COLLAGE`, `MAXOR_CASTLE_WIPE`, `MAXOR_MEME_BURN_TRANSITION`. Exact approved previews, tags and frame timelines included; preserve documented still-background and color approximations.
