@@ -150,3 +150,7 @@ For a side-entering title/subtitle, pulsing portrait, title-to-edge collage or s
 ## Approved Maxor effects153–169seconds
 
 Use [six approved recipes](examples/maxor-approved-effects-153-169/effect.md): `MAXOR_WHITE_CAPTION_SLIDE`, `MAXOR_GREEN_SYMBOL_FRAME`, `MAXOR_FLEE_TITLE_ZOOM_EXIT`, `MAXOR_GEOMETRY_CALLOUT`, `MAXOR_RED_STEALTH_SLIDE`, `MAXOR_RIGID_MEME_CAPTION_STACK`. Exact user-approved previews and source intervals are included; preserve the documented frozen backgrounds, raster glyph masks and font approximations.
+
+## Approved Metal Gear effects,367–392 seconds
+
+For staged typography with side objects, a circle-revealed sports collage, a growing RGB inversion circle or a four-line diagonal caption wipe, use [four approved examples](../examples/metal-gear-approved-effects-367-392/README.md). IDs: `MG_STAGED_TITLE_SIDE_OBJECTS`, `MG_CIRCLE_SPORTS_COLLAGE`, `MG_RGB_INVERSION_CIRCLE`, `MG_FOUR_LINE_DIAGONAL_CAPTION`. Includes independent layers, frame timelines and exact user-approved previews. Preserve documented held-background, raster-artwork and color approximations.

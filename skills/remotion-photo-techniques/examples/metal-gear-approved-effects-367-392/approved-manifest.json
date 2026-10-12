@@ -1,0 +1,62 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=41v3L0zCkNY",
+  "review_url": "https://chatgpt.com/c/6ac9f073-0368-83eb-b9b4-360f42399b68",
+  "items": [
+    {
+      "key": "electrolytes",
+      "composition": "Electrolytes",
+      "title": "Надпись по частям с боковыми объектами",
+      "start": 367.65,
+      "end": 369.4,
+      "frames": 105,
+      "comparison": "approved-comparisons/Electrolytes-v4.mp4",
+      "version": 4,
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_STAGED_TITLE_SIDE_OBJECTS"
+    },
+    {
+      "key": "football",
+      "composition": "FootballCollage",
+      "title": "Круговое раскрытие спортивного коллажа",
+      "start": 370.75,
+      "end": 373.05,
+      "frames": 138,
+      "comparison": "approved-comparisons/FootballCollage-v3.mp4",
+      "version": 3,
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_CIRCLE_SPORTS_COLLAGE"
+    },
+    {
+      "key": "codec",
+      "composition": "CodecCircle",
+      "title": "Растущая инверсия с цветными контурами",
+      "start": 380.25,
+      "end": 383,
+      "frames": 165,
+      "comparison": "approved-comparisons/CodecCircle-v6.mp4",
+      "version": 6,
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_RGB_INVERSION_CIRCLE"
+    },
+    {
+      "key": "foot",
+      "composition": "FootCaption",
+      "title": "Четыре строки с диагональным стиранием",
+      "start": 390.25,
+      "end": 392.1,
+      "frames": 111,
+      "comparison": "approved-comparisons/FootCaption-v3.mp4",
+      "version": 3,
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_FOUR_LINE_DIAGONAL_CAPTION"
+    }
+  ],
+  "git": "user-approved-local-archive",
+  "review_report": "chatgpt-review-v6-ready.txt",
+  "ready_proof": "chatgpt-ready-proof.png",
+  "approved_on": "2026-10-12"
+}
