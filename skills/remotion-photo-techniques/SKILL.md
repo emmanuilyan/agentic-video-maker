@@ -115,3 +115,7 @@ For a staged title that transitions into an anime callout, an Escape/flag sequen
 ## Approved Metal Gear effects,315–349 seconds
 
 For a side-entering title/subtitle, pulsing portrait, title-to-edge collage or staged caption with portraits, use [four approved examples](examples/metal-gear-approved-effects-315-349/README.md). IDs: `MG_SIDE_TITLE_SUBLINE`, `MG_PORTRAIT_WHITE_PULSES`, `MG_TITLE_TO_EDGE_COLLAGE`, `MG_STAGED_CAPTION_PORTRAITS`. Includes independent layers, frame timelines and exact user-approved v4 previews. Preserve the documented repaired-background, raster-artwork and static-portrait limits.
+
+## Approved Maxor effects153–169seconds
+
+Use [six approved recipes](examples/maxor-approved-effects-153-169/effect.md): `MAXOR_WHITE_CAPTION_SLIDE`, `MAXOR_GREEN_SYMBOL_FRAME`, `MAXOR_FLEE_TITLE_ZOOM_EXIT`, `MAXOR_GEOMETRY_CALLOUT`, `MAXOR_RED_STEALTH_SLIDE`, `MAXOR_RIGID_MEME_CAPTION_STACK`. Exact user-approved previews and source intervals are included; preserve the documented frozen backgrounds, raster glyph masks and font approximations.
