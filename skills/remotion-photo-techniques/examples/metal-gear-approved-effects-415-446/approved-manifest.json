@@ -1,0 +1,62 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=41v3L0zCkNY",
+  "review_url": "https://chatgpt.com/c/6ac9f073-0368-83eb-b9b4-360f42399b68",
+  "items": [
+    {
+      "key": "wolf",
+      "composition": "BladeWolf",
+      "title": "Декоративный титр со сквозным проездом",
+      "start": 415.3,
+      "end": 418.15,
+      "frames": 171,
+      "comparison": "approved-comparisons/BladeWolf-v4.mp4",
+      "version": 4,
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_DECORATIVE_TITLE_PASS"
+    },
+    {
+      "key": "error",
+      "composition": "ErrorOverload",
+      "title": "Контурная перегрузка с крупной надписью",
+      "start": 420.4,
+      "end": 421.55,
+      "frames": 69,
+      "comparison": "approved-comparisons/ErrorOverload-v5.mp4",
+      "version": 5,
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_CONTOUR_OVERLOAD_TITLE"
+    },
+    {
+      "key": "meals",
+      "composition": "MealsEmblem",
+      "title": "Въезд эмблемы с добавлением слов",
+      "start": 442.6,
+      "end": 444.35,
+      "frames": 105,
+      "comparison": "approved-comparisons/MealsEmblem-v1.mp4",
+      "version": 1,
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_STAGED_EMBLEM_ENTRY"
+    },
+    {
+      "key": "gatorade",
+      "composition": "GatoradeCaption",
+      "title": "Поэтапная подпись с цветной экструзией",
+      "start": 444.3,
+      "end": 446.65,
+      "frames": 141,
+      "comparison": "approved-comparisons/GatoradeCaption-v1.mp4",
+      "version": 1,
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_EXTRUDED_STAGED_CAPTION"
+    }
+  ],
+  "git": "user-approved-local-archive",
+  "review_report": "chatgpt-review-v5-ready.txt",
+  "ready_proof": "chatgpt-ready-proof.png",
+  "approved_on": "2026-10-13"
+}

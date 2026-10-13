@@ -154,3 +154,7 @@ Use [six approved recipes](examples/maxor-approved-effects-153-169/effect.md): `
 ## Approved Metal Gear effects,367–392 seconds
 
 For staged typography with side objects, a circle-revealed sports collage, a growing RGB inversion circle or a four-line diagonal caption wipe, use [four approved examples](../examples/metal-gear-approved-effects-367-392/README.md). IDs: `MG_STAGED_TITLE_SIDE_OBJECTS`, `MG_CIRCLE_SPORTS_COLLAGE`, `MG_RGB_INVERSION_CIRCLE`, `MG_FOUR_LINE_DIAGONAL_CAPTION`. Includes independent layers, frame timelines and exact user-approved previews. Preserve documented held-background, raster-artwork and color approximations.
+
+## Approved Metal Gear effects,415–446 seconds
+
+For a decorative title crossing the frame, a contour overload with a large title, staged emblem entry or extruded staged caption, use [four approved examples](../examples/metal-gear-approved-effects-415-446/README.md). IDs: `MG_DECORATIVE_TITLE_PASS`, `MG_CONTOUR_OVERLOAD_TITLE`, `MG_STAGED_EMBLEM_ENTRY`, `MG_EXTRUDED_STAGED_CAPTION`. Includes independent layers, frame timelines and exact user-approved previews. Preserve documented held-background, raster-artwork and color approximations.
