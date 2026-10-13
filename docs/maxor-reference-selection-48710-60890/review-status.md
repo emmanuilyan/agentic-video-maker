@@ -1,0 +1,1 @@
+User approved all5 on2026-10-13, Manga v2 specifically. ChatGPT selected candidates but its rendered comparison review failed (Unknown error then access check). Independent visual acceptance not obtained. Frozen game/cartoon movement, approximate SVG/caption restoration and inherited Film lighting disclosed before approval.

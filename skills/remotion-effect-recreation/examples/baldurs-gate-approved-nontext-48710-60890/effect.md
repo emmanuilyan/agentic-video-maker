@@ -1,0 +1,18 @@
+# Approved Maxor montage487.10–608.90
+
+User approved all five on2026-10-13, including Manga v2. Independent Remotion animation over source stills. Original edited videos appear only in comparison LEFT; recreation RIGHT is rendered from image/graphic layers and deterministic frame formulas. Native game/cartoon movement is frozen. Clean plate repairs, source camera substitutions and SVG approximations are disclosed. No exact matching claim.
+
+1280×72060fps. Components in src/effects.tsx; composition IDs in candidates.json. npm run typecheck passed. render-batch.py builds MP4 and left/right comparisons. Exact approved standalone renders are in out/.
+
+- CLOWN_MATCH_ZOOM487.10–487.85: medium view dissolves into side close-up f2–16; face-anchored scale1→1.32, origin(.64,.52); hue shifts towardpurplef17–38. Raster caption independent of zoom/grade, bottom caption startsf1–3. Caption extraction/restoration approximate; do not grade the caption layer. Reference is a dissolve+zoom, not a hard matchcut.
+- NESTED_MEME_FRAMES511.80–512.32: existing chat card in static base, framed portrait growsf7–15 scale.6→1 atx415y139w450h458; poster growsf17–29 scale.7→1 atx448y69w391h582. Source frames/crops; native motion frozen. This is nested growth, not fixed-mask content swap.
+- MENACING_GRAPHIC_COLUMNS549.20–550.60: independent SVG comic motif with purplegradient/black6pxoutline. V2 after user motion correction: each motif has its own phased yaw/roll, lateral sway and depth-dependent blur/brightness. Perspective750px, yaw±48deg, Z±90px, lateral±35px; upward travel interpolates frames0/6/30/60/83 to0/100/165/225/270px, right column speed×.72. This is a visual 3D-transform approximation of observed width/tilt/depth changes, not proof the original used3D. Background repaired from source, frozen pose. Motif outlines estimated, not precise traced typeface. Decorative graphic Japanese sound-effect forms, no dialogue caption animation. Original warm grading is retained in source still.
+- QUANTIZED_WAVE_SNAP562.80–563.60: four-pixel horizontal strips displace by rounded8px sine steps; amplitude0→85px acrossf4–37, scale1→1.6, brief negative/contrast phases and slight rotation. Hard cut atf39 into next static scene. Simulates source posterize/scanline distortion; original game/cartoon animation not rebuilt. No actual codec corruption.
+
+- BURNT_MULTISHOT_FRAME607.55–608.90: separate deterministic irregular edge polygon, 3 frozen shot plates cut atf22/f58, same mask persists. Source crop removes original rough edges; original purple grading/glow/particle fields remain baked in the stills. Additional35subtle moving points simulate shimmer, not native VFX reconstruction. This is a partial montage recreation, not independent recreation of the original light/filter stack.
+
+## Approval and reuse
+
+User approved the five comparisons, including the updated Manga v2 perspective motion. Ordinary ChatGPT performed selection; rendered comparison review was unavailable after repeated submission errors and access check. No external acceptance claimed. Original clips/comparisons retained in docs/maxor-reference-selection-48710-60890.
+
+Run npm install and npm run typecheck. Render with npx remotion render src/index.tsx Manga out/MENACING_GRAPHIC_COLUMNS.mp4; other composition IDs in candidates.json. render-batch.py requires original clips copied into review/. Replace named PNG assets in public/, retaining alpha masks/crop coordinates. Animation uses composition-relative frames60fps; rescale the frame constants for other FPS. Manga symbols are independently drawn SVG; yaw/depth/blur trajectories are approximate, not proof of source3D. Preserve all media restoration/frozen-motion limits above.

@@ -88,3 +88,7 @@ For location dissolves, editor shot changes, Mod Manager assembly, portrait scre
 ## Approved nontext Maxor effects442–479seconds
 
 For full-frame color punches, GameOver dissolves, save-window zooms, sheep takeovers or backgrounds under menu UI, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-44270-47880/effect.md). IDs: `MAXOR_FULLFRAME_MAGENTA_CYAN`, `MAXOR_GAME_OVER_SCENE_DISSOLVE`, `MAXOR_SAVE_WINDOW_ZOOM`, `MAXOR_SHEEP_PLATE_TAKEOVER`, `MAXOR_MEME_BEHIND_MENU`. The final user-approved renders are in out/. Preserve frozen-gameplay/VFX, raster UI and approximate sheep typography limits. Independent ChatGPT accepted the specified montage/timing corrections across V4–V6 before user approval.
+
+## Approved nontext Maxor effects487–609seconds
+
+For clown face dissolves/zoom/grade, nested framed cards, perspective comic motifs, quantized wave snaps or multishot burnt frames, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-48710-60890/effect.md). IDs: `MAXOR_CLOWN_MATCH_ZOOM`, `MAXOR_NESTED_MEME_FRAMES`, `MAXOR_MENACING_GRAPHIC_COLUMNS`, `MAXOR_QUANTIZED_WAVE_SNAP`, `MAXOR_BURNT_MULTISHOT_FRAME`. Exact approved renders in out/, including Manga v2 after user motion correction. Preserve frozen media, repaired plates, approximate SVG trajectories and inherited Film lighting limits. ChatGPT selection completed; comparison review unavailable.
