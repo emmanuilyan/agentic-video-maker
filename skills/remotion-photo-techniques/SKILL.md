@@ -84,3 +84,7 @@ For a circular reveal, framed product collage, promo cut with directional smear,
 ## Approved non-text Maxor variants405–431seconds
 
 For location dissolves, editor shot changes, Mod Manager assembly, portrait screenshot callouts or paired dossiers, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-40500-43060/effect.md). IDs: `MAXOR_LOCATION_MATCH_DISSOLVE`, `MAXOR_EDITOR_SHOT_SWITCH`, `MAXOR_MOD_MANAGER_ASSEMBLY`, `MAXOR_PORTRAIT_SCREENSHOT_CALLOUTS`, `MAXOR_PAIRED_DOSSIER_DISSOLVE`. Independent montage is in src/effects.tsx; exact approved renders in out/. Preserve the frozen source footage, raster frame/title artwork and panel repair limitations. User approved these approximations after explicit clarification; independent ChatGPT review was unavailable.
+
+## Approved nontext Maxor effects442–479seconds
+
+For full-frame color punches, GameOver dissolves, save-window zooms, sheep takeovers or backgrounds under menu UI, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-44270-47880/effect.md). IDs: `MAXOR_FULLFRAME_MAGENTA_CYAN`, `MAXOR_GAME_OVER_SCENE_DISSOLVE`, `MAXOR_SAVE_WINDOW_ZOOM`, `MAXOR_SHEEP_PLATE_TAKEOVER`, `MAXOR_MEME_BEHIND_MENU`. The final user-approved renders are in out/. Preserve frozen-gameplay/VFX, raster UI and approximate sheep typography limits. Independent ChatGPT accepted the specified montage/timing corrections across V4–V6 before user approval.
