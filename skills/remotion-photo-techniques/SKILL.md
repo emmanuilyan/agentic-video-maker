@@ -127,3 +127,7 @@ For staged typography with side objects, a circle-revealed sports collage, a gro
 ## Approved Metal Gear effects,415–446 seconds
 
 For a decorative title crossing the frame, a contour overload with a large title, staged emblem entry or extruded staged caption, use [four approved examples](examples/metal-gear-approved-effects-415-446/README.md). IDs: `MG_DECORATIVE_TITLE_PASS`, `MG_CONTOUR_OVERLOAD_TITLE`, `MG_STAGED_EMBLEM_ENTRY`, `MG_EXTRUDED_STAGED_CAPTION`. Includes independent layers, frame timelines and exact user-approved previews. Preserve documented held-background, raster-artwork and color approximations.
+
+## Approved Maxor effects169–188seconds
+
+Use [six approved recipes](examples/maxor-approved-effects-169-188/effect.md): `MAXOR_VIOLENCE_FLAG_CALLOUT`, `MAXOR_GAME_OVER_RED_BANNER`, `MAXOR_WHITE_WORD_STEPS`, `MAXOR_MELINA_FRAME_BOTTLE`, `MAXOR_SEXUAL_STYLE_MEME_TITLE`, `MAXOR_LEVEL_UP_WORD_ENTRIES`. Exact user-approved previews and source intervals are included; preserve the documented frozen backgrounds, raster glyph masks and font approximations.
