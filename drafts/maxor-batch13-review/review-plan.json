@@ -1,0 +1,38 @@
+[
+  {
+    "composition": "01-zero",
+    "sourceStart": 127.05,
+    "sourceEnd": 127.883,
+    "version": 4
+  },
+  {
+    "composition": "02-shoe",
+    "sourceStart": 130.1,
+    "sourceEnd": 130.8,
+    "version": 4
+  },
+  {
+    "composition": "03-crushed",
+    "sourceStart": 130.95,
+    "sourceEnd": 131.7,
+    "version": 4
+  },
+  {
+    "composition": "04-comic",
+    "sourceStart": 132.7,
+    "sourceEnd": 133.967,
+    "version": 4
+  },
+  {
+    "composition": "05-wipe",
+    "sourceStart": 134.65,
+    "sourceEnd": 136.25,
+    "version": 5
+  },
+  {
+    "composition": "06-memes",
+    "sourceStart": 136.1,
+    "sourceEnd": 137.6,
+    "version": 5
+  }
+]

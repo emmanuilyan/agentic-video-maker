@@ -1,0 +1,123 @@
+[
+  {
+    "composition": "01-killed",
+    "sourceStart": 153.316666667,
+    "sourceEnd": 153.933333333,
+    "durationInFrames": 37,
+    "userApproval": "approved",
+    "version": 4,
+    "remotionOnly": "out/01-killed-v4.mp4",
+    "comparison": "out/01-killed-comparison-v4.mp4",
+    "chatgptReview": "READY",
+    "chatgptReviewUrl": "https://chatgpt.com/c/6ac905ab-aeec-83ed-9bb8-6bf4eec64313",
+    "id": "MAXOR_WHITE_CAPTION_SLIDE",
+    "title": "Выезд белого титра",
+    "tags": [
+      "титр",
+      "slide",
+      "жёсткая склейка"
+    ],
+    "approvedAt": "2026-10-12"
+  },
+  {
+    "composition": "02-green-frame",
+    "sourceStart": 153.9,
+    "sourceEnd": 154.416666667,
+    "durationInFrames": 31,
+    "userApproval": "approved",
+    "version": 3,
+    "remotionOnly": "out/02-green-frame-v3.mp4",
+    "comparison": "out/02-green-frame-comparison-v3.mp4",
+    "chatgptReview": "READY",
+    "chatgptReviewUrl": "https://chatgpt.com/c/6ac905ab-aeec-83ed-9bb8-6bf4eec64313",
+    "id": "MAXOR_GREEN_SYMBOL_FRAME",
+    "title": "Зелёные символы и рамка",
+    "tags": [
+      "символы",
+      "рамка",
+      "wipe",
+      "zoom"
+    ],
+    "approvedAt": "2026-10-12"
+  },
+  {
+    "composition": "03-flee",
+    "sourceStart": 158.2,
+    "sourceEnd": 159.5667,
+    "durationInFrames": 82,
+    "userApproval": "approved",
+    "version": 7,
+    "remotionOnly": "out/03-flee-v7.mp4",
+    "comparison": "out/03-flee-comparison-v7.mp4",
+    "chatgptReview": "READY — blockers resolved; minor scale difference at f75–76",
+    "chatgptReviewUrl": "https://chatgpt.com/c/6ac9f085-b13c-83ed-a34c-3220330833f1",
+    "id": "MAXOR_FLEE_TITLE_ZOOM_EXIT",
+    "title": "Титр с увеличением и выходом",
+    "tags": [
+      "титр",
+      "color burn",
+      "zoom exit"
+    ],
+    "approvedAt": "2026-10-12"
+  },
+  {
+    "composition": "04-geometry",
+    "sourceStart": 159.6333,
+    "sourceEnd": 161.4667,
+    "durationInFrames": 110,
+    "userApproval": "approved",
+    "version": 4,
+    "remotionOnly": "out/04-geometry-v4.mp4",
+    "comparison": "out/04-geometry-comparison-v4.mp4",
+    "chatgptReview": "READY",
+    "chatgptReviewUrl": "https://chatgpt.com/c/6ac905ab-aeec-83ed-9bb8-6bf4eec64313",
+    "id": "MAXOR_GEOMETRY_CALLOUT",
+    "title": "Геометрические фигуры и титр",
+    "tags": [
+      "геометрия",
+      "коллаж",
+      "рамка"
+    ],
+    "approvedAt": "2026-10-12"
+  },
+  {
+    "composition": "05-stealth",
+    "sourceStart": 164.95,
+    "sourceEnd": 166.5667,
+    "durationInFrames": 97,
+    "userApproval": "approved",
+    "version": 3,
+    "remotionOnly": "out/05-stealth-v3.mp4",
+    "comparison": "out/05-stealth-comparison-v3.mp4",
+    "chatgptReview": "READY",
+    "chatgptReviewUrl": "https://chatgpt.com/c/6ac905ab-aeec-83ed-9bb8-6bf4eec64313",
+    "id": "MAXOR_RED_STEALTH_SLIDE",
+    "title": "Красный титр справа",
+    "tags": [
+      "титр",
+      "обводка",
+      "slide"
+    ],
+    "approvedAt": "2026-10-12"
+  },
+  {
+    "composition": "06-rigid",
+    "sourceStart": 167.1833,
+    "sourceEnd": 168.8833,
+    "durationInFrames": 102,
+    "userApproval": "approved",
+    "version": 4,
+    "remotionOnly": "out/06-rigid-v4.mp4",
+    "comparison": "out/06-rigid-comparison-v4.mp4",
+    "chatgptReview": "READY",
+    "chatgptReviewUrl": "https://chatgpt.com/c/6ac905ab-aeec-83ed-9bb8-6bf4eec64313",
+    "id": "MAXOR_RIGID_MEME_CAPTION_STACK",
+    "title": "Мемный коллаж с подписями",
+    "tags": [
+      "мем",
+      "коллаж",
+      "поэтапный титр"
+    ],
+    "approvedAt": "2026-10-12"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "composition": "01-committee",
+    "sourceStart": 169.95,
+    "sourceEnd": 170.95,
+    "durationInFrames": 60,
+    "version": 1,
+    "userApproval": "approved",
+    "chatgptReview": "READY",
+    "comparison": "out/01-committee-comparison-v1.mp4",
+    "remotionOnly": "out/01-committee-v1.mp4",
+    "reviewUrl": "https://chatgpt.com/c/6ac9f085-b13c-83ed-a34c-3220330833f1",
+    "id": "MAXOR_VIOLENCE_FLAG_CALLOUT",
+    "title": "Флаг и Violence Committee",
+    "tags": [
+      "флаг",
+      "наклон",
+      "коллаж",
+      "blend"
+    ],
+    "approvedAt": "2026-10-13"
+  },
+  {
+    "composition": "02-gameover",
+    "sourceStart": 170.7,
+    "sourceEnd": 174.4,
+    "durationInFrames": 222,
+    "version": 7,
+    "userApproval": "approved",
+    "chatgptReview": "READY v7 styled upper-left English title",
+    "comparison": "out/02-gameover-comparison-v7.mp4",
+    "remotionOnly": "out/02-gameover-v7.mp4",
+    "reviewUrl": "https://chatgpt.com/c/6ac9f085-b13c-83ed-a34c-3220330833f1",
+    "titleText": "GAME OVER",
+    "revisionNote": "User corrected Japanese request: stylized English contour at upper left. Isolated transparent original glyph artwork; independent reveal/highlight/fade.",
+    "id": "MAXOR_GAME_OVER_RED_BANNER",
+    "title": "Контур GAME OVER и красная полоса",
+    "tags": [
+      "красная полоса",
+      "контур",
+      "reveal",
+      "блик"
+    ],
+    "approvedAt": "2026-10-13"
+  },
+  {
+    "composition": "03-what",
+    "sourceStart": 177.85,
+    "sourceEnd": 178.55,
+    "durationInFrames": 42,
+    "version": 3,
+    "userApproval": "approved",
+    "chatgptReview": "READY",
+    "comparison": "out/03-what-comparison-v3.mp4",
+    "remotionOnly": "out/03-what-v3.mp4",
+    "reviewUrl": "https://chatgpt.com/c/6ac9f085-b13c-83ed-a34c-3220330833f1",
+    "id": "MAXOR_WHITE_WORD_STEPS",
+    "title": "Белая фраза по словам",
+    "tags": [
+      "белый титр",
+      "по словам",
+      "blur"
+    ],
+    "approvedAt": "2026-10-13"
+  },
+  {
+    "composition": "04-melina",
+    "sourceStart": 178.4,
+    "sourceEnd": 180.3,
+    "durationInFrames": 114,
+    "version": 3,
+    "userApproval": "approved",
+    "chatgptReview": "READY",
+    "comparison": "out/04-melina-comparison-v3.mp4",
+    "remotionOnly": "out/04-melina-v3.mp4",
+    "reviewUrl": "https://chatgpt.com/c/6ac9f085-b13c-83ed-a34c-3220330833f1",
+    "id": "MAXOR_MELINA_FRAME_BOTTLE",
+    "title": "MELINA: рамка и банка",
+    "tags": [
+      "рамка",
+      "титр",
+      "банка",
+      "вращение"
+    ],
+    "approvedAt": "2026-10-13"
+  },
+  {
+    "composition": "05-sexual",
+    "sourceStart": 184.0,
+    "sourceEnd": 185.8,
+    "durationInFrames": 108,
+    "version": 3,
+    "userApproval": "approved",
+    "chatgptReview": "READY",
+    "comparison": "out/05-sexual-comparison-v3.mp4",
+    "remotionOnly": "out/05-sexual-v3.mp4",
+    "reviewUrl": "https://chatgpt.com/c/6ac9f085-b13c-83ed-a34c-3220330833f1",
+    "id": "MAXOR_SEXUAL_STYLE_MEME_TITLE",
+    "title": "SEXUAL STYLE с мемами",
+    "tags": [
+      "поэтапный титр",
+      "мемы",
+      "цветовое наложение"
+    ],
+    "approvedAt": "2026-10-13"
+  },
+  {
+    "composition": "06-level",
+    "sourceStart": 186.0,
+    "sourceEnd": 188.1,
+    "durationInFrames": 126,
+    "version": 5,
+    "userApproval": "approved",
+    "chatgptReview": "READY",
+    "comparison": "out/06-level-comparison-v5.mp4",
+    "remotionOnly": "out/06-level-v5.mp4",
+    "reviewUrl": "https://chatgpt.com/c/6ac9f085-b13c-83ed-a34c-3220330833f1",
+    "id": "MAXOR_LEVEL_UP_WORD_ENTRIES",
+    "title": "Раздельные входы ABLE TO LEVEL UP",
+    "tags": [
+      "крупный титр",
+      "по словам",
+      "встречный вход"
+    ],
+    "approvedAt": "2026-10-13"
+  }
+]

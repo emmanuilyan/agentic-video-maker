@@ -1,0 +1,69 @@
+[
+  {
+    "composition": "01-nocap",
+    "sourceStart": 188.3,
+    "sourceEnd": 189.2,
+    "durationInFrames": 54,
+    "version": 5,
+    "userApproval": "pending",
+    "chatgptReview": "pending",
+    "reviewStatus": "pending-chatgpt-recheck",
+    "approved": false
+  },
+  {
+    "composition": "02-planet",
+    "sourceStart": 190.75,
+    "sourceEnd": 192.25,
+    "durationInFrames": 90,
+    "version": 5,
+    "userApproval": "pending",
+    "chatgptReview": "pending",
+    "reviewStatus": "pending-chatgpt-recheck",
+    "approved": false
+  },
+  {
+    "composition": "03-portrait",
+    "sourceStart": 192.4,
+    "sourceEnd": 193.45,
+    "durationInFrames": 63,
+    "version": 1,
+    "userApproval": "approved",
+    "chatgptReview": "READY",
+    "reviewStatus": "READY",
+    "approved": true,
+    "effectId": "MAXOR_PORTRAIT_PUNCH_FRAME"
+  },
+  {
+    "composition": "04-cleveland",
+    "sourceStart": 194.3,
+    "sourceEnd": 196.2,
+    "durationInFrames": 114,
+    "version": 5,
+    "userApproval": "pending",
+    "chatgptReview": "pending",
+    "reviewStatus": "pending-chatgpt-recheck",
+    "approved": false
+  },
+  {
+    "composition": "05-marinara",
+    "sourceStart": 195.9,
+    "sourceEnd": 197.3,
+    "durationInFrames": 84,
+    "version": 5,
+    "userApproval": "pending",
+    "chatgptReview": "pending",
+    "reviewStatus": "pending-chatgpt-recheck",
+    "approved": false
+  },
+  {
+    "composition": "06-fire",
+    "sourceStart": 197.6,
+    "sourceEnd": 201.2,
+    "durationInFrames": 216,
+    "version": 6,
+    "userApproval": "pending",
+    "chatgptReview": "pending",
+    "reviewStatus": "pending-chatgpt-recheck",
+    "approved": false
+  }
+]

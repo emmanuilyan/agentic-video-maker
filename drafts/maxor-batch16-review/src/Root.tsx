@@ -1,0 +1,2 @@
+import React from 'react';import {Composition} from 'remotion';import {Committee,GameOver,What,Melina,Sexual,Level} from './Effects';
+export const Root=()=> <>{[['01-committee',Committee,60],['02-gameover',GameOver,222],['03-what',What,42],['04-melina',Melina,114],['05-sexual',Sexual,108],['06-level',Level,126]].map(([id,component,duration])=><Composition key={id as string} id={id as string} component={component as React.FC} durationInFrames={duration as number} fps={60} width={1280} height={720}/>)}</>;

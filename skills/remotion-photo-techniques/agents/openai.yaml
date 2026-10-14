@@ -1,4 +1,4 @@
 interface:
   display_name: "Remotion Photo Techniques"
-  short_description: "Приёмы анимации фото, текста, 3D-камеры и крупных глитч-титров в Remotion"
+  short_description: "Анимация фото и текста, 3D-сцены и быстрые переходы в Remotion"
   default_prompt: "Используй $remotion-photo-techniques: примени выбранный приём или GLITCH_TITLE_CRAWL к моим материалам и покажи отдельное превью."

@@ -1,0 +1,588 @@
+[
+  {
+    "text": " Вот",
+    "startMs": 0,
+    "endMs": 240,
+    "timestampMs": 120,
+    "confidence": 0.655
+  },
+  {
+    "text": " представь,",
+    "startMs": 240,
+    "endMs": 940,
+    "timestampMs": 590,
+    "confidence": 0.938,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " тебя",
+    "startMs": 940,
+    "endMs": 1080,
+    "timestampMs": 1010,
+    "confidence": 0.567
+  },
+  {
+    "text": " позвал",
+    "startMs": 1080,
+    "endMs": 1440,
+    "timestampMs": 1260,
+    "confidence": 0.929
+  },
+  {
+    "text": " муж",
+    "startMs": 1440,
+    "endMs": 1880,
+    "timestampMs": 1660,
+    "confidence": 0.919,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " в",
+    "startMs": 1880,
+    "endMs": 2160,
+    "timestampMs": 2020,
+    "confidence": null
+  },
+  {
+    "text": " путешествие",
+    "startMs": 2160,
+    "endMs": 2740,
+    "timestampMs": 2450,
+    "confidence": 0.949
+  },
+  {
+    "text": " на",
+    "startMs": 2740,
+    "endMs": 2940,
+    "timestampMs": 2840,
+    "confidence": 0.986,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Гоа.",
+    "startMs": 2940,
+    "endMs": 3340,
+    "timestampMs": 3140,
+    "confidence": 0.824,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " И",
+    "startMs": 3500,
+    "endMs": 3520,
+    "timestampMs": 3510,
+    "confidence": 0.787
+  },
+  {
+    "text": " во",
+    "startMs": 3520,
+    "endMs": 3640,
+    "timestampMs": 3580,
+    "confidence": 0.983
+  },
+  {
+    "text": " время",
+    "startMs": 3640,
+    "endMs": 3860,
+    "timestampMs": 3750,
+    "confidence": 0.999,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " путешествия",
+    "startMs": 3860,
+    "endMs": 4800,
+    "timestampMs": 4330,
+    "confidence": 0.997
+  },
+  {
+    "text": " вдруг",
+    "startMs": 4800,
+    "endMs": 5100,
+    "timestampMs": 4950,
+    "confidence": 0.707
+  },
+  {
+    "text": " резко",
+    "startMs": 5100,
+    "endMs": 5580,
+    "timestampMs": 5340,
+    "confidence": 0.992,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " тебя",
+    "startMs": 5580,
+    "endMs": 5720,
+    "timestampMs": 5650,
+    "confidence": 0.975
+  },
+  {
+    "text": " выдергивает",
+    "startMs": 5720,
+    "endMs": 6180,
+    "timestampMs": 5950,
+    "confidence": 0.8
+  },
+  {
+    "text": " Васко",
+    "startMs": 6180,
+    "endMs": 6504,
+    "timestampMs": 6342,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " да",
+    "startMs": 6504,
+    "endMs": 6598,
+    "timestampMs": 6551,
+    "confidence": null
+  },
+  {
+    "text": " Гама",
+    "startMs": 6598,
+    "endMs": 6900,
+    "timestampMs": 6749,
+    "confidence": null
+  },
+  {
+    "text": " и",
+    "startMs": 6900,
+    "endMs": 7140,
+    "timestampMs": 7020,
+    "confidence": 0.858,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " спрашивает",
+    "startMs": 7140,
+    "endMs": 7640,
+    "timestampMs": 7390,
+    "confidence": 0.977
+  },
+  {
+    "text": " у",
+    "startMs": 7640,
+    "endMs": 7740,
+    "timestampMs": 7690,
+    "confidence": 0.866
+  },
+  {
+    "text": " твоего",
+    "startMs": 7740,
+    "endMs": 8000,
+    "timestampMs": 7870,
+    "confidence": 0.979,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " мужа.",
+    "startMs": 8000,
+    "endMs": 8380,
+    "timestampMs": 8190,
+    "confidence": 0.995,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Твоя",
+    "startMs": 8460,
+    "endMs": 8720,
+    "timestampMs": 8590,
+    "confidence": 0.905
+  },
+  {
+    "text": " жена?",
+    "startMs": 8720,
+    "endMs": 8980,
+    "timestampMs": 8850,
+    "confidence": 0.983,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Он",
+    "startMs": 9060,
+    "endMs": 9180,
+    "timestampMs": 9120,
+    "confidence": 0.979
+  },
+  {
+    "text": " признается",
+    "startMs": 9180,
+    "endMs": 9760,
+    "timestampMs": 9470,
+    "confidence": 0.958
+  },
+  {
+    "text": " и",
+    "startMs": 9760,
+    "endMs": 10100,
+    "timestampMs": 9930,
+    "confidence": 0.483,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " тебя",
+    "startMs": 10100,
+    "endMs": 10260,
+    "timestampMs": 10180,
+    "confidence": 0.555
+  },
+  {
+    "text": " по",
+    "startMs": 10260,
+    "endMs": 10440,
+    "timestampMs": 10350,
+    "confidence": 0.888
+  },
+  {
+    "text": " приезду",
+    "startMs": 10440,
+    "endMs": 10900,
+    "timestampMs": 10670,
+    "confidence": 0.983,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " на",
+    "startMs": 10900,
+    "endMs": 11040,
+    "timestampMs": 10970,
+    "confidence": 0.854
+  },
+  {
+    "text": " Гоа,",
+    "startMs": 11040,
+    "endMs": 11380,
+    "timestampMs": 11210,
+    "confidence": 0.823,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " секут",
+    "startMs": 11520,
+    "endMs": 11880,
+    "timestampMs": 11700,
+    "confidence": 0.783
+  },
+  {
+    "text": " плетью",
+    "startMs": 11880,
+    "endMs": 12360,
+    "timestampMs": 12120,
+    "confidence": 0.645
+  },
+  {
+    "text": " на",
+    "startMs": 12360,
+    "endMs": 12540,
+    "timestampMs": 12450,
+    "confidence": 0.798,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " главной",
+    "startMs": 12540,
+    "endMs": 12880,
+    "timestampMs": 12710,
+    "confidence": 0.983
+  },
+  {
+    "text": " площади",
+    "startMs": 12880,
+    "endMs": 13240,
+    "timestampMs": 13060,
+    "confidence": 0.984
+  },
+  {
+    "text": " перед",
+    "startMs": 13240,
+    "endMs": 13460,
+    "timestampMs": 13350,
+    "confidence": 0.968,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " толпой.",
+    "startMs": 13460,
+    "endMs": 13940,
+    "timestampMs": 13700,
+    "confidence": 0.976,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Но",
+    "startMs": 14160,
+    "endMs": 14200,
+    "timestampMs": 14180,
+    "confidence": 0.953
+  },
+  {
+    "text": " тебе",
+    "startMs": 14200,
+    "endMs": 14400,
+    "timestampMs": 14300,
+    "confidence": 0.979
+  },
+  {
+    "text": " повезло,",
+    "startMs": 14400,
+    "endMs": 14860,
+    "timestampMs": 14630,
+    "confidence": 0.913,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " всех",
+    "startMs": 14860,
+    "endMs": 15120,
+    "timestampMs": 14990,
+    "confidence": 0.42
+  },
+  {
+    "text": " остальных",
+    "startMs": 15120,
+    "endMs": 15600,
+    "timestampMs": 15360,
+    "confidence": 0.974,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " незамужних",
+    "startMs": 15600,
+    "endMs": 16240,
+    "timestampMs": 15920,
+    "confidence": 0.807
+  },
+  {
+    "text": " женщин",
+    "startMs": 16240,
+    "endMs": 16740,
+    "timestampMs": 16490,
+    "confidence": 0.997,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " выкинули",
+    "startMs": 16840,
+    "endMs": 17260,
+    "timestampMs": 17050,
+    "confidence": 0.99
+  },
+  {
+    "text": " за борт.",
+    "startMs": 17260,
+    "endMs": 17620,
+    "timestampMs": 17440,
+    "confidence": 0.509,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " потому",
+    "startMs": 17740,
+    "endMs": 17960,
+    "timestampMs": 17850,
+    "confidence": 0.989
+  },
+  {
+    "text": " что",
+    "startMs": 17960,
+    "endMs": 18160,
+    "timestampMs": 18060,
+    "confidence": 0.984
+  },
+  {
+    "text": " женщина",
+    "startMs": 18160,
+    "endMs": 18540,
+    "timestampMs": 18350,
+    "confidence": 0.978,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " на",
+    "startMs": 18540,
+    "endMs": 18680,
+    "timestampMs": 18610,
+    "confidence": 0.996
+  },
+  {
+    "text": " корабле",
+    "startMs": 18680,
+    "endMs": 19020,
+    "timestampMs": 18850,
+    "confidence": 0.985
+  },
+  {
+    "text": " это",
+    "startMs": 19020,
+    "endMs": 19200,
+    "timestampMs": 19110,
+    "confidence": 0.284,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " к",
+    "startMs": 19200,
+    "endMs": 19280,
+    "timestampMs": 19240,
+    "confidence": 0.954
+  },
+  {
+    "text": " беде.",
+    "startMs": 19280,
+    "endMs": 19680,
+    "timestampMs": 19480,
+    "confidence": 0.975,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " И",
+    "startMs": 19760,
+    "endMs": 19820,
+    "timestampMs": 19790,
+    "confidence": 0.974
+  },
+  {
+    "text": " в",
+    "startMs": 19820,
+    "endMs": 19940,
+    "timestampMs": 19880,
+    "confidence": 0.996
+  },
+  {
+    "text": " эпоху",
+    "startMs": 19940,
+    "endMs": 20320,
+    "timestampMs": 20130,
+    "confidence": 0.965,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " великих",
+    "startMs": 20320,
+    "endMs": 20720,
+    "timestampMs": 20520,
+    "confidence": 0.857
+  },
+  {
+    "text": " географических",
+    "startMs": 20720,
+    "endMs": 21380,
+    "timestampMs": 21050,
+    "confidence": 0.994,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " открытий",
+    "startMs": 21380,
+    "endMs": 22140,
+    "timestampMs": 21760,
+    "confidence": 0.97
+  },
+  {
+    "text": " нет",
+    "startMs": 22140,
+    "endMs": 22400,
+    "timestampMs": 22270,
+    "confidence": 0.529
+  },
+  {
+    "text": " женщинам",
+    "startMs": 22400,
+    "endMs": 23000,
+    "timestampMs": 22700,
+    "confidence": 0.675,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " места",
+    "startMs": 23000,
+    "endMs": 23320,
+    "timestampMs": 23160,
+    "confidence": 0.854
+  },
+  {
+    "text": " на",
+    "startMs": 23320,
+    "endMs": 23720,
+    "timestampMs": 23520,
+    "confidence": 0.992
+  },
+  {
+    "text": " корабле",
+    "startMs": 23720,
+    "endMs": 24160,
+    "timestampMs": 23940,
+    "confidence": 0.997,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Васко",
+    "startMs": 24160,
+    "endMs": 24529,
+    "timestampMs": 24344,
+    "confidence": null
+  },
+  {
+    "text": " да",
+    "startMs": 24529,
+    "endMs": 24636,
+    "timestampMs": 24582,
+    "confidence": null
+  },
+  {
+    "text": " Гама.",
+    "startMs": 24636,
+    "endMs": 24980,
+    "timestampMs": 24808,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Эх,",
+    "startMs": 25060,
+    "endMs": 25240,
+    "timestampMs": 25150,
+    "confidence": 0.945,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Гоа,",
+    "startMs": 25420,
+    "endMs": 25600,
+    "timestampMs": 25510,
+    "confidence": 0.972,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Эх,",
+    "startMs": 25700,
+    "endMs": 26000,
+    "timestampMs": 25850,
+    "confidence": 0.986,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Васко",
+    "startMs": 26220,
+    "endMs": 26544,
+    "timestampMs": 26382,
+    "confidence": null
+  },
+  {
+    "text": " да",
+    "startMs": 26544,
+    "endMs": 26638,
+    "timestampMs": 26591,
+    "confidence": null
+  },
+  {
+    "text": " Гама.",
+    "startMs": 26638,
+    "endMs": 26940,
+    "timestampMs": 26789,
+    "confidence": null,
+    "pageBreakAfter": true
+  }
+]

@@ -1,6 +1,6 @@
 ---
 name: remotion-photo-techniques
-description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, rapid photo flipbook cuts, photo transitions, lateral camera pans across adjacent photos, kinetic text, yellow marker highlights, transparent outline-only text (TEXT_OUTLINE), impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), or approved short Maxor effects.
+description: Use when animating photographs or text in Remotion with grids, zooms, rolling columns, card stacks, collages, photo transitions, kinetic text, yellow marker highlights, transparent outline-only text (TEXT_OUTLINE), color-blended text over footage (TEXT_BLEND_MODES), impact effects, parallax, camera flythroughs, a large glitch title with scrolling/crawling ticker text (GLITCH_TITLE_CRAWL), a moving texture-filled title that zooms into new footage (TEXTURE_ZOOM_TITLE), or approved short Maxor effects.
 ---
 
 # Remotion Photo Techniques
@@ -9,27 +9,19 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 
 Для этого приёма есть [запускаемый пример](examples/yellow-highlight/README.md) и [видео-превью](assets/previews/TEXT_HIGHLIGHT-reference.mp4).
 
-Для быстрого «перелистывания» полноэкранных фотографий жёсткими склейками используй [RAPID_PHOTO_FLIPBOOK](references/techniques.md#standalone-photo-effect-rapid_photo_flipbook). Приём из `Sundress` (1:57–1:59) держит каждый план два кадра при 24 fps; внутри пары можно передать два микрокадра. [Компонент](assets/techniques/photo-flipbook.tsx), [пример](examples/rapid-photo-flipbook/README.md) и [одобренное превью](assets/previews/RAPID_PHOTO_FLIPBOOK-reference.mp4).
-
 Для крупного глитч-титра с ползущим текстом по краям используй отдельный эффект [GLITCH_TITLE_CRAWL](references/techniques.md#standalone-text-effect-glitch_title_crawl). Теги для выбора: **крупный титр**, **ползущий/бегущий текст**, **glitch title**, **crawling ticker**. Компонент [GlitchTitleCrawl](assets/techniques/glitch-title-crawl.tsx) работает как оверлей поверх видео и не входит в четырёхфотный `PhotoTechnique`; смотри [пример](examples/glitch-title-crawl/README.md) и [превью](assets/previews/GLITCH_TITLE_CRAWL-reference.mp4).
 
 Для титра с движущейся текстурой внутри букв и зум-переходом на новый кадр используй отдельный эффект [TEXTURE_ZOOM_TITLE](references/techniques.md#standalone-text-effect-texture_zoom_title). Теги для выбора: **текстура в буквах**, **постепенная смена фразы**, **зум в новое видео**, **moving texture title**. Компонент [TextureZoomTitle](assets/techniques/texture-zoom-title.tsx) работает поверх видео и не входит в `PhotoTechnique`; смотри [пример](examples/texture-zoom-title/README.md), [рецепт](examples/texture-zoom-title/effect.md) и [превью](assets/previews/TEXTURE_ZOOM_TITLE-reference.mp4).
 
 Для текста, у которого виден только контур, а внутри букв просвечивает фон, используй самостоятельный [TEXT_OUTLINE](references/techniques.md#standalone-text-effect-text_outline). Компонент [OutlineOnlyText](assets/techniques/outline-only-text.tsx) открывает надпись слева направо; параметры, [пример](examples/outline-only-text/README.md), [рецепт](examples/outline-only-text/effect.md) и [превью](assets/previews/TEXT_OUTLINE-reference.mp4) доступны отдельно от `PhotoTechnique`.
 
-Для иллюзии бокового пролёта камеры через соседние фотографии используй самостоятельный `CAMERA_PHOTO_PAN`: [LateralPhotoPan](assets/techniques/lateral-photo-pan.tsx) принимает от двух фото, их ширины и ключевые положения камеры. Точный тайминг перехода из референса 0:43–0:45, параметры и [запускаемый пример](examples/camera-photo-pan/README.md) описаны в [рецепте](examples/camera-photo-pan/effect.md); [видео-превью](assets/previews/CAMERA_PHOTO_PAN-reference.mp4) показывает одобренный рендер.
+Когда цвет заливки текста взаимодействует с фоном, используй один приём [TEXT_BLEND_MODES](references/techniques.md#standalone-text-effect-text_blend_modes), а режим выбирай параметром. Для 17 CSS-режимов поверх любого видео бери [BlendedFillText](assets/techniques/blended-fill-text.tsx); 11 дополнительных режимов Premiere реализованы [пиксельным композитором](assets/techniques/premiere-blend-still-text.tsx) для изображения или последовательности кадров. [Рецепт](examples/text-blend-modes/effect.md), [запускаемый пример](examples/text-blend-modes/README.md) и [интерактивное сравнение всех 28 вариантов](examples/text-blend-modes/modes.html) находятся вместе.
 
 Для утверждённых коротких приёмов из видео Maxor смотри [MAXOR examples](examples/maxor-approved-effects/effect.md): поэтапный титр ELDEN RING, двухстрочная подпись с зумом, синхронный цикл шрифтов BOOMER BAND, коллаж с циановым японским титром поверх мем-вставки, видеооверлей THE DARK SOULS и сборка логотипа METAL GEAR RISING с поэтапным исправлением слов. Ещё четыре утверждённых приёма из Baldur's Gate 3 собраны в [следующем наборе](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-1710-3375/README.md): электрический ударный титр, двухэтапная подпись D&D, волнистый титр MY BLOOD IS / SPICY и две игровые плашки с мемами. `TEXTURE_ZOOM_TITLE` также показан в первой подборке и имеет отдельную компонентную реализацию. В галерее эффекты собраны по фильтру **Maxor**. После пользовательского апрува прикрепляй к карточке галереи именно последний Remotion-рендер из сравнения, который получил апрув: этот MP4 должен воспроизводиться на странице, а постер нужно сделать из того же рендера. Не используй исходный клип, двухпанельное сравнение или устаревший черновик. Если рендер менялся после апрува, снова покажи его пользователю. После добавления проверь карточку и воспроизведение в категории **Maxor**.
 
 `MAXOR_DICE_GLITCH_QUOTE` — утверждённая [глитч-цитата с настоящим падением d20](../remotion-effect-recreation/examples/baldurs-gate-dice-glitch-fall-4105/README.md). Используй её, когда нужен короткий RGB-смаз игровой сцены, две полосы фрагментов, затем пиксельная двухстрочная надпись с удержанием до завершения броска. Параметры и точные кадры — в [рецепте](../remotion-effect-recreation/examples/baldurs-gate-dice-glitch-fall-4105/effect.md); [превью](assets/previews/MAXOR_DICE_GLITCH_QUOTE-reference.mp4).
 
 Шесть следующих утверждённых приёмов собраны в [запускаемом примере](examples/maxor-batch7-effects/README.md) и [рецептах](examples/maxor-batch7-effects/effect.md): `MAXOR_SKYRIM_BLENDED_TITLE` (крупный титр смешивается с фоном и исчезает по буквам), `MAXOR_SPEED_DISCLAIMER_WIPE` (подпись уходит влево под световым проходом), `MAXOR_JAPAN_MAP_CALLOUT` (единый силуэт Японии поверх всех вставок), `MAXOR_EASTERN_EUROPE_SCALE` (растущая карта и дописываемое сравнение с Африкой), `MAXOR_RGB_BLOCK_GLITCH` (RGB-блоки, глитч букв, зум и цветокоррекция), `MAXOR_MARGIT_FRAME_TITLE` (светлая рамка, выгнутый жёлтый титр и тонкая нижняя подпись). Каждый эффект короче трёх секунд; выбирай конкретный рецепт по визуальному приёму.
-
-Четыре одобренных эффекта из Metal Gear Rising описаны и запускаются в [наборе примеров](examples/metal-gear-approved-effects-2026/README.md): `MG_RED_MOSAIC_REVEAL` (красная мозаика карточек с отдельным раскрытием лица), `MG_CRT_SIGNAL_BREAKUP` (портрет в зелёном CRT-окне с широкими полосами помех), `MG_SPLIT_WORDMARK_BUILD` (кастомный логотип с поэтапным исправлением слов), `MG_CYAN_NEON_EXIT` (логотип и электрические дуги синхронно уходят вверх). Рецепты, исходные интервалы и тайминг — в [effect.md](examples/metal-gear-approved-effects-2026/effect.md). Для галереи используй только одобренную панель Remotion и постер из того же MP4.
-
-Для пяти одобренных эффектов из Shorts используй `ECHO`, `GLOW`, `CC_LENS`, `CC_PIXEL_POLLY`, `MOTION_TILE`: [компоненты](assets/techniques/shorts-five-effects.tsx), [запускаемый пример](examples/shorts-five-effects/README.md), [рецепты и параметры](examples/shorts-five-effects/effect.md). Echo создаёт задержанные копии движущегося слоя; Glow добавляет неоновый ореол; CC Lens изгибает всю композицию; Pixel Polly разрезает изображение на треугольные осколки; Motion Tile бесшовно повторяет и прокручивает ячейку. Эффекты работают отдельно от четырёхфотного `PhotoTechnique`; превью каждого ID находятся в `assets/previews`.
-
-Четыре утверждённых эффекта Maxor из фрагментов 00:50–01:10: `MG_GUITAR_ROCK_TITLE` (гитара и цветной RGB-титр), `MG_TOONTOWN_ARTICLE_COLLAGE` (логотип, фото и три статьи), `MG_FALLING_ABOVE_40` (раздельное падение слоёв и допись числа), `MG_OVAL_MEME_CAPTIONS` (овальная вставка и две встречные подписи). [Запускаемый пример](examples/metal-gear-approved-effects-50-70/README.md), [рецепты с таймингом](examples/metal-gear-approved-effects-50-70/effect.md) и точные утверждённые сравнения лежат вместе; чистые превью доступны в `assets/previews/`.
 
 ## Как работать
 
@@ -52,89 +44,62 @@ description: Use when animating photographs or text in Remotion with grids, zoom
 
 Демо по умолчанию: 6 секунд, 30 fps, 16:9, без звука. Это параметры примера, не ограничения пользовательских роликов. Готовый skill не требует конкретных фото, абсолютных путей или дополнительного генератора изображений.
 
-Для сферического искажения и раскрытия изображения используй `CC_LENS` — одобренную адаптацию CC Lens из Shorts: [LensWarp](assets/techniques/lens-warp.tsx), [пример и параметры](examples/cc-lens/effect.md), [превью](assets/previews/CC_LENS-reference.mp4). Теги: **сферическая линза**, **fisheye**, **CC Lens**. Эффект принимает одно изображение; собственная SVG-графика в примере заменяет графику оригинала.
+## Approved BG3 batch44–60seconds
 
-Для утверждённого `MG_MAP_COLLAGE_IRIS` («Движущаяся карта и круговой выход») используй [пример и рецепт](examples/metal-gear-map-collage-iris/README.md): карта панорамируется отдельно за игровым передним планом, меняет палитру и закрывается круглой маской. Демо — точная утверждённая v13.
+Use [five approved montage examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-4405-6035/README.md) for `MAXOR_POKEMON_CALLOUT`, `MAXOR_EXPLOSION_COUNTDOWN`, `MAXOR_N64_PIXEL_CAPTION`, `MAXOR_COMIC_FRAME_CAPTIONS`, and `MAXOR_CHARACTER_NAMEPLATES`. Recipes, independent layers and the exact approved previews are included.
 
-## Maxor: шесть приёмов 0:59–1:18
+## Approved BG3 batch60–73seconds
 
-Для `MAXOR_DOG_CAPTION_FRAME`, `MAXOR_GOD_FREED_FRAME`, `MAXOR_PART_ONE_DRIFT_CARD`, `MAXOR_LOGO_PRESS_ZOOM`, `MAXOR_KEYBOARD_FLASH_COLLAGE`, `MAXOR_CHARACTER_SMEAR_TITLE` используй [запускаемый пример](examples/maxor-batch8-effects/README.md) и [покадровые рецепты](examples/maxor-batch8-effects/effect.md). В третьем приёме после появления обе строки продолжают движение в разные стороны. Превью каждой карточки Maxor — точная последняя утверждённая версия без оригинального видео слева.
+Use [five approved examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-6020-7310/README.md) for `MAXOR_SQUID_STAGED_CARD`, `MAXOR_HUMAN_CLASSIFICATION`, `MAXOR_METALLIC_RIZZ_TITLE`, `MAXOR_PRONOUN_CARDS`, and `MAXOR_DIFFERENCE_MEME_STACK`. The recipe includes exact stage/cut timing and a tested TEXT_BLEND_MODES variant with separate blended-fill and normal-outline SVG layers.
 
-## Approved Metal Gear effects, 01:10–01:55
 
-For a logo that preserves bright UI, a menu zoom with an arrow, a gameplay squash into a meme strip, or a glitch portrait pileup, use [four approved recipes](examples/metal-gear-approved-effects-70-115/effect.md): `MG_LOGO_UI_BLEND`, `MG_SETTING_ARROW_ZOOM`, `MG_MEME_STRIP_SQUASH`, `MG_GLITCH_PORTRAIT_PILEUP`. The runnable example and latest user-approved previews are linked in [README](examples/metal-gear-approved-effects-70-115/README.md).
+## Approved BG3 batch73–82seconds
 
-## Approved Maxor effects, 80–84 seconds
+Use [five approved examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-7390-8185/README.md) for `MAXOR_RED_EDGE_TITLES`, `MAXOR_GROWING_MEME_SWAP`, `MAXOR_STAGED_PERSUASION_GAG`, `MAXOR_RGB_MEME_POSTER`, and `MAXOR_RED_REACTION_CAPTION`. Includes frame timelines, independent overlays, RGB/blur/shake implementation and exact approved previews. Distinguish native gameplay from author layers as described in the recipe.
 
-Use [three approved examples](examples/maxor-approved-effects-80-84/effect.md) for `MAXOR_COMIC_PRESENTATION`, `MAXOR_DIAGONAL_HAND_WIPE`, and `MAXOR_VERTICAL_CHAPEL_SLIT`: presentation layers, a diagonal footage wipe, or a widening central slit. Exact approved renders are attached to their Maxor gallery cards.
+## Approved BG3 captions83–93seconds
 
-## Approved Maxor composite and quote
+Use [five approved approximate caption examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-8310-9285/README.md) for `MAXOR_GROWING_MEME_CAPTION`, `MAXOR_DETONATE_CAPTION`, `MAXOR_NECROMANCY_CAPTION`, `MAXOR_TWO_STAGE_METALLIC_CAST`, `MAXOR_DIALOGUE_ESCALATION`. Editable SVG fill/outline, growing captions, staged metallic gradient/depth and dialogue escalation. Exact user-approved v4 previews are included; font, background and intermediate-motion substitutions are documented in the recipe.
 
-Use [the composite example and quote recipe](examples/maxor-chapel-neon-sequence/effect.md) for `MAXOR_CHAPEL_SKELETON_NEON_SEQUENCE` (effects3–5 as one montage) and `MAXOR_FROM_SOFTWARE_QUOTE` (heading, portrait and translucent speech bubble). Exact saved previews appear in Maxor.
+## Approved non-text Maxor effects96–155seconds
 
-## Approved Maxor effects, 91–108 seconds
+For cutout replacement, paired card growth, RGB hand collage, impact camera zoom or simulated block degradation, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-9620-15500/effect.md). IDs: `MAXOR_CUTOUT_CARD_SWAP`, `MAXOR_PAIRED_IMAGE_GROWTH`, `MAXOR_HAND_COLLAGE_RGB`, `MAXOR_IMPACT_CAMERA_ZOOM`, `MAXOR_BLOCK_FRAME_DEGRADATION`. Exact approved previews are linked in the example. Preserve documented frozen-background, frozen-explosion and simulated-codec limits; no independent ChatGPT verdict was obtained because its limit was exhausted.
 
-Use [six approved examples](examples/maxor-approved-effects-91-108/effect.md) for `MAXOR_HOLE_SLIDE_TITLE`, `MAXOR_FUN_RED_IMPACT`, `MAXOR_MAKING_FRIENDS_ZOOM`, `MAXOR_LIFE_STAGED_CAPTION`, `MAXOR_TOUCH_GRASS_COLLAGE`, and `MAXOR_WELCOME_LIMGRAVE`. Includes exact approved previews, frame timelines and documented static-background/blend approximations.
+## Approved non-text Maxor effects164–217seconds
 
-## Approved Maxor effects, 108–120 seconds
+For selective color, UI collage, dark focus, an in-panel meme reveal or RGB reaction entry, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-16480-21680/effect.md). IDs: `MAXOR_SELECTIVE_COLOR`, `MAXOR_UI_COLLAGE`, `MAXOR_DARK_FOCUS`, `MAXOR_MEME_IN_UI`, `MAXOR_REACTION_GLITCH`. Preserve the documented frozen footage and restored background limits. The exact approved renders are included; ChatGPT review was unavailable.
 
-For a centered location title, paired tree inserts, a two-color name reveal, a character cutout swap, a red-circle pulse or a typewriter quote box, use [six approved examples](examples/maxor-approved-effects-108-120/effect.md). IDs: `MAXOR_LIMGRAVE_CENTER_TITLE`, `MAXOR_PAIRED_TREE_INSERTS`, `MAXOR_MARTIN_NAME_REVEAL`, `MAXOR_WALTER_CHARACTER_SWAP`, `MAXOR_RED_CIRCLE_PULSE`, `MAXOR_TYPEWRITER_QUOTE_BOX`. Exact approved previews, frame timing and still-background/mask limits are included.
+## Approved non-text Maxor effects227–257seconds
 
-## Approved Metal Gear effects, 146–192 seconds
+For staged meme cards, a two-shot dissolve, monochrome focus, a head-anchored mind orb or a full-frame-to-editor reveal, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-22730-25655/effect.md). IDs: `MAXOR_STAGED_MEME_COLLAGE`, `MAXOR_DOUBLE_EXPOSURE`, `MAXOR_MONOCHROME_FOCUS`, `MAXOR_MIND_ORB`, `MAXOR_EDITOR_REVEAL`. Import reusable components from src/effects.tsx. Preserve the documented frozen footage, restored orb and native-VFX attribution limits. These are user-approved approximations; no independent ChatGPT verdict was obtained.
 
-Use [four approved examples](examples/metal-gear-approved-effects-146-192/README.md) for `MG_NEON_CHARACTER_TITLE`, `MG_SPEEDLINE_GLITCH_BURST`, `MG_PIXEL_DIALOG_SLIDE`, `MG_DIAGONAL_CUTOUT_PILEUP`. Exact approved component code, previews, frame timelines and documented background/typography approximations are included.
+## Approved non-text Maxor effects274–335seconds
 
-## Approved Maxor effects,119–126 seconds
+For a rough matte, color thaw with radial zoom, directional RGB smear, cat focus with meme overlay or inventory punch with insert, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-27445-33535/effect.md). IDs: `MAXOR_ROUGH_MATTE`, `MAXOR_COLOR_THAW_ZOOM`, `MAXOR_DIRECTIONAL_RGB_SMEAR`, `MAXOR_CAT_FOCUS_MEME`, `MAXOR_INVENTORY_PUNCH_INSERT`. Import reusable components from src/effects.tsx. Exact approved renders are in out/. Preserve the documented frozen gameplay, raster caption and repaired background limits. All five passed independent ChatGPT frame review before user approval.
 
-For a staged helmet collage, rainbow depth title, meme aura, chromatic fringe, sliding meme card or talking-mouth overlay, use [six approved examples](examples/maxor-approved-effects-119-126/effect.md). IDs: `MAXOR_HELMET_COLLAGE`, `MAXOR_HELMET_RAINBOW_TITLE`, `MAXOR_MEME_AURA`, `MAXOR_CRINGE_CHROMATIC_FRINGE`, `MAXOR_MAIDEN_MEME_SLIDE`, `MAXOR_TALKING_MOUTH_OVERLAY`. Exact approved previews and frame timelines included; retain the documented still-background, glyph and speech approximations.
+## Approved non-text Maxor effects341–368seconds
 
-## Approved Metal Gear effects, 195–230 seconds
+For a circular reveal, framed product collage, promo cut with directional smear, packshot cascade or webpage focus/scroll, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-34145-36790/effect.md). IDs: `MAXOR_CIRCLE_REVEAL`, `MAXOR_FRAMED_PRODUCTS`, `MAXOR_NEON_PROMO_CUT`, `MAXOR_PRODUCT_CASCADE`, `MAXOR_WEBPAGE_SPOTLIGHT`. Components are in src/effects.tsx; exact approved previews in out/. Preserve the documented frozen gameplay, inherited hero grading/glow and webpage blur limits. Independent ChatGPT v3 passed all five before user approval.
 
-Use [four approved examples](examples/metal-gear-approved-effects-195-230/README.md) for `MG_BLUE_TITLE_EXIT`, `MG_POV_COLOR_EDGES`, `MG_RED_SCANNING_HUD`, `MG_CUT_EXTENDED_CAPTION`. Includes independent title, color-edge, scanning HUD and cut-persistent caption layers, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
+## Approved non-text Maxor variants405–431seconds
 
-## Approved Maxor effects,127–138 seconds
+For location dissolves, editor shot changes, Mod Manager assembly, portrait screenshot callouts or paired dossiers, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-40500-43060/effect.md). IDs: `MAXOR_LOCATION_MATCH_DISSOLVE`, `MAXOR_EDITOR_SHOT_SWITCH`, `MAXOR_MOD_MANAGER_ASSEMBLY`, `MAXOR_PORTRAIT_SCREENSHOT_CALLOUTS`, `MAXOR_PAIRED_DOSSIER_DISSOLVE`. Independent montage is in src/effects.tsx; exact approved renders in out/. Preserve the frozen source footage, raster frame/title artwork and panel repair limitations. User approved these approximations after explicit clarification; independent ChatGPT review was unavailable.
 
-For a staged texture title, sneaker/logo entrance, contrast ramp, comic collage, castle wipe or meme/burn transition, use [six approved examples](examples/maxor-approved-effects-127-138/effect.md). IDs: `MAXOR_ZERO_TEXTURE_TITLE`, `MAXOR_SNEAKER_LOGO_SLIDE`, `MAXOR_CONTRAST_CRUSH_RAMP`, `MAXOR_COMIC_GRACE_COLLAGE`, `MAXOR_CASTLE_WIPE`, `MAXOR_MEME_BURN_TRANSITION`. Exact approved previews, tags and frame timelines included; preserve documented still-background and color approximations.
+## Approved nontext Maxor effects442–479seconds
 
-## Approved Metal Gear effects, 233–243 seconds
+For full-frame color punches, GameOver dissolves, save-window zooms, sheep takeovers or backgrounds under menu UI, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-44270-47880/effect.md). IDs: `MAXOR_FULLFRAME_MAGENTA_CYAN`, `MAXOR_GAME_OVER_SCENE_DISSOLVE`, `MAXOR_SAVE_WINDOW_ZOOM`, `MAXOR_SHEEP_PLATE_TAKEOVER`, `MAXOR_MEME_BEHIND_MENU`. The final user-approved renders are in out/. Preserve frozen-gameplay/VFX, raster UI and approximate sheep typography limits. Independent ChatGPT accepted the specified montage/timing corrections across V4–V6 before user approval.
 
-Use [four approved examples](examples/metal-gear-approved-effects-233-243/README.md) for `MG_FEDERAL_TYPE_CAPTION`, `MG_FIVE_PHOTO_PILEUP`, `MG_TUTORIAL_WORD_CAPTION`, `MG_LEARNING_TWO_PART_CAPTION`. Includes staged captions and independent photo accumulation, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
+## Approved nontext Maxor effects487–609seconds
 
-## Approved Metal Gear effects, 247–270 seconds
+For clown face dissolves/zoom/grade, nested framed cards, perspective comic motifs, quantized wave snaps or multishot burnt frames, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-48710-60890/effect.md). IDs: `MAXOR_CLOWN_MATCH_ZOOM`, `MAXOR_NESTED_MEME_FRAMES`, `MAXOR_MENACING_GRAPHIC_COLUMNS`, `MAXOR_QUANTIZED_WAVE_SNAP`, `MAXOR_BURNT_MULTISHOT_FRAME`. Exact approved renders in out/, including Manga v2 after user motion correction. Preserve frozen media, repaired plates, approximate SVG trajectories and inherited Film lighting limits. ChatGPT selection completed; comparison review unavailable.
 
-Use [four approved examples](examples/metal-gear-approved-effects-247-270/README.md) for `MG_ITALIC_STAGED_QUOTE`, `MG_OPPOSING_CUTOUT_INSERT`, `MG_RGB_TITLE_PUNCHLINE`, `MG_RED_RECENTERED_PHRASE`. Includes staged captions, opposing cutouts and a two-row RGB title, exact approved previews and frame timelines. Preserve documented inpainted-background and source-specific glyph limits.
+## Approved nontext Maxor effects617–696seconds
 
-## Approved Metal Gear effects,271–293 seconds
+For formula dissolves, ghost-to-face grafts, two poster replacements or growing ornamental video inserts, use [four approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-61690-69570/effect.md). IDs: `MAXOR_RAINBOW_FORMULA_DISSOLVE`, `MAXOR_GHOST_FACE_GRAFT`, `MAXOR_RED_SILHOUETTE_POSTER_SWAP`, `MAXOR_ORNAMENTAL_VIDEO_FRAME_ZOOM`. Exact approved renders in out/. Preserve the documented frozen backgrounds, approximate formulas, inherited grading/artwork and extracted inner-video limits. User approved; independent ChatGPT comparison unavailable.
 
-For a headline/subline exit, brief logo overlay, italic word append or layered diagonal wipe, use [four approved examples](examples/metal-gear-approved-effects-271-293/README.md). IDs: `MG_HEADLINE_SUBLINE_EXIT`, `MG_BRIEF_LOGO_OVERLAY`, `MG_ITALIC_WORD_APPEND`, `MG_LAYERED_DIAGONAL_EXIT`. Includes independent components, animated cutout assets, frame timelines and the exact approved previews; preserve the documented raster-color and repaired-background limits.
+## Approved nontext Maxor effects754–822seconds
 
-## Approved Maxor effects138–149sec
-
-For a staged title that transitions into an anime callout, an Escape/flag sequence that transitions into a rotating bracelet ring, a hose-object collage or a three-font/heart meme stack, use [four approved grouped examples](examples/maxor-approved-effects-138-149/effect.md). IDs: `MAXOR_SPECTRE_BLOODBORNE_SEQUENCE`, `MAXOR_ESCAPE_BRACELET_SEQUENCE`, `MAXOR_HOSE_OBJECT_COLLAGE`, `MAXOR_GIRLBOSS_HEART_STACK`. Group1–2 and3–4 as single effects; exact approved frame selections, joined previews, tags and media approximations are documented.
-
-## Approved Metal Gear effects,315–349 seconds
-
-For a side-entering title/subtitle, pulsing portrait, title-to-edge collage or staged caption with portraits, use [four approved examples](examples/metal-gear-approved-effects-315-349/README.md). IDs: `MG_SIDE_TITLE_SUBLINE`, `MG_PORTRAIT_WHITE_PULSES`, `MG_TITLE_TO_EDGE_COLLAGE`, `MG_STAGED_CAPTION_PORTRAITS`. Includes independent layers, frame timelines and exact user-approved v4 previews. Preserve the documented repaired-background, raster-artwork and static-portrait limits.
-
-## Approved Maxor effects153–169seconds
-
-Use [six approved recipes](examples/maxor-approved-effects-153-169/effect.md): `MAXOR_WHITE_CAPTION_SLIDE`, `MAXOR_GREEN_SYMBOL_FRAME`, `MAXOR_FLEE_TITLE_ZOOM_EXIT`, `MAXOR_GEOMETRY_CALLOUT`, `MAXOR_RED_STEALTH_SLIDE`, `MAXOR_RIGID_MEME_CAPTION_STACK`. Exact user-approved previews and source intervals are included; preserve the documented frozen backgrounds, raster glyph masks and font approximations.
-
-## Approved Metal Gear effects,367–392 seconds
-
-For staged typography with side objects, a circle-revealed sports collage, a growing RGB inversion circle or a four-line diagonal caption wipe, use [four approved examples](examples/metal-gear-approved-effects-367-392/README.md). IDs: `MG_STAGED_TITLE_SIDE_OBJECTS`, `MG_CIRCLE_SPORTS_COLLAGE`, `MG_RGB_INVERSION_CIRCLE`, `MG_FOUR_LINE_DIAGONAL_CAPTION`. Includes independent layers, frame timelines and exact user-approved previews. Preserve documented held-background, raster-artwork and color approximations.
-
-## Approved Metal Gear effects,415–446 seconds
-
-For a decorative title crossing the frame, a contour overload with a large title, staged emblem entry or extruded staged caption, use [four approved examples](examples/metal-gear-approved-effects-415-446/README.md). IDs: `MG_DECORATIVE_TITLE_PASS`, `MG_CONTOUR_OVERLOAD_TITLE`, `MG_STAGED_EMBLEM_ENTRY`, `MG_EXTRUDED_STAGED_CAPTION`. Includes independent layers, frame timelines and exact user-approved previews. Preserve documented held-background, raster-artwork and color approximations.
-
-## Approved Maxor effects169–188seconds
-
-Use [six approved recipes](examples/maxor-approved-effects-169-188/effect.md): `MAXOR_VIOLENCE_FLAG_CALLOUT`, `MAXOR_GAME_OVER_RED_BANNER`, `MAXOR_WHITE_WORD_STEPS`, `MAXOR_MELINA_FRAME_BOTTLE`, `MAXOR_SEXUAL_STYLE_MEME_TITLE`, `MAXOR_LEVEL_UP_WORD_ENTRIES`. Exact user-approved previews and source intervals are included; preserve the documented frozen backgrounds, raster glyph masks and font approximations.
-
-## Approved Maxor portrait punch
-
-Use [portrait punch with color flash and pink frame](examples/maxor-approved-portrait-192/effect.md), `MAXOR_PORTRAIT_PUNCH_FRAME`. Includes the exact approved v1 preview and a reusable component; preserve static portrait plate limits.
+For gold-focused portrait iris transitions, monochrome ghost cutaways, cartoons framed between faces, nested inspect-panel memes or circular stage overlaps, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-75350-82120/effect.md). IDs: `MAXOR_LOOT_MONOCHROME_PORTRAIT_IRIS`, `MAXOR_MONOCHROME_GHOST_CUTAWAY`, `MAXOR_BETWEEN_FACES_CARTOON`, `MAXOR_NESTED_INSPECT_MEME`, `MAXOR_CLOWN_STAGE_CIRCULAR_OVERLAP`. Exact final v3 renders in out/. Preserve frozen backgrounds, approximate UI/repair and inherited grading/artwork limits. Inner cartoon and item rotation use isolated moving source crops. ChatGPT v2/v3 accepted control frames after corrections; user approved playable comparisons.
 
 ## Approved Metal Gear effects,446–480 seconds
 

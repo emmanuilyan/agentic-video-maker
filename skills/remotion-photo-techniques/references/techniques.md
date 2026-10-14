@@ -78,6 +78,12 @@
 
 `OutlineOnlyText` рисует только SVG-обводку букв (`fill="none"`), чтобы фон оставался видимым через середину. Прямоугольная маска раскрывает слово слева направо на кадрах 6–34; масштаб слегка растёт от 0.96 до 1. Компонент — самостоятельный прозрачный оверлей поверх любой сцены, а не элемент `PhotoTechnique`. [Рецепт и параметры](../examples/outline-only-text/effect.md), [запускаемый пример](../examples/outline-only-text/README.md), [компонент](../assets/techniques/outline-only-text.tsx), [превью](../assets/previews/TEXT_OUTLINE-reference.mp4).
 
+## Standalone text effect: TEXT_BLEND_MODES
+
+**Теги:** цвет внутри букв, наложение цветов, смешение с видео, полупрозрачный титр, blend modes, screen, multiply, overlay, Premiere Pro.
+
+Один приём с выбором режима смешивания, цвета и прозрачности заливки. `BlendedFillText` накладывает SVG-титр поверх живого фона с одним из [17 CSS-режимов](../assets/techniques/blend-modes.ts). `PremiereBlendStillText` покрывает ещё 11 режимов через вычисление пикселей изображения или последовательности кадров; это отдельный полный композитор фона и титра, а не прозрачный оверлей. Рецепт, код, сравнение и ограничения: [TEXT_BLEND_MODES](../examples/text-blend-modes/effect.md); [запускаемый пример](../examples/text-blend-modes/README.md), [превью](../assets/previews/TEXT_BLEND_MODES-reference.mp4).
+
 ## Approved source effects: Maxor
 - `MG_RED_MOSAIC_REVEAL` — красные карточки-досье и отдельное раскрытие лица через центральное окно. [Рецепт и запуск](../examples/metal-gear-approved-effects-2026/effect.md), [превью](../assets/previews/MG_RED_MOSAIC_REVEAL-reference.mp4).
 - `MG_CRT_SIGNAL_BREAKUP` — портрет в зелёном CRT-окне, широкие размытые полосы сигнала и сканлинии внутри окна. [Рецепт и запуск](../examples/metal-gear-approved-effects-2026/effect.md), [превью](../assets/previews/MG_CRT_SIGNAL_BREAKUP-reference.mp4).

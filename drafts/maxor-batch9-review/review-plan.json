@@ -1,0 +1,44 @@
+[
+  {
+    "number": 1,
+    "name": "Презентационный комикс с ведущим",
+    "composition": "01-comic-presentation",
+    "sourceStart": 80.0,
+    "sourceEnd": 81.55
+  },
+  {
+    "number": 2,
+    "name": "Диагональный переход к руке",
+    "composition": "02-diagonal-hand-wipe",
+    "sourceStart": 81.45,
+    "sourceEnd": 83.45
+  },
+  {
+    "number": 3,
+    "name": "Вертикальное раскрытие часовни",
+    "composition": "03-vertical-chapel-slit",
+    "sourceStart": 83.35,
+    "sourceEnd": 84.45
+  },
+  {
+    "number": 4,
+    "name": "Горящий скелет с подписью",
+    "composition": "04-skeleton-fire-callout",
+    "sourceStart": 84.2,
+    "sourceEnd": 85.35
+  },
+  {
+    "number": 5,
+    "name": "Неоновая надпись Samurai",
+    "composition": "05-cyberpunk-neon-title",
+    "sourceStart": 85.0,
+    "sourceEnd": 86.6
+  },
+  {
+    "number": 6,
+    "name": "Портрет и реплика FromSoftware",
+    "composition": "06-from-software-quote",
+    "sourceStart": 87.35,
+    "sourceEnd": 88.2
+  }
+]

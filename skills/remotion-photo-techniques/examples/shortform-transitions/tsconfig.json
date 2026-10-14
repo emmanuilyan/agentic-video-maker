@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "strict": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "react": ["node_modules/@types/react/index.d.ts"],
+      "react/*": ["node_modules/@types/react/*"],
+      "remotion": ["node_modules/remotion/dist/cjs/index.d.ts"],
+      "remotion/*": ["node_modules/remotion/dist/cjs/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "../../assets/techniques/shortform-transitions.tsx"]
+}
