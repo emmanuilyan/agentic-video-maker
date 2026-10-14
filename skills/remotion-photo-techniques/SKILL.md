@@ -92,3 +92,7 @@ For full-frame color punches, GameOver dissolves, save-window zooms, sheep takeo
 ## Approved nontext Maxor effects487–609seconds
 
 For clown face dissolves/zoom/grade, nested framed cards, perspective comic motifs, quantized wave snaps or multishot burnt frames, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-48710-60890/effect.md). IDs: `MAXOR_CLOWN_MATCH_ZOOM`, `MAXOR_NESTED_MEME_FRAMES`, `MAXOR_MENACING_GRAPHIC_COLUMNS`, `MAXOR_QUANTIZED_WAVE_SNAP`, `MAXOR_BURNT_MULTISHOT_FRAME`. Exact approved renders in out/, including Manga v2 after user motion correction. Preserve frozen media, repaired plates, approximate SVG trajectories and inherited Film lighting limits. ChatGPT selection completed; comparison review unavailable.
+
+## Approved nontext Maxor effects617–696seconds
+
+For formula dissolves, ghost-to-face grafts, two poster replacements or growing ornamental video inserts, use [four approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-61690-69570/effect.md). IDs: `MAXOR_RAINBOW_FORMULA_DISSOLVE`, `MAXOR_GHOST_FACE_GRAFT`, `MAXOR_RED_SILHOUETTE_POSTER_SWAP`, `MAXOR_ORNAMENTAL_VIDEO_FRAME_ZOOM`. Exact approved renders in out/. Preserve the documented frozen backgrounds, approximate formulas, inherited grading/artwork and extracted inner-video limits. User approved; independent ChatGPT comparison unavailable.
