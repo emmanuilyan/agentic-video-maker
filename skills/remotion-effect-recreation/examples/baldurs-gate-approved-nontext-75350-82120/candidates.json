@@ -1,0 +1,37 @@
+[
+  {
+    "id": "LOOT_MONOCHROME_PORTRAIT_IRIS",
+    "comp": "LootIris",
+    "start": 753.5,
+    "end": 755.1,
+    "frames": 96
+  },
+  {
+    "id": "MONOCHROME_GHOST_CUTAWAY",
+    "comp": "Mono",
+    "start": 777.2,
+    "end": 778.2,
+    "frames": 60
+  },
+  {
+    "id": "BETWEEN_FACES_CARTOON",
+    "comp": "Cartoon",
+    "start": 781.05,
+    "end": 782.05,
+    "frames": 60
+  },
+  {
+    "id": "NESTED_INSPECT_MEME",
+    "comp": "Nested",
+    "start": 812.15,
+    "end": 813.35,
+    "frames": 72
+  },
+  {
+    "id": "CLOWN_STAGE_CIRCULAR_OVERLAP",
+    "comp": "Stage",
+    "start": 819.5,
+    "end": 821.2,
+    "frames": 102
+  }
+]

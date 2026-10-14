@@ -1,0 +1,2 @@
+import React from 'react';import {Composition,registerRoot} from 'remotion';import {LootIris,Mono,Cartoon,Nested,Stage} from './effects';
+const Root=()=> <>{[['LootIris',LootIris,96],['Mono',Mono,60],['Cartoon',Cartoon,60],['Nested',Nested,72],['Stage',Stage,102]].map(([id,component,duration])=><Composition key={String(id)} id={String(id)} component={component as React.FC} durationInFrames={Number(duration)} fps={60} width={1280} height={720}/>)}</>;registerRoot(Root);

@@ -96,3 +96,7 @@ For clown face dissolves/zoom/grade, nested framed cards, perspective comic moti
 ## Approved nontext Maxor effects617–696seconds
 
 For formula dissolves, ghost-to-face grafts, two poster replacements or growing ornamental video inserts, use [four approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-61690-69570/effect.md). IDs: `MAXOR_RAINBOW_FORMULA_DISSOLVE`, `MAXOR_GHOST_FACE_GRAFT`, `MAXOR_RED_SILHOUETTE_POSTER_SWAP`, `MAXOR_ORNAMENTAL_VIDEO_FRAME_ZOOM`. Exact approved renders in out/. Preserve the documented frozen backgrounds, approximate formulas, inherited grading/artwork and extracted inner-video limits. User approved; independent ChatGPT comparison unavailable.
+
+## Approved nontext Maxor effects754–822seconds
+
+For gold-focused portrait iris transitions, monochrome ghost cutaways, cartoons framed between faces, nested inspect-panel memes or circular stage overlaps, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-75350-82120/effect.md). IDs: `MAXOR_LOOT_MONOCHROME_PORTRAIT_IRIS`, `MAXOR_MONOCHROME_GHOST_CUTAWAY`, `MAXOR_BETWEEN_FACES_CARTOON`, `MAXOR_NESTED_INSPECT_MEME`, `MAXOR_CLOWN_STAGE_CIRCULAR_OVERLAP`. Exact final v3 renders in out/. Preserve frozen backgrounds, approximate UI/repair and inherited grading/artwork limits. Inner cartoon and item rotation use isolated moving source crops. ChatGPT v2/v3 accepted control frames after corrections; user approved playable comparisons.
