@@ -1,0 +1,4 @@
+import React from 'react';import {AbsoluteFill,Img,staticFile,useCurrentFrame,interpolate} from 'remotion';
+const v=(f:number,a:number,b:number,x:number,y:number)=>interpolate(f,[a,b],[x,y],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+const P=({name,x=0,y=0,w=1280,h=720,style={}}:{name:string,x?:number,y?:number,w?:number,h?:number,style?:React.CSSProperties})=><Img src={staticFile(`assets/${name}.png`)} style={{position:'absolute',left:x,top:y,width:w,height:h,...style}}/>;
+export const Portrait=()=>{const f=useCurrentFrame();return <AbsoluteFill><P name={f<14?'portrait-bg':'portrait-close'} style={{transform:f>=14?`scale(${v(f,14,45,1.35,1)})`:undefined,filter:f>=14&&f<25?'saturate(1.9) hue-rotate(330deg)':undefined}}/>{f>=17&&f<24&&<div style={{position:'absolute',inset:4,border:'8px solid #f31999'}}/>}</AbsoluteFill>};

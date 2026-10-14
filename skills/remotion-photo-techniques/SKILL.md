@@ -131,3 +131,7 @@ For a decorative title crossing the frame, a contour overload with a large title
 ## Approved Maxor effects169–188seconds
 
 Use [six approved recipes](examples/maxor-approved-effects-169-188/effect.md): `MAXOR_VIOLENCE_FLAG_CALLOUT`, `MAXOR_GAME_OVER_RED_BANNER`, `MAXOR_WHITE_WORD_STEPS`, `MAXOR_MELINA_FRAME_BOTTLE`, `MAXOR_SEXUAL_STYLE_MEME_TITLE`, `MAXOR_LEVEL_UP_WORD_ENTRIES`. Exact user-approved previews and source intervals are included; preserve the documented frozen backgrounds, raster glyph masks and font approximations.
+
+## Approved Maxor portrait punch
+
+Use [portrait punch with color flash and pink frame](examples/maxor-approved-portrait-192/effect.md), `MAXOR_PORTRAIT_PUNCH_FRAME`. Includes the exact approved v1 preview and a reusable component; preserve static portrait plate limits.

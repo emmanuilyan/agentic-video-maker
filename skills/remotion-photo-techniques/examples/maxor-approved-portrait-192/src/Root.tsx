@@ -1,0 +1,1 @@
+import React from 'react';import {Composition} from 'remotion';import {Portrait} from './Effects';export const Root=()=> <Composition id="MAXOR_PORTRAIT_PUNCH_FRAME" component={Portrait} durationInFrames={63} fps={60} width={1280} height={720}/>;
