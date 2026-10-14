@@ -1,0 +1,60 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=41v3L0zCkNY",
+  "items": [
+    {
+      "key": "jesus",
+      "composition": "PairedCutouts",
+      "title": "Парные фигуры с боковым входом",
+      "start": 446.5,
+      "end": 448.2,
+      "frames": 102,
+      "version": 5,
+      "comparison": "approved-comparisons/PairedCutouts-v5.mp4",
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_PAIRED_EDGE_CUTOUTS"
+    },
+    {
+      "key": "bitcoin",
+      "composition": "BitcoinTitle",
+      "title": "Три строки с монетой",
+      "start": 454.85,
+      "end": 456.35,
+      "frames": 90,
+      "version": 7,
+      "comparison": "approved-comparisons/BitcoinTitle-v7.mp4",
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_STACKED_COIN_TITLE"
+    },
+    {
+      "key": "favorite",
+      "composition": "FavoriteCollage",
+      "title": "Подпись с каскадом фотоколлажа",
+      "start": 470.05,
+      "end": 472.25,
+      "frames": 132,
+      "version": 10,
+      "comparison": "approved-comparisons/FavoriteCollage-v10.mp4",
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_PHOTO_CASCADE_IRIS"
+    },
+    {
+      "key": "zero",
+      "composition": "ZeroCaption",
+      "title": "Расширяющаяся подпись по словам",
+      "start": 478,
+      "end": 479.65,
+      "frames": 99,
+      "version": 2,
+      "comparison": "approved-comparisons/ZeroCaption-v2.mp4",
+      "status": "user-approved",
+      "user_approved": true,
+      "id": "MG_WORD_EXPANSION_CAPTION"
+    }
+  ],
+  "git": "user-approved-local-archive",
+  "review_url": "https://chatgpt.com/c/6acef245-aa98-83ed-8a8c-c6d5b5671164",
+  "approved_on": "2026-10-14"
+}

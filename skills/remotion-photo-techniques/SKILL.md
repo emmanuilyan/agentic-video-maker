@@ -135,3 +135,7 @@ Use [six approved recipes](examples/maxor-approved-effects-169-188/effect.md): `
 ## Approved Maxor portrait punch
 
 Use [portrait punch with color flash and pink frame](examples/maxor-approved-portrait-192/effect.md), `MAXOR_PORTRAIT_PUNCH_FRAME`. Includes the exact approved v1 preview and a reusable component; preserve static portrait plate limits.
+
+## Approved Metal Gear effects,446–480 seconds
+
+For paired edge cutouts, a stacked title with a coin, a photo cascade closing with an iris or a caption expanding by words, use [four approved examples](examples/metal-gear-approved-effects-446-480/README.md). IDs: `MG_PAIRED_EDGE_CUTOUTS`, `MG_STACKED_COIN_TITLE`, `MG_PHOTO_CASCADE_IRIS`, `MG_WORD_EXPANSION_CAPTION`. Includes independent layers, frame timelines and exact user-approved previews. Preserve documented held-background, raster-artwork and color approximations.
