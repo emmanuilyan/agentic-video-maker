@@ -98,3 +98,9 @@ A vertical distressed black board with a centered heading, three question boxes 
 **Теги:** газетная анимация, newspaper reveal, небольшой отход назад, расфокус, приближение с возвратом резкости, focus push, Vox.
 
 В газетной карточке дата, заголовок, маркер, портрет, подпись и стрелка появляются разными слоями. Затем содержимое слегка уменьшается, теряет фокус и приближается; резкость возвращается во время приближения, а увеличенный масштаб сохраняется. Синяя рамка остаётся резкой. Используй [NewspaperFocusPush](../assets/techniques/vox-newspaper-focus-push.tsx), [рецепт](../examples/vox-newspaper-focus-push/effect.md), [запускаемый пример](../examples/vox-newspaper-focus-push/README.md) и [точное утверждённое превью](../assets/previews/VOX_NEWSPAPER_FOCUS_PUSH-reference.mp4). Эффект разобран по [короткому видео StanzMedia](https://www.youtube.com/shorts/_HU37rX4G1U); это самостоятельная сцена, а не элемент четырёхфотного `PhotoTechnique`.
+
+## Standalone effect HEAD_PIVOT_PUNCH_ZOOM
+
+**Теги:** Snatch, резкий зум, голова крупно, вращение фотографии, полуповорот 180°, неподвижный титр, речевые метки.
+
+Резкий четырёхкадровый зум ×3.55 на измеренную точку, удержание крупного плана, затем неподвижная надпись и поворот фото на180° против часовой стрелки. Зум и титр имеют независимые речевые метки. [Компонент](../assets/techniques/head-pivot-punch-zoom.tsx), [рецепт](../examples/head-pivot-punch-zoom/effect.md), [запускаемый пример](../examples/head-pivot-punch-zoom/README.md), [точное утверждённое превью v6](../assets/previews/HEAD_PIVOT_PUNCH_ZOOM-reference.mp4). Самостоятельный эффект для одного изображения, вне четырёхфотного PhotoTechnique.

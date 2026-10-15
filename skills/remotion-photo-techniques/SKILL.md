@@ -23,6 +23,9 @@ For a Vox-style shot that smoothly pulls back from a close photo into a softened
 
 For the approved newspaper animation with a slight handheld retreat, defocus, then a lasting push-in as focus returns, use [VOX_NEWSPAPER_FOCUS_PUSH](references/techniques.md#standalone-vox-effect-vox_newspaper_focus_push). Tags: газетная анимация, newspaper reveal, pullback, defocus, focus push. See the [reusable camera wrapper](assets/techniques/vox-newspaper-focus-push.tsx), [runnable article scene](examples/vox-newspaper-focus-push/README.md), [recipe](examples/vox-newspaper-focus-push/effect.md), and [exact approved preview](assets/previews/VOX_NEWSPAPER_FOCUS_PUSH-reference.mp4).
 
+
+For a sharp face-anchored zoom, a close hold and a 180-degree photo turn beneath a fixed title, use [HEAD_PIVOT_PUNCH_ZOOM](references/techniques.md#standalone-effect-head_pivot_punch_zoom). Tags: Snatch, резкий зум на голову, полуповорот, вращение вокруг головы, неподвижная надпись. See the [component](assets/techniques/head-pivot-punch-zoom.tsx), [runnable example](examples/head-pivot-punch-zoom/README.md), [recipe](examples/head-pivot-punch-zoom/effect.md) and [exact approved v6 preview](assets/previews/HEAD_PIVOT_PUNCH_ZOOM-reference.mp4). Independent zoom/title cues follow narration; supply your own photo and landmark.
+
 ## Как работать
 
 1. Определи нужный приём, длительность, формат и предоставленные фотографии. Если приём уже назван, сразу используй соответствующую реализацию. Для выбора сравни геометрию в каталоге.

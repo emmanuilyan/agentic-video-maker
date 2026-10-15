@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target":"ES2022","lib":["DOM","ES2022"],"skipLibCheck":true,"esModuleInterop":true,
+    "strict":true,"module":"ESNext","moduleResolution":"Bundler","noEmit":true,"jsx":"react-jsx",
+    "baseUrl":".","paths":{"react":["node_modules/@types/react/index.d.ts"],"react/*":["node_modules/@types/react/*"],"remotion":["node_modules/remotion/dist/cjs/index.d.ts"]}
+  },
+  "include":["src/**/*.ts","src/**/*.tsx","../../assets/techniques/head-pivot-punch-zoom.tsx"]
+}

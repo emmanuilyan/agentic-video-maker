@@ -8,6 +8,8 @@ export { YellowTextHighlight } from "./text-highlight";
 export type { YellowTextHighlightProps } from "./text-highlight";
 export { GlitchTitleCrawl } from "./glitch-title-crawl";
 export type { GlitchTitleCrawlProps } from "./glitch-title-crawl";
+export { HeadPivotPunchZoom } from "./head-pivot-punch-zoom";
+export type { HeadPivotPunchZoomProps } from "./head-pivot-punch-zoom";
 export { IDS } from "./core";
 export type { Photo, Technique } from "./core";
 const components: Record<Technique, React.FC<Scene>> = {

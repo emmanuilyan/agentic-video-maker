@@ -1,0 +1,12 @@
+{
+  "name": "remotion-head-pivot-punch-zoom",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts HeadPivotPunchZoom out/demo.mp4"
+  },
+  "dependencies": {"@remotion/cli":"4.0.522","remotion":"4.0.522","react":"19.2.3","react-dom":"19.2.3"},
+  "devDependencies": {"typescript":"5.9.3","@types/react":"19.2.7"}
+}
