@@ -17,7 +17,26 @@ The five principles below come from the creator's commentary in [“5 tricks fro
 4. **Connect adjacent scenes.** Use a zoom, slide, match cut, or another motivated handoff when two images share a shape, position, direction, or subject. Preserve continuity that helps the viewer follow the argument.
 5. **Coordinate story, edit, and graphics.** Graphic design alone does not make the sequence work. Match visual emphasis and timing to the narration and editorial point.
 
+### Motion-matched hard cuts
+
+In [Chris Moran's Short about smooth cuts](https://www.youtube.com/shorts/KtEgj5hMEUk), the creator recommends a specific handoff: animate the outgoing object with strong easing at both ends, make the incoming object follow the same position and velocity, and cut hard when the shared motion is fastest. The change of image is less conspicuous because the viewer's eye is already tracking a continuous trajectory. Treat this as the creator's demonstrated technique, not a universal Vox rule. See [source notes](references/KtEgj5hMEUk.md) for the spoken instruction and visible examples.
+
+### Newspaper article reveals
+
+In [StanzMedia's 4.5-second comparison](https://www.youtube.com/shorts/_HU37rX4G1U), the visible construction uses separate reveals for a date tab, serif headline lines, yellow marker bars, a rising black-and-white cutout portrait, secondary copy and a red hand-drawn pointer. Follow the article's reading order and attach irregular paper grain to the paper panel itself. This is a visual observation, not a verified spoken instruction or an official Vox rule; see [source notes](references/_HU37rX4G1U.md). Keep exact geometry and timing in the Remotion draft until the user approves an effect for the technique library.
+
+### Carry one object from anatomy to consequence
+
+In [Mohamed A.'s dopamine reel](https://www.youtube.com/shorts/gtxHSafv2Lk), the brain illustration first identifies a highlighted region with a label, then shrinks into the center of a happiness gauge. When a narration shifts from naming a thing to describing its effect, keep that object on screen and transform the surrounding graphic into a scale or causal diagram. The continuity helps viewers link the two claims; use color and size changes to emphasize the measured outcome. This is an inference from the visible example, not spoken design advice or an official Vox rule. See [source notes](references/gtxHSafv2Lk.md).
+
 ## Texture as a layered design decision
+
+Chris Moran's [12-minute breakdown of Vox-inspired motion graphics](https://www.youtube.com/watch?v=sACZlG7z35Q) adds a material-aware production rule: decide what each image represents before choosing its imperfections. These are the commentator's analysis and demonstrations, not official Vox specifications. See [timestamped source notes](references/sACZlG7z35Q.md).
+
+- **Give each source its own material cues.** A paper collage can use an off-white tint, imperfect edges, and restrained halftone or paper grain; a webpage can use subtle scanlines, pixel structure, and optical defects. Keep text and evidence legible.
+- **Use optical finishing sparingly.** A mild vignette, chromatic fringe, or light leak can tie a composition together when it supports its material. Judge the combined result at delivery size; the author explicitly warns against conspicuous chromatic aberration.
+- **Choose motion cadence per element.** In a 24 fps composition, 12 distinct poses per second give animated cutouts an “on twos” handmade rhythm; 8 gives a stronger collage feel. Apply stepped timing to the intended graphic motion while allowing an attention-guiding camera move to stay smooth when the reference calls for it.
+- **Unify mixed footage by a shared treatment.** Archive, phone, and web clips can feel like one sequence through consistent tone, grain, edge softness, or restrained optical defects. Match the result across cuts instead of applying a fixed stack to every shot.
 
 The examples inside this creator's Short use different kinds of wear; this is an observation about the sampled clips, not a universal Vox rule. Before adding noise, identify which physical or editorial layer it belongs to:
 
