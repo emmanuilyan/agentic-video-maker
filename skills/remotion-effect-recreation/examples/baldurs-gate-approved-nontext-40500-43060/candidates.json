@@ -1,0 +1,37 @@
+[
+  {
+    "id": "LOCATION_MATCH_DISSOLVE",
+    "comp": "Location",
+    "start": 404.9,
+    "end": 405.9,
+    "frames": 60
+  },
+  {
+    "id": "EDITOR_SHOT_SWITCH",
+    "comp": "Editor",
+    "start": 408,
+    "end": 409.2,
+    "frames": 72
+  },
+  {
+    "id": "MOD_MANAGER_ASSEMBLY",
+    "comp": "Mod",
+    "start": 417.3,
+    "end": 418.1,
+    "frames": 48
+  },
+  {
+    "id": "PORTRAIT_SCREENSHOT_CALLOUTS",
+    "comp": "Callouts",
+    "start": 418.4,
+    "end": 419,
+    "frames": 36
+  },
+  {
+    "id": "PAIRED_DOSSIER_DISSOLVE",
+    "comp": "Dossier",
+    "start": 429.45,
+    "end": 430.6,
+    "frames": 69
+  }
+]

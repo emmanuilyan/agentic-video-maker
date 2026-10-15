@@ -9,3 +9,29 @@ Use this file to resume a multipart visual analysis without skipping a cut at a 
 | Same source | 0:13.20–0:15.20: Editor Nameplate | [Editor Nameplate](../examples/editor-nameplate-1320-1520/effect.md) | Check 0:11.60–0:13.20, then inspect from 0:15.00 with a short overlap. |
 
 | Same source | Five approved techniques at44.05–45.57,45.55–47.15,47.75–49.15,51.45–52.85,57.10–60.35; gaps are not claimed as complete coverage | [Approved44–60batch](../examples/baldurs-gate-approved-effects-4405-6035/effect.md) | Resume at60.20 with overlap; inspect60.35 onward for the next five techniques. |
+
+| Same source | Five approved effects60.20–62.40,64.10–65.20,67.20–69.20,69.20–70.00,71.60–73.10; gaps not claimed as complete coverage | [Approved60–73batch](../examples/baldurs-gate-approved-effects-6020-7310/effect.md) | Resume73.00 with overlap; inspect73.10 onward. Red hit-smear65.10–65.65 excluded because editorial attribution uncertain. |
+
+| Same source | Five approved effects73.90–74.65,75.43–76.32,77.42–78.65,78.55–79.17,81.20–81.85; gaps not claimed as complete coverage | [Approved73–82batch](../examples/baldurs-gate-approved-effects-7390-8185/effect.md) | Resume81.70 with overlap. Native spell VFX and repeated Rizz title excluded from candidate overview. |
+
+| Same source | Five approved approximate rebuilds83.10–84.02,86.62–87.22,88.25–88.85,88.73–90.02,89.95–92.85; gaps not claimed as coverage | [Approved83–93batch](../examples/baldurs-gate-approved-effects-8310-9285/effect.md) | Resumed explicitly for non-text selection/recreation on2026-10-07; see next row. |
+
+| Same source | Five approved non-text examples96.20–97.50,108.00–109.05,136.65–138.05,151.55–153.05,153.80–155.00. Inspected92.50–160.00; gaps not claimed as complete coverage. Frozen media and simulated degradation limits documented. | [Approved non-text batch](../examples/baldurs-gate-approved-nontext-9620-15500/effect.md) | User requested continuation. Inspect159.50 onward with overlap for next five non-text candidates. |
+
+| Same source | Five approved non-text examples164.80–167.20,172.50–174.15,189.45–190.90,192.60–194.00,215.60–216.80. Inspected159.50–220.00; gaps not claimed as complete coverage. Frozen footage and restored backgrounds documented. | [Approved164–217batch](../examples/baldurs-gate-approved-nontext-16480-21680/effect.md) | Next selection may resume219.50 with overlap; do not recreate new effects without a continuation request. |
+
+| Same source | Five approved non-text examples227.30–228.20,230.30–230.90,243.35–244.15,250.05–250.95,255.65–256.55. Inspected219.50–280.00; gaps not claimed as full coverage. Approximate media limits documented. | [Approved227–257batch](../examples/baldurs-gate-approved-nontext-22730-25655/effect.md) | Unselected candidates remain in257–280; revisit that interval before scanning beyond280. Wait for a continuation request. |
+
+| Same source | Five approved non-text examples274.45–275.25,293.35–294.20,319.35–319.95,322.25–322.80,334.35–335.35. Revisited257–280 and inspected279.5–340; gaps not claimed as exhaustive recreation. | [Approved274–335batch](../examples/baldurs-gate-approved-nontext-27445-33535/effect.md) | Resume339.5 onward with overlap for five new non-text candidates. |
+
+| Same source | Surveyed339.5–400; dense-checked five approved non-text effects341.45–341.95,349.00–349.70,355.40–356.30,356.30–356.80,366.70–367.90. Later survey not exhaustive; native DOF candidate excluded. | [Approved341–368batch](../examples/baldurs-gate-approved-nontext-34145-36790/effect.md) | Resume367.5 onward with overlap, before moving beyond400. |
+
+| Same source | Surveyed367.5–460; dense checked405–406,408–410,417–419,429–431,453.5–455.5. Five partial recreations approved404.90–430.60; later survey not exhaustive. | [Approved405–431batch](../examples/baldurs-gate-approved-nontext-40500-43060/effect.md) | Resume430.4 with overlap; inspect remaining candidates through460 before extending source. |
+
+| Same source | Surveyed430.6–520; dense checked442.70–443.70,454.40–454.90,466.70–467.50,474.90–475.70,478.10–478.80. Five partial recreations approved2026-10-12; gaps are not exhaustive recreation. | [Approved442–479batch](../examples/baldurs-gate-approved-nontext-44270-47880/effect.md) | Resume478.60 with overlap; revisit479–520 before scanning beyond520. Wait for continuation request. |
+
+| Same source | Surveyed478.8–639; dense checked487.10–487.85,511.80–512.32,549.20–550.60,562.80–563.60,607.55–608.90. Five approved2026-10-13, Manga v2. Gaps not exhaustive recreation. | [Approved487–609batch](../examples/baldurs-gate-approved-nontext-48710-60890/effect.md) | Resume608.70 with overlap; revisit609–639 before scanning farther. Wait for continuation request. |
+
+| Same source | Surveyed609–699; dense checked616.90–617.63,659.30–660.50,671.60–672.80,694.10–695.70. Four approved2026-10-14. Gaps not exhaustive. | [Approved617–696 batch](../examples/baldurs-gate-approved-nontext-61690-69570/effect.md) | Next: fifth candidate from699.5–760 overview prepared locally; ChatGPT upload failed. Resume699.5; approval needed for further recreations. |
+
+| Same source | Surveyed699.5–879; dense checked753.50–755.10,777.20–778.20,781.05–782.05,812.15–813.35,819.50–821.20. Five user-approved final v3; ChatGPT checked aligned frames. Survey timing for wrist corrected locally. | [Approved754–822 batch](../examples/baldurs-gate-approved-nontext-75350-82120/effect.md) | Resume821.0 with overlap; reuse819.5–879 survey. Deferred candidate blood-red monochrome around847–849 remains unimplemented/unapproved. Wait for continuation. |

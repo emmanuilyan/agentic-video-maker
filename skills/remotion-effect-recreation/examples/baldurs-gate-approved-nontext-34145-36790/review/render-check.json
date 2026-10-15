@@ -1,0 +1,87 @@
+[
+  {
+    "file": "01-circle-reveal.mp4",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "30",
+    "side_data_list": [
+      {}
+    ]
+  },
+  {
+    "file": "01-circle-reveal-comparison.mp4",
+    "width": 2560,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "30"
+  },
+  {
+    "file": "02-framed-products.mp4",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "42",
+    "side_data_list": [
+      {}
+    ]
+  },
+  {
+    "file": "02-framed-products-comparison.mp4",
+    "width": 2560,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "42"
+  },
+  {
+    "file": "03-neon-hero.mp4",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "54",
+    "side_data_list": [
+      {}
+    ]
+  },
+  {
+    "file": "03-neon-hero-comparison.mp4",
+    "width": 2560,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "54"
+  },
+  {
+    "file": "04-product-cascade.mp4",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "30",
+    "side_data_list": [
+      {}
+    ]
+  },
+  {
+    "file": "04-product-cascade-comparison.mp4",
+    "width": 2560,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "30"
+  },
+  {
+    "file": "05-web-spotlight.mp4",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "72",
+    "side_data_list": [
+      {}
+    ]
+  },
+  {
+    "file": "05-web-spotlight-comparison.mp4",
+    "width": 2560,
+    "height": 720,
+    "r_frame_rate": "60/1",
+    "nb_frames": "72"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "CLOWN_MATCH_ZOOM",
+    "comp": "Clown",
+    "start": 487.1,
+    "end": 487.85,
+    "frames": 45
+  },
+  {
+    "id": "NESTED_MEME_FRAMES",
+    "comp": "Nested",
+    "start": 511.8,
+    "end": 512.32,
+    "frames": 31
+  },
+  {
+    "id": "MENACING_GRAPHIC_COLUMNS",
+    "comp": "Manga",
+    "start": 549.2,
+    "end": 550.6,
+    "frames": 84
+  },
+  {
+    "id": "QUANTIZED_WAVE_SNAP",
+    "comp": "Warp",
+    "start": 562.8,
+    "end": 563.6,
+    "frames": 48
+  },
+  {
+    "id": "BURNT_MULTISHOT_FRAME",
+    "comp": "Film",
+    "start": 607.55,
+    "end": 608.9,
+    "frames": 81
+  }
+]

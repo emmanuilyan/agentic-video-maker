@@ -1,0 +1,30 @@
+[
+  {
+    "id": "RAINBOW_FORMULA_DISSOLVE",
+    "comp": "Equations",
+    "start": 616.9,
+    "end": 617.63,
+    "frames": 44
+  },
+  {
+    "id": "GHOST_FACE_GRAFT",
+    "comp": "Ghost",
+    "start": 659.3,
+    "end": 660.5,
+    "frames": 72
+  },
+  {
+    "id": "RED_SILHOUETTE_POSTER_SWAP",
+    "comp": "Posters",
+    "start": 671.6,
+    "end": 672.8,
+    "frames": 72
+  },
+  {
+    "id": "ORNAMENTAL_VIDEO_FRAME_ZOOM",
+    "comp": "Insert",
+    "start": 694.1,
+    "end": 695.7,
+    "frames": 96
+  }
+]

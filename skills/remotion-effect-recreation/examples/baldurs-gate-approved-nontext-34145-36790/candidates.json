@@ -1,0 +1,37 @@
+[
+  {
+    "id": "01-circle-reveal",
+    "start": 341.45,
+    "end": 341.95,
+    "frames": 30,
+    "comp": "CircleReveal"
+  },
+  {
+    "id": "02-framed-products",
+    "start": 349.0,
+    "end": 349.7,
+    "frames": 42,
+    "comp": "FramedProducts"
+  },
+  {
+    "id": "03-neon-hero",
+    "start": 355.4,
+    "end": 356.3,
+    "frames": 54,
+    "comp": "NeonHero"
+  },
+  {
+    "id": "04-product-cascade",
+    "start": 356.3,
+    "end": 356.8,
+    "frames": 30,
+    "comp": "ProductCascade"
+  },
+  {
+    "id": "05-web-spotlight",
+    "start": 366.7,
+    "end": 367.9,
+    "frames": 72,
+    "comp": "WebSpotlight"
+  }
+]

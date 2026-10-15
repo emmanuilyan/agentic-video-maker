@@ -47,3 +47,56 @@ For the approved newspaper animation with a slight handheld retreat, defocus, th
 ## Approved BG3 batch44–60seconds
 
 Use [five approved montage examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-4405-6035/README.md) for `MAXOR_POKEMON_CALLOUT`, `MAXOR_EXPLOSION_COUNTDOWN`, `MAXOR_N64_PIXEL_CAPTION`, `MAXOR_COMIC_FRAME_CAPTIONS`, and `MAXOR_CHARACTER_NAMEPLATES`. Recipes, independent layers and the exact approved previews are included.
+
+## Approved BG3 batch60–73seconds
+
+Use [five approved examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-6020-7310/README.md) for `MAXOR_SQUID_STAGED_CARD`, `MAXOR_HUMAN_CLASSIFICATION`, `MAXOR_METALLIC_RIZZ_TITLE`, `MAXOR_PRONOUN_CARDS`, and `MAXOR_DIFFERENCE_MEME_STACK`. The recipe includes exact stage/cut timing and a tested TEXT_BLEND_MODES variant with separate blended-fill and normal-outline SVG layers.
+
+
+## Approved BG3 batch73–82seconds
+
+Use [five approved examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-7390-8185/README.md) for `MAXOR_RED_EDGE_TITLES`, `MAXOR_GROWING_MEME_SWAP`, `MAXOR_STAGED_PERSUASION_GAG`, `MAXOR_RGB_MEME_POSTER`, and `MAXOR_RED_REACTION_CAPTION`. Includes frame timelines, independent overlays, RGB/blur/shake implementation and exact approved previews. Distinguish native gameplay from author layers as described in the recipe.
+
+## Approved BG3 captions83–93seconds
+
+Use [five approved approximate caption examples](../remotion-effect-recreation/examples/baldurs-gate-approved-effects-8310-9285/README.md) for `MAXOR_GROWING_MEME_CAPTION`, `MAXOR_DETONATE_CAPTION`, `MAXOR_NECROMANCY_CAPTION`, `MAXOR_TWO_STAGE_METALLIC_CAST`, `MAXOR_DIALOGUE_ESCALATION`. Editable SVG fill/outline, growing captions, staged metallic gradient/depth and dialogue escalation. Exact user-approved v4 previews are included; font, background and intermediate-motion substitutions are documented in the recipe.
+
+## Approved non-text Maxor effects96–155seconds
+
+For cutout replacement, paired card growth, RGB hand collage, impact camera zoom or simulated block degradation, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-9620-15500/effect.md). IDs: `MAXOR_CUTOUT_CARD_SWAP`, `MAXOR_PAIRED_IMAGE_GROWTH`, `MAXOR_HAND_COLLAGE_RGB`, `MAXOR_IMPACT_CAMERA_ZOOM`, `MAXOR_BLOCK_FRAME_DEGRADATION`. Exact approved previews are linked in the example. Preserve documented frozen-background, frozen-explosion and simulated-codec limits; no independent ChatGPT verdict was obtained because its limit was exhausted.
+
+## Approved non-text Maxor effects164–217seconds
+
+For selective color, UI collage, dark focus, an in-panel meme reveal or RGB reaction entry, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-16480-21680/effect.md). IDs: `MAXOR_SELECTIVE_COLOR`, `MAXOR_UI_COLLAGE`, `MAXOR_DARK_FOCUS`, `MAXOR_MEME_IN_UI`, `MAXOR_REACTION_GLITCH`. Preserve the documented frozen footage and restored background limits. The exact approved renders are included; ChatGPT review was unavailable.
+
+## Approved non-text Maxor effects227–257seconds
+
+For staged meme cards, a two-shot dissolve, monochrome focus, a head-anchored mind orb or a full-frame-to-editor reveal, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-22730-25655/effect.md). IDs: `MAXOR_STAGED_MEME_COLLAGE`, `MAXOR_DOUBLE_EXPOSURE`, `MAXOR_MONOCHROME_FOCUS`, `MAXOR_MIND_ORB`, `MAXOR_EDITOR_REVEAL`. Import reusable components from src/effects.tsx. Preserve the documented frozen footage, restored orb and native-VFX attribution limits. These are user-approved approximations; no independent ChatGPT verdict was obtained.
+
+## Approved non-text Maxor effects274–335seconds
+
+For a rough matte, color thaw with radial zoom, directional RGB smear, cat focus with meme overlay or inventory punch with insert, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-27445-33535/effect.md). IDs: `MAXOR_ROUGH_MATTE`, `MAXOR_COLOR_THAW_ZOOM`, `MAXOR_DIRECTIONAL_RGB_SMEAR`, `MAXOR_CAT_FOCUS_MEME`, `MAXOR_INVENTORY_PUNCH_INSERT`. Import reusable components from src/effects.tsx. Exact approved renders are in out/. Preserve the documented frozen gameplay, raster caption and repaired background limits. All five passed independent ChatGPT frame review before user approval.
+
+## Approved non-text Maxor effects341–368seconds
+
+For a circular reveal, framed product collage, promo cut with directional smear, packshot cascade or webpage focus/scroll, use [five approved recipes](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-34145-36790/effect.md). IDs: `MAXOR_CIRCLE_REVEAL`, `MAXOR_FRAMED_PRODUCTS`, `MAXOR_NEON_PROMO_CUT`, `MAXOR_PRODUCT_CASCADE`, `MAXOR_WEBPAGE_SPOTLIGHT`. Components are in src/effects.tsx; exact approved previews in out/. Preserve the documented frozen gameplay, inherited hero grading/glow and webpage blur limits. Independent ChatGPT v3 passed all five before user approval.
+
+## Approved non-text Maxor variants405–431seconds
+
+For location dissolves, editor shot changes, Mod Manager assembly, portrait screenshot callouts or paired dossiers, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-40500-43060/effect.md). IDs: `MAXOR_LOCATION_MATCH_DISSOLVE`, `MAXOR_EDITOR_SHOT_SWITCH`, `MAXOR_MOD_MANAGER_ASSEMBLY`, `MAXOR_PORTRAIT_SCREENSHOT_CALLOUTS`, `MAXOR_PAIRED_DOSSIER_DISSOLVE`. Independent montage is in src/effects.tsx; exact approved renders in out/. Preserve the frozen source footage, raster frame/title artwork and panel repair limitations. User approved these approximations after explicit clarification; independent ChatGPT review was unavailable.
+
+## Approved nontext Maxor effects442–479seconds
+
+For full-frame color punches, GameOver dissolves, save-window zooms, sheep takeovers or backgrounds under menu UI, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-44270-47880/effect.md). IDs: `MAXOR_FULLFRAME_MAGENTA_CYAN`, `MAXOR_GAME_OVER_SCENE_DISSOLVE`, `MAXOR_SAVE_WINDOW_ZOOM`, `MAXOR_SHEEP_PLATE_TAKEOVER`, `MAXOR_MEME_BEHIND_MENU`. The final user-approved renders are in out/. Preserve frozen-gameplay/VFX, raster UI and approximate sheep typography limits. Independent ChatGPT accepted the specified montage/timing corrections across V4–V6 before user approval.
+
+## Approved nontext Maxor effects487–609seconds
+
+For clown face dissolves/zoom/grade, nested framed cards, perspective comic motifs, quantized wave snaps or multishot burnt frames, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-48710-60890/effect.md). IDs: `MAXOR_CLOWN_MATCH_ZOOM`, `MAXOR_NESTED_MEME_FRAMES`, `MAXOR_MENACING_GRAPHIC_COLUMNS`, `MAXOR_QUANTIZED_WAVE_SNAP`, `MAXOR_BURNT_MULTISHOT_FRAME`. Exact approved renders in out/, including Manga v2 after user motion correction. Preserve frozen media, repaired plates, approximate SVG trajectories and inherited Film lighting limits. ChatGPT selection completed; comparison review unavailable.
+
+## Approved nontext Maxor effects617–696seconds
+
+For formula dissolves, ghost-to-face grafts, two poster replacements or growing ornamental video inserts, use [four approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-61690-69570/effect.md). IDs: `MAXOR_RAINBOW_FORMULA_DISSOLVE`, `MAXOR_GHOST_FACE_GRAFT`, `MAXOR_RED_SILHOUETTE_POSTER_SWAP`, `MAXOR_ORNAMENTAL_VIDEO_FRAME_ZOOM`. Exact approved renders in out/. Preserve the documented frozen backgrounds, approximate formulas, inherited grading/artwork and extracted inner-video limits. User approved; independent ChatGPT comparison unavailable.
+
+## Approved nontext Maxor effects754–822seconds
+
+For gold-focused portrait iris transitions, monochrome ghost cutaways, cartoons framed between faces, nested inspect-panel memes or circular stage overlaps, use [five approved partial recreations](../remotion-effect-recreation/examples/baldurs-gate-approved-nontext-75350-82120/effect.md). IDs: `MAXOR_LOOT_MONOCHROME_PORTRAIT_IRIS`, `MAXOR_MONOCHROME_GHOST_CUTAWAY`, `MAXOR_BETWEEN_FACES_CARTOON`, `MAXOR_NESTED_INSPECT_MEME`, `MAXOR_CLOWN_STAGE_CIRCULAR_OVERLAP`. Exact final v3 renders in out/. Preserve frozen backgrounds, approximate UI/repair and inherited grading/artwork limits. Inner cartoon and item rotation use isolated moving source crops. ChatGPT v2/v3 accepted control frames after corrections; user approved playable comparisons.
