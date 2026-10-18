@@ -8,7 +8,7 @@
 |---|---|---|
 | Форматы Shorts | `paint95-video-maker`, `paint-full-shorts`, `doodle-jump`, `comics-shorts`, `flappy-bird2` | Самостоятельные визуальные подходы к ролику. |
 | Подготовка и сценарий | `social-short-production`, `short-form-video-script`, `scripting-and-storyboarding`, `hook-writer`, `viral-short-form`, `youtube-shorts` | От идеи и хука до сценария и структуры короткого ролика. |
-| Монтаж и звук | `editing-montage`, `ffmpeg-video-editor`, `premiere-pro-audio-shorts-cutter`, `audio-mixing-mastering`, `dialogue-editing-adr` | Монтаж, работа с речью, музыкой и звуковым балансом. |
+| Монтаж и звук | `editing-montage`, `ffmpeg-video-editor`, [`premiere-pro-shorts-maker`](skills/premiere-pro-shorts-maker/SKILL.md), `premiere-pro-audio-shorts-cutter`, `audio-mixing-mastering`, `dialogue-editing-adr` | Монтаж, работа с речью, музыкой и звуковым балансом. |
 | Титры и оформление | `captions-and-clipping`, `cinematic-typography`, `typography-editor` | Нарезка, субтитры и экранная типографика. |
 | Разбор и QC | `reference-media-analysis`, `media-qc-delivery`, `watch` | Анализ референсов, проверка и подготовка результата. |
 | Remotion | [`remotion-photo-techniques`](skills/remotion-photo-techniques/SKILL.md), [`remotion-effect-recreation`](skills/remotion-effect-recreation/SKILL.md), [`remotion-map-shorts-cartoon`](skills/remotion-map-shorts-cartoon/SKILL.md), [`remotion-map-shorts-satellite`](skills/remotion-map-shorts-satellite/SKILL.md), `remotion-*` | Создание, повторение эффекта по видео, анимация карт, captions, предпросмотр и рендер. |
