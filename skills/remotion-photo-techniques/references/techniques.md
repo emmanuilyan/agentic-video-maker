@@ -180,3 +180,7 @@ For paired edge cutouts, a stacked title with a coin, a photo cascade closing wi
 ## Approved Maxor callouts and cosmic montage,188–201 seconds
 
 For a NO CAP hat callout, staged planet title, map collage zoom, food collage RGB exit or fire-to-universe montage, use [five approved recipes](../examples/maxor-approved-effects-188-201/effect.md). IDs: `MAXOR_NO_CAP_HAT_CALLOUT`, `MAXOR_PLANET_COLOR_HIT_TITLE`, `MAXOR_CLEVELAND_MAP_ZOOM`, `MAXOR_MARINARA_RGB_ZOOM_OUT`, `MAXOR_FIRE_COSMIC_UNIVERSE`. Includes reusable components, exact approved previews and frame timelines. Preserve static plates, approximate fonts/mattes/globe and unavailable repeat ChatGPT review limits.
+
+## Approved Maxor card callouts and eye montage,201–224 seconds
+
+For Difference-blended gift cards, DIE word entries with a diagonal wipe, a portrait/card dissolve, Faces of Evil meme typography, eye-to-cosmos montage or WAIT/WTF double exposure, use [six approved recipes](../examples/maxor-approved-effects-201-224/effect.md). IDs: `MAXOR_AMAZON_DIFFERENCE_CARD`, `MAXOR_DIE_THE_LEAST`, `MAXOR_PORTRAIT_GIFT_CARD`, `MAXOR_FACES_OF_EVIL`, `MAXOR_EYE_COSMIC_CANON`, `MAXOR_WAIT_WTF_DOUBLE_EXPOSURE`. Exact approved previews and final independent ChatGPT verdicts included; preserve held native footage/VFX, approximate font/matte and raster-word limits.

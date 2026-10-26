@@ -1,0 +1,2 @@
+import React from 'react';import {Composition} from 'remotion';import {Amazon,Die,Gift,Faces,Canon,Wtf} from './Effects';
+export const Root=()=> <>{[['MAXOR_AMAZON_DIFFERENCE_CARD',Amazon,183],['MAXOR_DIE_THE_LEAST',Die,93],['MAXOR_PORTRAIT_GIFT_CARD',Gift,126],['MAXOR_FACES_OF_EVIL',Faces,132],['MAXOR_EYE_COSMIC_CANON',Canon,204],['MAXOR_WAIT_WTF_DOUBLE_EXPOSURE',Wtf,174]].map(([id,component,duration])=><Composition key={id as string} id={id as string} component={component as React.FC} durationInFrames={duration as number} fps={60} width={1280} height={720}/>)}</>;
