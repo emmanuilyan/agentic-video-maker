@@ -104,3 +104,7 @@ For gold-focused portrait iris transitions, monochrome ghost cutaways, cartoons 
 ## Approved Metal Gear effects,446–480 seconds
 
 For paired edge cutouts, a stacked title with a coin, a photo cascade closing with an iris or a caption expanding by words, use [four approved examples](examples/metal-gear-approved-effects-446-480/README.md). IDs: `MG_PAIRED_EDGE_CUTOUTS`, `MG_STACKED_COIN_TITLE`, `MG_PHOTO_CASCADE_IRIS`, `MG_WORD_EXPANSION_CAPTION`. Includes independent layers, frame timelines and exact user-approved previews. Preserve documented held-background, raster-artwork and color approximations.
+
+## Approved Maxor callouts and cosmic montage,188–201 seconds
+
+For a NO CAP hat callout, staged planet title, map collage zoom, food collage RGB exit or fire-to-universe montage, use [five approved recipes](examples/maxor-approved-effects-188-201/effect.md). IDs: `MAXOR_NO_CAP_HAT_CALLOUT`, `MAXOR_PLANET_COLOR_HIT_TITLE`, `MAXOR_CLEVELAND_MAP_ZOOM`, `MAXOR_MARINARA_RGB_ZOOM_OUT`, `MAXOR_FIRE_COSMIC_UNIVERSE`. Includes reusable components, exact approved previews and frame timelines. Preserve static plates, approximate fonts/mattes/globe and unavailable repeat ChatGPT review limits.

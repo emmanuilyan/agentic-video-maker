@@ -1,0 +1,123 @@
+[
+  {
+    "composition": "01-nocap",
+    "sourceStart": 188.3,
+    "sourceEnd": 189.2,
+    "durationInFrames": 54,
+    "version": 7,
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_NO_CAP_HAT_CALLOUT",
+    "component": "NoCap",
+    "tags": [
+      "caption",
+      "hat",
+      "callout",
+      "maxor"
+    ],
+    "approvedRender": "drafts/maxor-batch17-review/out/01-nocap-v7.mp4",
+    "approvedComparison": "drafts/maxor-batch17-review/out/01-nocap-comparison-v7.mp4",
+    "preview": "skills/remotion-photo-techniques/assets/previews/MAXOR_NO_CAP_HAT_CALLOUT-reference.mp4",
+    "sha256": "01232695dbdcc6ca2fc75c274469e4977148ba369c28fe31d4dfb1884cd4ec47"
+  },
+  {
+    "composition": "02-planet",
+    "sourceStart": 190.75,
+    "sourceEnd": 192.25,
+    "durationInFrames": 90,
+    "version": 8,
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_PLANET_COLOR_HIT_TITLE",
+    "component": "Planet",
+    "tags": [
+      "staged title",
+      "globe",
+      "color hit",
+      "maxor"
+    ],
+    "approvedRender": "drafts/maxor-batch17-review/out/02-planet-v8.mp4",
+    "approvedComparison": "drafts/maxor-batch17-review/out/02-planet-comparison-v8.mp4",
+    "preview": "skills/remotion-photo-techniques/assets/previews/MAXOR_PLANET_COLOR_HIT_TITLE-reference.mp4",
+    "sha256": "8a2d1229c952d52703200617520a359caee5fd1256943b7450424594297a903d"
+  },
+  {
+    "composition": "04-cleveland",
+    "sourceStart": 194.3,
+    "sourceEnd": 196.2,
+    "durationInFrames": 114,
+    "version": 7,
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_CLEVELAND_MAP_ZOOM",
+    "component": "Cleveland",
+    "tags": [
+      "map collage",
+      "zoom",
+      "caption",
+      "maxor"
+    ],
+    "approvedRender": "drafts/maxor-batch17-review/out/04-cleveland-v7.mp4",
+    "approvedComparison": "drafts/maxor-batch17-review/out/04-cleveland-comparison-v7.mp4",
+    "preview": "skills/remotion-photo-techniques/assets/previews/MAXOR_CLEVELAND_MAP_ZOOM-reference.mp4",
+    "sha256": "7cfc8d96d7fe02d1e13d7cdc3f4505b7b52f16446ea3264d1dcb692cffe8a8b9"
+  },
+  {
+    "composition": "05-marinara",
+    "sourceStart": 195.9,
+    "sourceEnd": 197.3,
+    "durationInFrames": 84,
+    "version": 5,
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_MARINARA_RGB_ZOOM_OUT",
+    "component": "Marinara",
+    "tags": [
+      "food collage",
+      "RGB trails",
+      "zoom out",
+      "maxor"
+    ],
+    "approvedRender": "drafts/maxor-batch17-review/out/05-marinara-v5.mp4",
+    "approvedComparison": "drafts/maxor-batch17-review/out/05-marinara-comparison-v5.mp4",
+    "preview": "skills/remotion-photo-techniques/assets/previews/MAXOR_MARINARA_RGB_ZOOM_OUT-reference.mp4",
+    "sha256": "5997c862533d99be4c74767d829219d08219fa1fe5b49faec41328fbc31842f0"
+  },
+  {
+    "composition": "06-fire",
+    "sourceStart": 197.6,
+    "sourceEnd": 201.2,
+    "durationInFrames": 216,
+    "version": 6,
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_FIRE_COSMIC_UNIVERSE",
+    "component": "Fire",
+    "tags": [
+      "meme montage",
+      "color hit",
+      "cosmos",
+      "staged title",
+      "maxor"
+    ],
+    "approvedRender": "drafts/maxor-batch17-review/out/06-fire-v6.mp4",
+    "approvedComparison": "drafts/maxor-batch17-review/out/06-fire-comparison-v6.mp4",
+    "preview": "skills/remotion-photo-techniques/assets/previews/MAXOR_FIRE_COSMIC_UNIVERSE-reference.mp4",
+    "sha256": "158c1710e728905cf1cecaea7b587db9067bd7069a3f0ed91b1717fba622b213"
+  }
+]

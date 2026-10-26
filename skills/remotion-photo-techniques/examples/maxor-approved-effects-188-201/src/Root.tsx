@@ -1,0 +1,2 @@
+import React from 'react';import {Composition} from 'remotion';import {NoCap,Planet,Cleveland,Marinara,Fire} from './Effects';
+export const Root=()=> <>{[['MAXOR_NO_CAP_HAT_CALLOUT',NoCap,54],['MAXOR_PLANET_COLOR_HIT_TITLE',Planet,90],['MAXOR_CLEVELAND_MAP_ZOOM',Cleveland,114],['MAXOR_MARINARA_RGB_ZOOM_OUT',Marinara,84],['MAXOR_FIRE_COSMIC_UNIVERSE',Fire,216]].map(([id,component,duration])=><Composition key={id as string} id={id as string} component={component as React.FC} durationInFrames={duration as number} fps={60} width={1280} height={720}/>)}</>;

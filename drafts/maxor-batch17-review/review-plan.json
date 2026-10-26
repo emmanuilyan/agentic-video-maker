@@ -4,22 +4,26 @@
     "sourceStart": 188.3,
     "sourceEnd": 189.2,
     "durationInFrames": 54,
-    "version": 5,
-    "userApproval": "pending",
-    "chatgptReview": "pending",
-    "reviewStatus": "pending-chatgpt-recheck",
-    "approved": false
+    "version": 7,
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_NO_CAP_HAT_CALLOUT"
   },
   {
     "composition": "02-planet",
     "sourceStart": 190.75,
     "sourceEnd": 192.25,
     "durationInFrames": 90,
-    "version": 5,
-    "userApproval": "pending",
-    "chatgptReview": "pending",
-    "reviewStatus": "pending-chatgpt-recheck",
-    "approved": false
+    "version": 8,
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_PLANET_COLOR_HIT_TITLE"
   },
   {
     "composition": "03-portrait",
@@ -38,11 +42,13 @@
     "sourceStart": 194.3,
     "sourceEnd": 196.2,
     "durationInFrames": 114,
-    "version": 5,
-    "userApproval": "pending",
-    "chatgptReview": "pending",
-    "reviewStatus": "pending-chatgpt-recheck",
-    "approved": false
+    "version": 7,
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_CLEVELAND_MAP_ZOOM"
   },
   {
     "composition": "05-marinara",
@@ -50,10 +56,12 @@
     "sourceEnd": 197.3,
     "durationInFrames": 84,
     "version": 5,
-    "userApproval": "pending",
-    "chatgptReview": "pending",
-    "reviewStatus": "pending-chatgpt-recheck",
-    "approved": false
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_MARINARA_RGB_ZOOM_OUT"
   },
   {
     "composition": "06-fire",
@@ -61,9 +69,11 @@
     "sourceEnd": 201.2,
     "durationInFrames": 216,
     "version": 6,
-    "userApproval": "pending",
-    "chatgptReview": "pending",
-    "reviewStatus": "pending-chatgpt-recheck",
-    "approved": false
+    "userApproval": "approved",
+    "chatgptReview": "unavailable-repeat-review",
+    "reviewStatus": "user-approved-without-repeat-chatgpt",
+    "approved": true,
+    "approvedAt": "2026-10-26",
+    "effectId": "MAXOR_FIRE_COSMIC_UNIVERSE"
   }
 ]

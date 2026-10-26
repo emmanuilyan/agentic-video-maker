@@ -8,3 +8,9 @@ Six dense reference sheets, independently layered src/Effects.tsx, per-effect re
 
 ## 2026-10-14 continuation
 Latest renders: 01 v5, 02 v5, 03 v1 (ChatGPT READY), 04 v5, 05 v5, 06 v6. Other five require repeat independent review. Ordinary ChatGPT unavailable: main dialogue remains on automatic Cloudflare interstitial; backup immediately returns Unknown error even for text-only message. No successful repeat verdict and no user approval. No commit/gallery promotion.
+
+## 2026-10-15 continuation
+Latest: NO CAP v7 (clean held plate, aligned hat), PLANET v7 (cyan contour matte excludes letter fills), CLEVELAND v7 (map cards stay visible until grid phase), MARINARA v5, FIRE v6. Portrait v1 approved and saved as MAXOR_PORTRAIT_PUNCH_FRAME in commit 5c0a2f8. Fresh five-file recheck submitted to existing ordinary ChatGPT: immediate Unknown error; no verdict obtained. Drafts remain unapproved. Local gallery server restarted at 127.0.0.1:8765.
+
+## 2026-10-26 approval
+User approved all remaining five exact comparisons: NO CAP v7, PLANET v8, CLEVELAND v7, MARINARA v5, FIRE v6. Promoted to examples/maxor-approved-effects-188-201 and Maxor gallery with exact Remotion-only MP4s. Repeat ChatGPT review remained unavailable; explicit user approval is recorded separately. Next chronological batch begins after201.2s.
