@@ -123,3 +123,7 @@ For formula dissolves, ghost-to-face grafts, two poster replacements or growing 
 ## Approved nontext Maxor effects754–822seconds
 
 For gold-focused portrait iris transitions, monochrome ghost cutaways, cartoons framed between faces, nested inspect-panel memes or circular stage overlaps, use [five approved partial recreations](examples/baldurs-gate-approved-nontext-75350-82120/effect.md). IDs: `MAXOR_LOOT_MONOCHROME_PORTRAIT_IRIS`, `MAXOR_MONOCHROME_GHOST_CUTAWAY`, `MAXOR_BETWEEN_FACES_CARTOON`, `MAXOR_NESTED_INSPECT_MEME`, `MAXOR_CLOWN_STAGE_CIRCULAR_OVERLAP`. Exact final v3 renders in out/. Preserve frozen backgrounds, approximate UI/repair and inherited grading/artwork limits. Inner cartoon and item rotation use isolated moving source crops. ChatGPT v2/v3 accepted control frames after corrections; user approved playable comparisons.
+
+## Approved Maxor red isolation at14:06.70–14:07.90
+
+For global retained-red over monochrome footage, use [Blood Red Monochrome](examples/baldurs-gate-approved-nontext-84670-84790/effect.md) (`MAXOR_BLOOD_RED_MONOCHROME`). Includes the exact user-approved v4 preview, separate hue-key layers, reusable Pillow/NumPy key tool, hit entry and independent pixel title. Preserve the documented two-pose, repaired-background and inherited source-grading limits. Its recipe explains checking red coverage on arms/torso and retaining weak reds after the user's corrections.

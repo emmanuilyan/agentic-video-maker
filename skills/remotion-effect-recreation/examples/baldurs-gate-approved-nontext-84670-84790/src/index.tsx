@@ -1,0 +1,1 @@
+import React from 'react';import {Composition,registerRoot} from 'remotion';import {BloodRed} from './effects';const Root=()=> <Composition id="BloodRed" component={BloodRed} durationInFrames={72} fps={60} width={1280} height={720}/>;registerRoot(Root);
