@@ -1,6 +1,6 @@
 # Six approved Maxor effects,201–224seconds
 
-Source https://www.youtube.com/watch?v=kO9HmhwGzXs. Independent Remotion layers in src/Effects.tsx, registered in src/Root.tsx;1280×72060fps. User approved all six final comparisons on2026-10-26 after independent ChatGPT READY. Preview manifest review-plan.json records source intervals and latest versions. compare.py renders original-left/Remotion-right MP4 pairs with synchronized timestamps and contact sheets.
+Source https://www.youtube.com/watch?v=kO9HmhwGzXs. Independent Remotion layers in src/Effects.tsx, registered in src/Root.tsx;1280×72060fps. User approved all six final comparisons on2026-10-26 after independent ChatGPT READY. Approval metadata and preview provenance are in approved-manifest.json. Original-left/Remotion-right comparisons were shown to the user before approval.
 
 ## Implementation and limits
 
