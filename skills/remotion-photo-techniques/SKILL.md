@@ -112,3 +112,7 @@ For a NO CAP hat callout, staged planet title, map collage zoom, food collage RG
 ## Approved Maxor card callouts and eye montage,201–224 seconds
 
 For Difference-blended gift cards, DIE word entries with a diagonal wipe, a portrait/card dissolve, Faces of Evil meme typography, eye-to-cosmos montage or WAIT/WTF double exposure, use [six approved recipes](examples/maxor-approved-effects-201-224/effect.md). IDs: `MAXOR_AMAZON_DIFFERENCE_CARD`, `MAXOR_DIE_THE_LEAST`, `MAXOR_PORTRAIT_GIFT_CARD`, `MAXOR_FACES_OF_EVIL`, `MAXOR_EYE_COSMIC_CANON`, `MAXOR_WAIT_WTF_DOUBLE_EXPOSURE`. Exact approved previews and final independent ChatGPT verdicts included; preserve held native footage/VFX, approximate font/matte and raster-word limits.
+
+## Approved Metal Gear typography and masks,500–530 seconds
+
+For multicolor word entry, paired controllers with large translucent echoes, purple irregular masks with head swaps or a diagonal wipe into impact typography, use [four approved examples](examples/metal-gear-approved-effects-500-530/README.md). IDs: `MG_MULTICOLOR_WORD_ENTRY`, `MG_CONTROLLER_ECHO_PAIR`, `MG_PURPLE_HEAD_SWAP`, `MG_DIAGONAL_IMPACT_PHRASE`. Includes independent layers, measured vector keyframes and exact approved previews. Preserve documented held-gameplay, raster-artwork and approximate contour limits.

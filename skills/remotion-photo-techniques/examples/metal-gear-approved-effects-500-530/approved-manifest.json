@@ -1,0 +1,60 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=41v3L0zCkNY",
+  "items": [
+    {
+      "key": "kinetic",
+      "composition": "KineticTitle",
+      "title": "Многоцветный кинетический титр",
+      "start": 500.6,
+      "end": 502.5,
+      "frames": 114,
+      "version": 4,
+      "user_approved": true,
+      "comparison": "approved-comparisons/KineticTitle-v4.mp4",
+      "status": "user-approved",
+      "id": "MG_MULTICOLOR_WORD_ENTRY"
+    },
+    {
+      "key": "controllers",
+      "composition": "ControllerPair",
+      "title": "Парные геймпады с нижним входом",
+      "start": 503.3,
+      "end": 504.4,
+      "frames": 66,
+      "version": 7,
+      "user_approved": true,
+      "comparison": "approved-comparisons/ControllerPair-v7.mp4",
+      "status": "user-approved",
+      "id": "MG_CONTROLLER_ECHO_PAIR"
+    },
+    {
+      "key": "heads",
+      "composition": "PurpleHeadSwap",
+      "title": "Фиолетовый сплэш с заменой головы",
+      "start": 516.85,
+      "end": 517.85,
+      "frames": 60,
+      "version": 7,
+      "user_approved": true,
+      "comparison": "approved-comparisons/PurpleHeadSwap-v7.mp4",
+      "status": "user-approved",
+      "id": "MG_PURPLE_HEAD_SWAP"
+    },
+    {
+      "key": "hit",
+      "composition": "DiagonalHit",
+      "title": "Диагональный переход в ударный титр",
+      "start": 528.15,
+      "end": 530.05,
+      "frames": 114,
+      "version": 3,
+      "user_approved": true,
+      "comparison": "approved-comparisons/DiagonalHit-v3.mp4",
+      "status": "user-approved",
+      "id": "MG_DIAGONAL_IMPACT_PHRASE"
+    }
+  ],
+  "git": "approved-local-archive",
+  "review_url": "https://chatgpt.com/c/6acef245-aa98-83ed-8a8c-c6d5b5671164",
+  "approved_on": "2026-10-27"
+}

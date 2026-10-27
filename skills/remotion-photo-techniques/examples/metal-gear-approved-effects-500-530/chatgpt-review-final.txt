@@ -1,0 +1,61 @@
+Эффект
+
+	
+
+Вердикт
+
+	
+
+Обязательные правки
+
+
+
+
+KineticTitle v4
+
+	
+
+READY
+
+	
+
+Нет, ранее принят
+
+
+
+
+ControllerPair v7
+
+	
+
+READY
+
+	
+
+Нет
+
+
+
+
+PurpleHeadSwap v7
+
+	
+
+READY
+
+	
+
+Нет
+
+
+
+
+DiagonalHit v3
+
+	
+
+READY
+
+	
+
+Нет, ранее принят
